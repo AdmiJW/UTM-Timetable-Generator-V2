@@ -1,0 +1,35 @@
+@use '../utils';
+@use './clashcheck';
+@use './configure';
+@use './creation';
+
+$-section-max-width: 800px;
+
+.generate__section {
+    color: #fff;
+
+    max-width: $-section-max-width;
+    margin: 30px auto;
+    padding: 1.5em;
+    border-radius: 1rem;
+}
+
+.generate__title {
+    @include utils.text_shadow();
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: .3em;
+}
+
+.generate__desc {
+    font-size: 1.75rem;
+    font-weight: 300;
+    text-align: center;
+    color: #e6e6e6;
+}
+
+
+
+
+

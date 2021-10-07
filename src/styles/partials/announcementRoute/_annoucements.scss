@@ -1,0 +1,46 @@
+
+.announcement {
+    margin: 2em;
+    padding: 1em;
+    border-radius: 2rem;
+    background-color: rgb(0 0 0 / .1);
+
+    animation: slide 1s ease forwards;
+}
+
+.annoucement--title {
+    font-size: 3.3rem;
+    font-weight: 900;
+}
+
+.announcement--date {
+    font-size: 1.3rem;
+    color: rgb(156, 156, 156);
+}
+
+.announcement--content {
+    margin: 1em 0;
+    font-size: 1.6rem;
+
+    ul, ol {
+        padding-left: 20px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    blockquote {
+        border-left: solid 4px #3498db;
+        border-radius: 3px;
+        padding: 5px 0 5px 5px;
+    }
+}
+
+
+// <article className='announcement' key={e.id} >
+//     <h4 className='annoucement--title'>{e.title}</h4>
+//     <p className='announcement--date'>{e.date}</p>
+//     <ReactMarkdown className='announcement--content'>{e.content}</ReactMarkdown>
+// </article>

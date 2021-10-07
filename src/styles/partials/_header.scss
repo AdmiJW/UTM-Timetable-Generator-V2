@@ -1,0 +1,39 @@
+@use './utils';
+
+// Variables
+:root {
+    --header-logo-size: 50px;
+    --header-bg: #d63031;       // Main background
+}
+
+.header {
+    @include utils.flex(row, flex-start, center);
+    column-gap: 1rem;
+    padding: 10px;
+    position: relative;
+    z-index: 10;
+
+    background-color: var(--header-bg);
+}
+
+.header__logo {
+    width: var(--header-logo-size);
+    height: var(--header-logo-size);
+}
+
+.header__title {
+    @include utils.text_shadow();
+    flex-grow: 1;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.header__button {
+    @include utils.text_shadow();
+    @include utils.eliminate_button_style();
+    @include utils.button_3d( #be2323 );
+
+    font-size: 2.5rem;
+    background-color: #be2323;
+    color: #fff;
+}

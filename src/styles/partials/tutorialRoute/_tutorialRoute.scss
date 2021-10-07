@@ -1,0 +1,43 @@
+@use '../utils';
+
+$-btn-color: #3498db;
+
+.tutorial__btngrp {
+    @include utils.flex(row, center, center);
+    gap: 20px;
+    margin: 1em 0;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.tutorial__btn {
+    @include utils.eliminate_button_style();
+    @include utils.button_3d($-btn-color);
+    background-color: $-btn-color;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.tutorial__markdown {
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1rem;
+
+    font-size: 1.6rem;
+    background-color: rgb(0 0 0 / .05);
+    
+    ul, ol {
+        padding-left: 20px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    blockquote {
+        border-left: solid 4px #3498db;
+        border-radius: 3px;
+        padding: 5px 0 5px 5px;
+    }
+}

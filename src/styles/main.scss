@@ -1,0 +1,135 @@
+// This is the main SCSS file. Other SCSS should be included here to compile into one single final css file that will
+// be included in the application.
+
+@use './partials/utils';
+// Import partials.
+@use './partials/blindfold';
+@use './partials/balloon';
+@use './partials/loadscreen';
+@use './partials/header';
+@use './partials/nav';
+@use './partials/footer';
+@use './partials/cart/cart';
+@use './partials/announcementRoute/annoucements';
+@use './partials/tutorialRoute/tutorialRoute';
+@use './partials/courseRoute/courseRoute';
+@use './partials/setupRoute/setupRoute';
+@use './partials/generateRoute/generateRoute';
+
+
+
+// ! If you added a new font, make sure to include as available choice in custom configuration in `configurationSlice.js`
+// Fonts - Used by both the application and rendering of timetable
+// Roboto (Global font)
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+// Orbitron (Futuristic)
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+// Grandstander (Cuteness)
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@100;200;300;400;500;600;700;800;900&display=swap');
+// Marvel (Spidey)
+@import url('https://fonts.googleapis.com/css2?family=Marvel:wght@400;700&display=swap');
+// Cantora One (Nature)
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
+
+
+:root {
+    --roboto: 'Roboto', sans-serif;
+    --container-size: 960px;
+    --min-container-margin: 10px;
+
+    font-size: 10px;
+    font-family: var(--roboto);
+}
+
+* {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+//====================
+// General Stylings
+//====================
+body {
+    @keyframes background-animator {
+        from {
+            background-position: -40px 0, -40px 0, 0 0, 0 0;
+        } to {
+            background-position: -40px 80px, -40px 80px, 0 80px, 0 80px;
+        }
+    }
+
+    // Animated background
+    background-color: #2c3e50;
+    background: linear-gradient(135deg, #23314055 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #233140 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #23314055 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #233140 25%, #2c3e50 25%) 0px 0/ 80px 80px;
+    animation: background-animator 2.5s linear 3s infinite;
+}
+
+main {
+    position: relative;
+    width: min(var(--container-size), 97%);
+    min-height: 400px;
+    margin: 20px auto;
+    padding: .75em .5em;
+    flex-grow: 1;
+
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+
+.main--scrollable-wrapper {
+    height: 100%;       // Since percentage refers to the height of parent element, this is the case we want
+    overflow-y: auto;
+}
+
+.main__title {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+    color: #d63031;
+    @include utils.text_shadow(1px, 0);
+}
+
+.main__desc {
+    margin-bottom: 2.4em;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(150,150,150);
+}
+
+.min-height-screen-height {
+    @include utils.flex(column);
+    height: max(600px, 100vh);          // 600px is simply a sweet spot i found without interferring with footer
+                                        // It is dependent on the min-height set on the <main> element lol
+}
+
+
+// Styling the cursor
+/* width */
+*::-webkit-scrollbar {
+    position: absolute;
+    width: 8px;
+    height: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent; 
+}
+   
+/* Handle */
+*::-webkit-scrollbar-thumb {
+    background: rgb(202, 202, 202); 
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: solid 2px rgba(0, 0, 0, 0);
+}
+  
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    border-radius: 15px;
+    background-clip: padding-box;
+    border: solid 2px rgba(0, 0, 0, 0);
+}

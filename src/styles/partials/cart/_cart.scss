@@ -1,0 +1,57 @@
+@use '../utils';
+@use './cartcourse';
+@use './cartsection';
+
+.cart {
+    position: fixed;
+    @include utils.flex(column);
+    z-index: 1000;
+    top: 20px; bottom: 20px;
+    left: -100%;
+    width: min(1000px, 100vw - 40px);
+    padding: 1em;
+
+    transition: left .5s ease, right .5s ease;
+
+    background-color: #fff;
+    border-radius: 2rem;
+
+    &.show {
+        left: max(20px, calc(100vw - 1000px) / 2 );
+    }
+}
+
+
+.cart--close {
+    position: absolute;
+    top: 15px; right: 15px;
+
+    @include utils.eliminate_button_style();
+    @include utils.button_3d(#e74c3c, 5px, .75em, .5em, 2px);
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+
+.cart--title {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.cart--desc {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 300;
+    color: rgb(145, 145, 145);
+}
+
+
+.cart--list {
+    list-style-type: none;
+    @include utils.flex(column);
+    gap: 10px;
+    padding: 15px 0;
+
+    overflow-y: auto;
+}

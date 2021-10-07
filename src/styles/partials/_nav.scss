@@ -1,0 +1,36 @@
+@use './utils';
+
+// Variables
+:root {
+    --nav-bg: #c52828;
+    --nav-border: #a31818;
+    --nav-selected: #b42222;
+    --nav-shadow: #831414;
+}
+
+.nav {
+    @include utils.flex();
+    position: relative;
+    z-index: 5;
+}
+
+.nav-link {
+    @include utils.eliminate_link_style();
+    @include utils.text_shadow(2px, 1px);
+    padding: .2em 0;
+    flex-grow: 1;
+
+    text-align: center;
+    font-size: 1.8rem;
+
+    border: 1px solid var(--nav-border);
+    background-color: var(--nav-bg);
+    color: white;
+    
+    &:first-child { border-bottom-left-radius: 1.5rem; }
+    &:last-child { border-bottom-right-radius: 1.5rem; }
+    &[data-selected='true'] {
+        background: var(--nav-selected);
+        box-shadow: inset 0 0 6px 3px var(--nav-shadow);
+    }
+}

@@ -1,0 +1,13 @@
+.blindfold {
+    position: fixed;
+    inset: 0 0 0 0;
+    z-index: 999;
+
+    transition: background-color .5s ease;
+    pointer-events: none;
+}
+
+.blindfold.shown {
+    background-color: rgb(0 0 0 / .7);
+    pointer-events: unset;
+}

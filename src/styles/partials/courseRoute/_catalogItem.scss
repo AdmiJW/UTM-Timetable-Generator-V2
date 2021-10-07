@@ -1,0 +1,35 @@
+@use '../utils';
+
+
+.catalog--item {
+    @include utils.flex(column, center);
+    gap: 10px;
+    background-color: rgb(0 0 0 / .1);
+    border-radius: .75rem;
+    padding: .75em;
+    max-width: 175px;
+
+    animation: slide 1s ease forwards;
+}
+
+.catalog--item--name {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.catalog--item--code {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(119, 119, 119);
+}
+
+.catalog--item--addtocart {
+    @include utils.eliminate_button_style();
+    @include utils.button_3d(#2ecc71, 4px, 1.5em, .15em);
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 2rem;
+    align-self: center;
+}

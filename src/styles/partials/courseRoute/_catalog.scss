@@ -1,0 +1,26 @@
+
+@use '../utils';
+@use './catalogItem';
+
+.catalog {
+    padding: 1em;
+    margin: .5em;
+    background-color: rgb(0 0 0 / .05);
+    border-radius: 1rem;
+
+    animation: slide 1s ease forwards;
+}
+
+.catalog--search {
+    @include utils.input-rounded-style();
+    max-width: 100%;
+    display: block;
+    margin: 1em auto;
+}
+
+.catalog--list {
+    @include utils.flex(row, center);
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 15px;
+}

@@ -1,0 +1,133 @@
+@use '../utils';
+@use './timeslot';
+
+
+// Variables
+$-primary: #3497da;
+$-success: #2ecb71;
+$-danger: #e74c3c;
+
+$-slide-duration: 1s;       // !! IF YOU CHANGE THIS, ALSO CHANGE THE SETTIMEOUT DURATION IN setupCoursesSlice.js!!!!!
+$-breakpoint: 768px;        // Breakpoint is also set in _timeslot.scss. Change both site if you really need to
+
+//========================================================================
+// Course Items - A course item consist of 2 parts
+// 1. Meta information - Course name, lecturer name, course code
+// 2. Time slots - Day of week, time
+//========================================================================
+// Course colors
+$color-map: (
+    0: #3498db,
+    1: #6ab04c,
+    2: #e74c3c,
+    3: #9b59b6,
+    4: #34495e,
+    5: #f1c40f,
+    6: #3a40b6,
+    7: #2ecc71,
+    8: #e67e22,
+    9: #686de0
+);
+
+.setup__courseitem {
+    @include utils.flex();      // Separate meta info and time slot into left & right
+    column-gap: 10px;
+    padding: 1.5em;
+    margin: 1em;
+    border-radius: 10px;
+
+    // Different course will have different colors - Visual
+    @each $key, $value in $color-map {
+        &[data-nth='#{$key}'] {
+            background-color: $value;
+        }
+    }
+
+    // Slide in animation
+    animation: slide $-slide-duration cubic-bezier(0.38, 0.03, 0.3, 0.99) 0s normal forwards;
+    // Reverse animation if we have .deleting class set
+    &.deleting {
+        animation: slide-out $-slide-duration cubic-bezier(0.04, 0.65, 0.57, 0.99) .1s normal forwards;
+    }
+
+    // Handle small screen - Make meta and timeslot top and bottom
+    @media screen and (max-width:$-breakpoint) {
+        flex-direction: column;
+    }
+}
+
+//======================================================================
+//Meta information field - Course name, lecturer name & course code
+//======================================================================
+.setup__courseitem--meta {
+    @include utils.flex(column);    // Meta informations aligned in column (top-down)
+    max-width: 300px;
+
+    // Handle small screen - Change max-width. Flex to center
+    @media screen and (max-width:$-breakpoint) {
+        max-width: unset;
+        width: min(500px, 100%);
+        margin: auto;
+    }
+}
+
+.setup__courseitem--input {
+    min-width: 300px;
+    text-align: center;
+    word-break: break-word;
+    color: #fff;
+    background-color: rgb(0 0 0 / .1);
+
+    @media screen and (max-width:$-breakpoint) {
+        min-width: unset;
+    }
+}
+
+.setup__courseitem--coursename {
+    padding: .2em .1em .1em .1em;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+    font-size: 3.2rem;
+    font-weight: 100;
+    box-shadow: inset 0 4px 0 rgb(0 0 0 / .15);
+}
+
+.setup__courseitem--lecturername {
+    padding: .4em .2em;
+    border-radius: 10px 10px 0 0;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.setup__courseitem--coursecode {
+    padding: .5em .2em;
+    border-radius: 0 0 10px 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+//===========================================
+// Delete course, and add time slot buttons
+//===========================================
+.setup__courseitem--btn-grp {
+    @include utils.flex(row, center);
+    column-gap: 10px;
+    margin: 1em 0;
+}
+
+.setup__courseitem--btn {
+    @include utils.eliminate_button_style();
+    font-size: 2.3rem;
+    color: #fff;
+}
+
+.setup__courseitem--addtime {
+    background-color: $-success;
+    @include utils.button_3d($-success, 5px);
+}
+
+.setup__courseitem--delcourse {
+    background-color: $-danger;
+    @include utils.button_3d($-danger, 5px);
+}
+

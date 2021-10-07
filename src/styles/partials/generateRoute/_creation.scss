@@ -1,0 +1,56 @@
+@use '../utils';
+
+$-background-color: #27ae60;
+$-btn-color-create: #34495e;
+$-btn-color-png: #e74c3c;
+$-btn-color-newtab: #9b59b6;
+
+
+
+.creation {
+    background-color: $-background-color;
+    box-shadow: inset 0 6px 0 rgb(0 0 0 / .1);
+
+    animation: slide 1s ease forwards;
+}
+
+.creation__btngrp {
+    @include utils.flex(row, center);
+    gap: 5px;
+    margin: 2em 0;
+}
+
+.creation__btn {
+    @include utils.eliminate_button_style();
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.creation__create {
+    background-color: $-btn-color-create;
+    @include utils.button_3d($-btn-color-create);
+}
+
+.creation__png {
+    background-color: $-btn-color-png;
+    @include utils.button_3d($-btn-color-png);
+}
+
+.creation__newtab {
+    background-color: $-btn-color-newtab;
+    @include utils.button_3d($-btn-color-newtab);
+}
+
+.creation__view {
+    width: 100%;
+    min-height: 100px;
+    overflow-x: auto;
+}
+
+
+.creation__img {
+    width: 100%;
+    min-width: 400px;
+    height: auto;
+}

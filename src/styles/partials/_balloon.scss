@@ -1,0 +1,41 @@
+
+:root {
+    --balloon-primary: #cce5ff;
+    --balloon-success: #d4edda;
+    --balloon-warning: #fff3cd;
+    --balloon-danger: #f8d7da;
+}
+
+.balloon {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    max-width: 350px;
+    padding: .4em;
+    z-index: 2000;
+
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+    box-shadow: 0 0 6px rgb(0 0 0 / .6);
+
+    transition: transform .5s ease, background-color .5s ease;
+    transform: translate(-50%, -300%);
+}
+
+.balloon.primary {
+    background-color: var(--balloon-primary);
+}
+.balloon.success {
+    background-color: var(--balloon-success);
+}
+.balloon.warning {
+    background-color: var(--balloon-warning);
+}
+.balloon.danger {
+    background-color: var(--balloon-danger);
+}
+
+.balloon.shown {
+    transform: translate(-50%, 0);
+}

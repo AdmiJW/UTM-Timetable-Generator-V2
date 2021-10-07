@@ -1,0 +1,35 @@
+@use '../utils';
+@use './catalog';
+
+.courses--title {
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: bolder;
+}
+
+.courses--desc {
+    margin: .75em 0;
+    text-align: center;
+    font-size: 1.35rem;
+    font-weight: 300;
+    color: #969696;
+}
+
+.courses--select {
+    @include utils.input-rounded-style();
+    margin: 2em auto;
+    display: block;
+    text-overflow: ellipsis;
+    max-width: 80%;
+}
+
+
+.course__cart {
+    @include utils.eliminate_button_style();
+    @include utils.button_3d( #e74c3c, 5px, .25em, .15em);
+    position: absolute;
+    bottom: 15px; right: 15px;
+    background-color: #e74c3c;
+    font-size: 3rem;
+    color: #fff;
+}

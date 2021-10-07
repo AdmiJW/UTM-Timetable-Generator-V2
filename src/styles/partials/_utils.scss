@@ -1,0 +1,84 @@
+// Utilities - Functions and Classes that are frequently reused
+
+// Variables
+$-min-container-margin: 10px;
+
+//============================
+// Layout Related
+//============================
+@mixin flex($direction: row, $justify-content: flex-start, $align-items: stretch) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+.container {
+    margin-left: max( var(--min-container-margin), calc( (100vw - var(--container-size) ) / 2 ) ) !important;
+    margin-right: max( var(--min-container-margin), calc( (100vw - var(--container-size) ) / 2 ) ) !important;
+}
+
+
+//============================
+// Component Related
+//============================
+@mixin eliminate_button_style {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+@mixin button_3d($button-color, $border-radius: 5px, $padding-x: .5em, $padding-y: .25em, $y-offset: 3px) {
+    border-radius: $border-radius;
+    padding: $padding-y $padding-x;
+    box-shadow: 0 $y-offset 0 darken($button-color, 15%);
+
+    &:hover, &:focus {
+        box-shadow: none;
+        transform: translateY(3px);
+    }
+}
+
+@mixin eliminate_link_style {
+    text-decoration: none;
+    color: unset;
+}
+
+@mixin input-rounded-style($font-size: 2rem, $font-weight: 100, $border-radius: .3em, $padding: .1em) {
+    border-radius: $border-radius;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    padding: $padding;
+}
+
+//============================
+// Typography Related
+//============================
+@mixin text_shadow($offset: 3px, $blur: 2px) {
+    text-shadow: 0px $offset $blur rgb(75, 75, 75);
+}
+
+//==========================
+// Animations
+//===========================
+
+
+@keyframes slide {
+    from {
+        opacity: 0;
+        transform: translateX(-25%);
+    } to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-out {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    } to {
+        opacity: 0;
+        transform: translateX(-25%);
+    }
+}

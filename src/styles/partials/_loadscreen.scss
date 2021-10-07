@@ -1,0 +1,54 @@
+@use './utils';
+
+.loadScreen {
+    position: fixed;
+    @include utils.flex(column, center, center);
+    display: none;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: min(400px, 90vw);
+    height: min(400px, 90vh);
+    z-index: 1000;
+    background-color: #fff;
+    border-radius: 3rem;
+
+    &.shown {
+        display: flex;
+    }
+}
+
+.loadScreen__title {
+    font-size: 5rem;
+    margin: .25em 0;
+}
+
+.loadScreen__quote {
+    font-size: 1.5rem;
+    color: rgb(167, 167, 167);
+}
+
+.loadScreen__logo {
+    @keyframes bounce {
+        0% {
+            transform: translateY(0) scaleY(.6);
+        } 
+        30% {
+            transform: translateY(-15%) scaleY(1);
+        }
+        100% {
+            transform: translateY(-100%) scaleY(1);
+        }
+    }
+
+    font-size: 5rem;
+    margin-top: 6.5rem;
+    transform-origin: bottom;
+    animation: bounce .5s cubic-bezier(0, 0.3, 0.54, 0.99) 0s infinite alternate;
+}
+
+
+// <div className='loadScreen'>
+// <h4 className='loadScreen__title'>Loading</h4>
+// <p className='loadScreen__quote'> { randomQuotes[randomIndex] } </p>
+// <i className="fab fa-github-alt"></i>
+// </div>

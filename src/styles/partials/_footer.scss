@@ -1,0 +1,86 @@
+@use './utils';
+
+// Variables
+:root {
+    --header-logo-size: 50px;
+    --header-bg: #d63031;       // Main background
+}
+
+.footer {
+    padding: 4em 0;
+    background-color: #000;
+    text-align: center;
+}
+
+.footer__card {
+    @include utils.eliminate_link_style;
+    display: inline-block;
+    padding: 3em 2.75em;
+    border-radius: 2.5em;
+    box-shadow: 0 6px 0 darken(#fff, 15%);
+    background: #fff;
+
+    // Text
+    &__text {
+        position: relative;
+        font-size: 2rem;
+        font-weight: bold;
+
+        transition: color .5s ease;
+
+        &::before, &::after {
+            transition: transform .5s ease, opacity .5s ease;
+            position: absolute;
+            opacity: 0;
+        }
+
+        &::before {
+            content: '<';
+            transform: translateX(-240%);
+        }
+
+        &::after {
+            content: '/>';
+            transform: translateX(85%);
+        }
+    }
+
+    // Floating effect
+    transition: transform .5s ease;
+    &:is(:hover, :focus) {
+        transform: translateY(-5px);
+    }
+
+    &:is(:hover, :focus) &__text {
+        color: orange;
+
+        &::before { 
+            opacity: 1;
+            transform: translateX(-120%);
+        }
+
+        &::after {
+            opacity: 1;
+            transform: translateX(15%);
+        }
+    }
+
+    &__logo {
+        font-size: 6rem;
+    }
+}
+
+
+
+// <div className='footer__card'>
+//     <p className='footer__card__text'>Support</p>
+//     <i className="fab fa-github-alt"></i>
+// </div>
+
+.footer__desc {
+    margin-top: 1em;
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-align: center;
+    color: #fff;
+}
