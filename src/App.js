@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 
 import Balloon from './components/Balloon';
@@ -30,7 +30,7 @@ function App() {
 
     
     return (
-    <BrowserRouter>
+    <HashRouter>
         <Blindfold />
         <Balloon />
         <LoadScreen />
@@ -61,7 +61,7 @@ function App() {
         </div>
 
         <Footer />
-    </BrowserRouter>
+    </HashRouter>
     );
 }
 

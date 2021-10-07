@@ -1,5 +1,7 @@
 # 📅 UTM Timetable Generator V2 📅
 
+### - [__Application Link HERE__](https://admijw.github.io/UTM-Timetable-Generator-V2/) -
+
 Timetable Generator specifically for UTM students. The sequel of the previous [Timetable Generator](https://github.com/AdmiJW/UTM_Timetable_Generator) but now back stronger. Students from other universities are able to use this timetable generator if they don't mind filling in their courses manually.
 
 ![Screenshot of the application](/public/img/tutorial4_guide.png)

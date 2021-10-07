@@ -25,7 +25,7 @@ function AnnouncementRoute() {
         })
         .catch((err)=> {
             if (err.message === 'Unexpected token < in JSON at position 0')
-                window.alert("JSON parsing failed. Most likely the resource is not found and responded with 404 not found page. See Network tab in devtools for verification");
+                console.error("JSON parsing failed. Most likely the resource is not found and responded with 404 not found page. See Network tab in devtools for verification");
             console.error(err);
 
             dispatch(setTypeAndMessage({ type:'danger', message: "Error occurred while fetching announcements. See console for more info"} ));
