@@ -1,0 +1,10 @@
+[
+    {
+        "name": "School of Computing",
+        "url": "/data/serve/school-of-computing.json"
+    },
+    {
+        "name": "School of Chemical & Energy Engineering",
+        "url": "/data/serve/school-of-chemical-and-energy-engineering.json"
+    }
+]
