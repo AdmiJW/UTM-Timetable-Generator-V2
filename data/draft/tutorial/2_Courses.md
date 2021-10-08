@@ -6,7 +6,7 @@ __Skip to Page 4 - Classes 3️⃣ if you are not from UTM, or your school aren'
 
 <br/>
 
-![Guide to Courses Page](/img/tutorial2_guide.jpg)
+![Guide to Courses Page](./img/tutorial2_guide.jpg)
 
 <br/>
 

@@ -6,7 +6,7 @@ If you had added some courses into the cart from the previous step, you'll see t
 
 <br/>
 
-![Guide for Cart](/img/tutorial3_guide.jpg)
+![Guide for Cart](./img/tutorial3_guide.jpg)
 
 <br />
 

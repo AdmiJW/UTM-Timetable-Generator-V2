@@ -6,7 +6,7 @@ This is the page where you set the courses that will appear in your final timeta
 
 <br/>
 
-![Guide for Setup](/img/tutorial4_guide.jpg)
+![Guide for Setup](./img/tutorial4_guide.jpg)
 
 <br/>
 

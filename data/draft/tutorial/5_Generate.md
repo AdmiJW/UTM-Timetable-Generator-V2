@@ -8,7 +8,7 @@ The __Generate__ page lets you check for clashes among your courses from the __S
 
 ## Step 1 - Check Clashes
 
-![Guide for Generate 1 - Check clash](/img/tutorial5_guide1.jpg)
+![Guide for Generate 1 - Check clash](./img/tutorial5_guide1.jpg)
 
 <br/>
 
@@ -20,7 +20,7 @@ The __Generate__ page lets you check for clashes among your courses from the __S
 
 <br/>
 
-![Guide for Generate 2 - Configure](/img/tutorial5_guide2.jpg)
+![Guide for Generate 2 - Configure](./img/tutorial5_guide2.jpg)
 
 <br/>
 
@@ -47,7 +47,7 @@ Here, you will configure how your timetable will be styled. If you want a timeta
 
 <br/>
 
-![Guide for Generate 3 - Create](/img/tutorial5_guide3.jpg)
+![Guide for Generate 3 - Create](./img/tutorial5_guide3.jpg)
 
 <br/>
 
