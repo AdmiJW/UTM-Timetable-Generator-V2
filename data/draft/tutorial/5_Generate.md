@@ -1,8 +1,8 @@
-# 5 - Generate 🎇
+# 5 - Generate 4️⃣
 
 <br/>
 
-The __Generate__ page lets you check for clashes among your courses from the __Setup__ page, configure how your timetable should be styled, and finally, create the timetable.
+The __Generate 4️⃣__ page lets you check for clashes among your courses from the __Classes 3️⃣__ page, configure how your timetable should be styled, and finally, create the timetable.
 
 <br/>
 
@@ -12,7 +12,7 @@ The __Generate__ page lets you check for clashes among your courses from the __S
 
 <br/>
 
-1. Simply click on the __Check Clash__ button. If there are clashes in your timetable, the details will be shown and you are required to go back to the __Setup__ page to fix the clash.
+1. Simply click on the __Check Clash__ button. If there are clashes in your timetable, the details will be shown and you are required to go back to the __Classes 3️⃣__ page to fix the clash.
 
 <br/>
 
@@ -24,7 +24,7 @@ The __Generate__ page lets you check for clashes among your courses from the __S
 
 <br/>
 
-Here, you will configure how your timetable will be styled. If you want a timetable immediately, skip this step by clicking on the __Just give me the timetable__ button.
+Here, you will configure how your timetable will be styled. If you want a timetable immediately, skip this step by clicking on the __Skip__ button.
 
 1. __Theme__ - Preset themes for your timetable. Feel free to try them out
 1. __Orientation__ - The orientation of your timetable, can be vertical or horizontal.
@@ -57,4 +57,4 @@ Here, you will configure how your timetable will be styled. If you want a timeta
 
 <br/>
 
-You are free to go back to __Step 2 - Configure__ to modify the settings, and click __Create__ button again to regenerate the timetable.
+You are free to go back to __Step 2 - Configure__ to modify the settings, but you need to click __Create__ button again to regenerate the timetable.
