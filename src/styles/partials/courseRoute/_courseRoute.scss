@@ -26,10 +26,10 @@
 
 .course__cart {
     @include utils.eliminate_button_style();
-    @include utils.button_3d( #e74c3c, 5px, .25em, .15em);
+    @include utils.button_3d( #34495e, 5px, .5em, .15em);
     position: absolute;
     bottom: 15px; right: 15px;
-    background-color: #e74c3c;
-    font-size: 3rem;
+    background-color: #34495e;
+    font-size: 2.8rem;
     color: #fff;
 }

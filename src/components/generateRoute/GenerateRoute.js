@@ -5,7 +5,7 @@ import ConfigureState from './ConfigureState';
 import CreationState from './CreationState';
 
 
-// The content shown on Setup Route.
+// The content shown on Generate Route.
 function GenerateRoute() {
     // To generate a timetable, a user needs to go through 3 states:
     // State 0 - Check for clashes

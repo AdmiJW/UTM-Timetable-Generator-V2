@@ -19,7 +19,7 @@ function getTimeString(time, is12HourFormat = true) {
 
     const mod = time % 12;
     const div = time / 12;
-    return `${ mod === 0? '12': mod } ${ div >= 1? ':00PM': ':00AM'}`;
+    return `${ mod === 0? '12': mod }${ div >= 1? ':00PM': ':00AM'}`;
 }
 
 function getTimeCode(time) {

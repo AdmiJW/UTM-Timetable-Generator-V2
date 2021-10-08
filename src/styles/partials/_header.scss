@@ -31,9 +31,9 @@
 .header__button {
     @include utils.text_shadow();
     @include utils.eliminate_button_style();
-    @include utils.button_3d( #be2323 );
+    @include utils.button_3d( #aa0e0e );
 
     font-size: 2.5rem;
-    background-color: #be2323;
+    background-color: #aa0e0e;
     color: #fff;
 }

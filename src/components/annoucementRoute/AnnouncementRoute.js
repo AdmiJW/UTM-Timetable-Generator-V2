@@ -54,6 +54,7 @@ function AnnouncementRoute() {
     <main>
     <div className='main--scrollable-wrapper'>
         <h2 className='main__title'>Announcements 📡</h2>
+        <h4 className='main__subtitle'>( Tutorial is on the top right corner ↗️ )</h4>
 
         { annoucementListJSX }
     </div>

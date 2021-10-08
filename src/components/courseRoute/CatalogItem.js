@@ -1,14 +1,14 @@
 import { memo } from 'react';
 import { useDispatch } from 'react-redux';
 
-import { cartActions } from '../../redux/slices/cartSlice';
+import { sectionsActions } from '../../redux/slices/sectionsSlice';
 import { setTypeAndMessage, showBalloon } from '../../redux/slices/balloonSlice';
 
 
-// Handles add to cart button
-function addToCart(dispatch, course) {
-    dispatch(cartActions.addCourseToCart(course));
-    dispatch(setTypeAndMessage({ type: 'success', message: `Successfully added "${course.name}" - ${course.code} into the cart!`}));
+// Handles add to Sections button
+function addToSections(dispatch, course) {
+    dispatch(sectionsActions.addCourseToSections(course));
+    dispatch(setTypeAndMessage({ type: 'success', message: `Successfully added "${course.name}" - ${course.code} into Sections 2️⃣!`}));
     dispatch(showBalloon());
 }
 
@@ -29,8 +29,8 @@ function CatalogItem(props) {
         </p>
 
         <button className='catalog--item--addtocart'
-            onClick={()=> addToCart(dispatch, course)}>
-                <i className="fas fa-cart-plus"></i>
+            onClick={()=> addToSections(dispatch, course)}>
+                <i className="fas fa-plus"></i>
         </button>
     </li>
     );

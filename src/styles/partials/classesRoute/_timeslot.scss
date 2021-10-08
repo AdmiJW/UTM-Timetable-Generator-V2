@@ -1,14 +1,14 @@
 @use '../utils';
 
 // Variables
-$-slide-duration: 1s;       // !! IF YOU CHANGE THIS, ALSO CHANGE THE SETTIMEOUT DURATION IN setupCoursesSlice.js!!!!!
+$-slide-duration: 1s;       // !! IF YOU CHANGE THIS, ALSO CHANGE THE SETTIMEOUT DURATION IN classCoursesSlice.js!!!!!
 $-breakpoint: 768px;        // Breakpoint is also set in _courseItem.scss. Change both site if you really need to
 
 //======================================================================
 // Course Timeslots - Day of Week, Time
 //======================================================================
 // Container (ul)
-.setup__timeslots {
+.class__timeslots {
     @include utils.flex(column);
     flex-grow: 1;
     list-style-type: none;
@@ -28,7 +28,7 @@ $-breakpoint: 768px;        // Breakpoint is also set in _courseItem.scss. Chang
 }
 
 // Individual time slots
-.setup__timeslotitem {
+.class__timeslotitem {
     @include utils.flex(row, flex-start, center);
     flex-wrap: wrap;
     gap: 6px;
@@ -54,7 +54,7 @@ $-breakpoint: 768px;        // Breakpoint is also set in _courseItem.scss. Chang
 }   
 
 // Starttime and Endtime control
-.setup__timeslot--timegrp {
+.class__timeslot--timegrp {
     @include utils.flex(row, flex-start, center);
     gap: 6px;
 
@@ -63,7 +63,7 @@ $-breakpoint: 768px;        // Breakpoint is also set in _courseItem.scss. Chang
     }
 }
 
-.setup__timeslotitem--discardbtn {
+.class__timeslotitem--discardbtn {
     @include utils.eliminate_button_style();
     position: absolute;
     top: 5px; right: 5px;
@@ -71,7 +71,7 @@ $-breakpoint: 768px;        // Breakpoint is also set in _courseItem.scss. Chang
     color: #fff;
 }
 
-.setup__timeslot--select {
+.class__timeslot--select {
     @include utils.input-rounded-style();
     flex-grow: 1;
 }

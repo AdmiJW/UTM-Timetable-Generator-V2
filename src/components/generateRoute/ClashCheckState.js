@@ -64,7 +64,7 @@ function performClashCheck( courses, setClashCheckResult, setState, dispatch ) {
         scrollMainContainerTo('.configure');
     }
     else {
-        dispatch(setTypeAndMessage({ type:'danger', message: 'There is a clash in your timetable. Go back to Setup page to fix the clash.'} ));
+        dispatch(setTypeAndMessage({ type:'danger', message: 'There is a clash in your timetable. Go back to Classes page to fix the clash.'} ));
         dispatch(showBalloon());
     }
 }
@@ -73,7 +73,7 @@ function performClashCheck( courses, setClashCheckResult, setState, dispatch ) {
 // ? Step 1 - Check if there is any clashes in the timetable.
 // ? If there is, then display nicely to inform the user.
 function ClashCheckState(props) {
-    const setupCourses = useSelector((state)=> state.setupCourses);
+    const classCourses = useSelector((state)=> state.classCourses);
     const { setState } = props;
     const [clashCheckResult, setClashCheckResult] = useState(null);
     const dispatch = useDispatch();
@@ -85,7 +85,7 @@ function ClashCheckState(props) {
 
         <button className='clashcheck__btn' type='button' aria-label='Trigger check the timetable for clashes'
             label='Trigger check the timetable for clashes' disabled={clashCheckResult !== null}
-            onClick={ ()=> performClashCheck(setupCourses, setClashCheckResult, setState, dispatch) } >
+            onClick={ ()=> performClashCheck(classCourses, setClashCheckResult, setState, dispatch) } >
                 Check Clash
         </button>
 

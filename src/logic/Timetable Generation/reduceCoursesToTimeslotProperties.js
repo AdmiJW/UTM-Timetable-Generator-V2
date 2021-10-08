@@ -1,5 +1,5 @@
 /**
- * @typedef {import('../../redux/slices/setupCoursesSlice').SetupCoursesSliceState} SetupCoursesSliceState
+ * @typedef {import('../../redux/slices/classCoursesSlice').ClassCoursesSliceState} ClassCoursesSliceState
  * @typedef {import('../../redux/slices/configurationSlice').CustomConfig} CustomConfig
  * @typedef {import('./themeMapper').Theme} Theme
  */
@@ -21,7 +21,7 @@
 
 
 /**
- * @param {SetupCoursesSliceState} courses The courses straight from the redux state.
+ * @param {ClassCoursesSliceState} courses The courses straight from the redux state.
  * @param {(Theme | CustomConfig)} theme The {@link Theme} or {@link CustomConfig} object returned from 
  *      `mapToTheme` function (Step 1). Used to deduce the rendering information in the courses
  *      (IE: Background color and font color)
@@ -39,7 +39,7 @@ export function reduceCoursesToTimeslotArray(courses, theme) {
  * Strategy pattern 1 - Custom Theme - To get background color and font color straight from `theme` 
  * which is {@link CustomConfig} itself.
  * 
- * @param {SetupCoursesSliceState} courses 
+ * @param {ClassCoursesSliceState} courses 
  * @param {CustomConfig} customConfig 
  * @returns {TimeslotProperty[]} An array of {@link TimeslotProperty} ready to be pass into the timeslot drawer
  */
@@ -85,7 +85,7 @@ function customReduceCourseToTimeslotArrayStrategy(courses, customConfig) {
  * {@link Theme}'s `courseBackgroundColors` and `courseFontColors` array. Involves counting
  * 
  * 
- * @param {SetupCoursesSliceState} courses 
+ * @param {ClassCoursesSliceState} courses 
  * @param {Theme} theme 
  * @returns {TimeslotProperty[]} An array of {@link TimeslotProperty} ready to be pass into the timeslot drawer
  */

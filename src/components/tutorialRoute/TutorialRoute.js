@@ -12,7 +12,7 @@ function TutorialRoute() {
 
     const [ guides, setGuides ] = useState([{
         page: 0,
-        content: 'EEEEEEE'
+        content: ''
     }]);
     const [ pageNo, setPageNo ] = useState(0);
     const dispatch = useDispatch();

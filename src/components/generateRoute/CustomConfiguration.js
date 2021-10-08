@@ -14,12 +14,12 @@ function CustomConfiguration() {
 
     /** @type CustomConfig */
     const customConfig = useSelector((state)=> state.config.custom);
-    const courses = useSelector((state)=> state.setupCourses);
+    const courses = useSelector((state)=> state.classCourses);
     const dispatch = useDispatch();
     
 
     const defConfigCourseColors = customConfig.defaultCustomCourseColors;
-    // When component mounts / course list in Setup page updates, we need to update the customCourseColors
+    // When component mounts / course list in Classes page updates, we need to update the customCourseColors
     useEffect(()=> {
         const configCourseColors = {};
 
@@ -70,7 +70,7 @@ function CustomConfiguration() {
     <section className='configure__section'>
         <h4 className='configure__grptitle'>Customization 🧐</h4>
 
-        <img alt='guide to customization timetable' src='/img/custom_guide.png' className='configure__guidepic'/>
+        <img alt='guide to customization timetable' src='./img/custom_guide.png' className='configure__guidepic'/>
 
         <ul className='configure__grp'>
 

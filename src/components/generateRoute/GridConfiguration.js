@@ -14,6 +14,9 @@ function GridConfiguration() {
     return (
     <section className='configure__section'>
         <h4 className='configure__grptitle'>Grid Configurations 📐</h4>
+
+        <img alt='guide to customization timetable' src='./img/grid_guide.jpg' className='configure__guidepic'/>
+
         <ul className='configure__grp'>
             <li className='configure__item'>
                 <span className='configure__itemtitle'>Grid Width</span>

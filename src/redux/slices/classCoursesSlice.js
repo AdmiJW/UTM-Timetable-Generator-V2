@@ -1,8 +1,8 @@
 
-// ? The slice of state that is responsible for every course item inside /setup route.
+// ? The slice of state that is responsible for every course item inside /classes route.
 // ? The state will be an Object of courses. This allow easy access if we have a lot of courses with id as key.
 // ? Javascript object keeps keys in order: If key is number, then it is guaranteed order. If string, then it is insertion order
-// ? Due to this reason, ensure the id is always increas
+// ? Due to this reason, ensure the id is always increasing
 
 
 /**
@@ -34,8 +34,8 @@
  */
 
 /**
- * setupCoursesSlice State structure
- * @typedef SetupCoursesSliceState
+ * classCoursesSlice State structure
+ * @typedef ClassCoursesSliceState
  * @type {Object.<number, Course>}
  */
 
@@ -48,7 +48,7 @@ import { scrollMainContainerTo } from "../../logic/utils";
 
 
 
-const sliceName = 'setupCourses';
+const sliceName = 'classCourses';
 const fadeOutTime = 500;                // !! IF YOU CHANGE THIS, THE CSS VALUE FOR ANIMATION DURATION MAY ALSO NEED TO CHANGE
                                         // !! REFER TO FADEOUT TIME IN CSS ANIMATIONS (INSIDE _courseItem.scss)
 
@@ -87,31 +87,31 @@ const generateEmptyTimeslot = (id)=> {
 }
 
 /**
- * @typedef {import('../slices/cartSlice').CartEnrollingInterface} CartEnrollingInterface
+ * @typedef {import('./sectionsSlice').SectionsEnrollingInterface} SectionsEnrollingInterface
  */
 /**
- * Adapter pattern. Will convert from {@link CartEnrollingInterface} into {@link Course} which can be 
+ * Adapter pattern. Will convert from {@link SectionsEnrollingInterface} into {@link Course} which can be 
  * directly inserted into the state.
  * 
- * @param {CartEnrollingInterface} cartEnrollObject The object sent from the cart when user clicks the enroll button on
+ * @param {SectionsEnrollingInterface} sectionEnrollObject The object sent from the Sections when user clicks the enroll button on
  *      a section
- * @param {number} nextCourseID The ID number to be set on `{@link Course}.id`. Usually retrieved from `setupCoursesSlice`'s state
+ * @param {number} nextCourseID The ID number to be set on `{@link Course}.id`. Usually retrieved from `classCoursesSlice`'s state
  * @returns {Course} The converted course object ready to be inserted into state
  */
-function adapterFromCartEnrollingInterfaceToSetupCourseObject(cartEnrollObject, nextCourseID) {
+function adapterFromSectionEnrollingInterfaceToClassCourseObject(sectionEnrollObject, nextCourseID) {
     const course = generateEmptyCourse(nextCourseID);
-    course.courseName = cartEnrollObject.name;
-    course.lecturerName = cartEnrollObject.lecturer;
-    course.courseCode = cartEnrollObject.code + " - Section " + cartEnrollObject.section;
+    course.courseName = sectionEnrollObject.name;
+    course.lecturerName = sectionEnrollObject.lecturer;
+    course.courseCode = sectionEnrollObject.code + " - Section " + sectionEnrollObject.section;
     
-    for (let key in cartEnrollObject.times) {
-        const carttime = cartEnrollObject.times[key];
+    for (let key in sectionEnrollObject.times) {
+        const sectiontime = sectionEnrollObject.times[key];
         const timeID = course.timeslots.nextID++;
         const time = generateEmptyTimeslot( timeID );
-
-        time.dayOfWeek = carttime.dayOfWeek;
-        time.startTime = carttime.beginTime;
-        time.endTime = carttime.endTime;
+        
+        time.dayOfWeek = sectiontime.dayOfWeek;
+        time.startTime = sectiontime.beginTime;
+        time.endTime = sectiontime.endTime;
         // Insert into Course.
         course.timeslots[ timeID ] = time;
     }
@@ -139,7 +139,7 @@ const saveCoursesToLocalStorage = createAsyncThunk(
     async (arg, thunkAPI)=> {
         try {
             window.localStorage.setItem('app-version', process.env.REACT_APP_VERSION_NUMBER );
-            window.localStorage.setItem('saved-state', JSON.stringify( thunkAPI.getState().setupCourses ) );
+            window.localStorage.setItem('saved-state', JSON.stringify( thunkAPI.getState().classCourses ) );
             thunkAPI.dispatch( setTypeAndMessage({ type: 'success', message: 'Successfully saved courses into local storage!'} ));
             thunkAPI.dispatch( showBalloon() );
         } catch (err) {
@@ -194,11 +194,11 @@ const reducers = {
         state[id] = generateEmptyCourse(id);
         scrollMainContainerTo();
     },
-    addCourseFromCart: (state, action)=> {
-        /** @type CartEnrollingInterface */
-        const cartEnrollment = action.payload;
+    addCourseFromSections: (state, action)=> {
+        /** @type {SectionsEnrollingInterface} */
+        const sectionEnrollment = action.payload;
         const nextID = state.nextID++;
-        const convertedCourse = adapterFromCartEnrollingInterfaceToSetupCourseObject(cartEnrollment, nextID);
+        const convertedCourse = adapterFromSectionEnrollingInterfaceToClassCourseObject(sectionEnrollment, nextID);
         state[nextID] = convertedCourse;
     },
     changeCourseName: (state, action)=> {
@@ -244,8 +244,8 @@ const reducers = {
 //===============================================
 // Creation of slice + Adding in Async Thunks
 //===============================================
-export const setupCoursesSlice = createSlice({
-    name: 'setupCourses',
+export const classCoursesSlice = createSlice({
+    name: 'classCourses',
     initialState,
     reducers,
     extraReducers: (builder)=> {
@@ -276,15 +276,11 @@ export const setupCoursesSlice = createSlice({
 
 
 // Export one large action object to be namespaced
-export const setupActions = { 
-    ...setupCoursesSlice.actions,
+export const classActions = { 
+    ...classCoursesSlice.actions,
     deleteCourse,
     deleteTimeslot,
     saveCoursesToLocalStorage,
     loadCoursesFromLocalStorage
 };
-
-// export const { addBlankCourse, changeCourseName, changeLecturerName, changeCourseCode,
-//                addTimeslot, changeTimeslotDayOfWeek, changeTimeslotStartTime, changeTimeslotEndTime } = setupCoursesSlice.actions;
-// export { deleteCourse, deleteTimeslot, saveCoursesToLocalStorage, loadCoursesFromLocalStorage };
-export default setupCoursesSlice.reducer;
+export default classCoursesSlice.reducer;

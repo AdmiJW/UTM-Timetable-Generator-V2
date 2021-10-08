@@ -9,11 +9,11 @@
 @use './partials/header';
 @use './partials/nav';
 @use './partials/footer';
-@use './partials/cart/cart';
 @use './partials/announcementRoute/annoucements';
+@use './partials/sectionsRoute/sections';
 @use './partials/tutorialRoute/tutorialRoute';
 @use './partials/courseRoute/courseRoute';
-@use './partials/setupRoute/setupRoute';
+@use './partials/classesRoute/classesRoute';
 @use './partials/generateRoute/generateRoute';
 
 
@@ -91,12 +91,18 @@ main {
     @include utils.text_shadow(1px, 0);
 }
 
+.main__subtitle {
+    font-size: 2.5rem;
+    margin: 1em 0;
+    text-align: center;
+}
+
 .main__desc {
     margin-bottom: 2.4em;
-    font-size: 1.5rem;
+    font-size: 1.65rem;
     font-weight: 300;
     text-align: center;
-    color: rgb(150,150,150);
+    color: rgb(73, 73, 73);
 }
 
 .min-height-screen-height {

@@ -1,6 +1,6 @@
 /**
  * @typedef {import('../../redux/slices/configurationSlice').CustomConfig} CustomConfig
- * @typedef {import('../../redux/slices/setupCoursesSlice').SetupCoursesSliceState} SetupCoursesSliceState
+ * @typedef {import('../../redux/slices/classCoursesSlice').ClassCoursesSliceState} ClassCoursesSliceState
  * @typedef {import('./themeMapper').Theme} Theme
  * @typedef {import('./reduceCoursesToTimeslotProperties').TimeslotProperty} TimeslotProperty
  */
@@ -30,7 +30,7 @@ import { dataURLExtractor } from './dataURLExtractor';
  * The process of creating timetable is broken down into a series of steps
  * 
  * @param {HTMLImageElement} img The image HTML element to contain the timetable 
- * @param {SetupCoursesSliceState} courses The setupCourses state straight from redux state. 
+ * @param {ClassCoursesSliceState} courses The classCourses state straight from redux state. 
  * @param {Object} config The config state straight from redux state.
  */
 export function drawTimetable(img, courses, config) {

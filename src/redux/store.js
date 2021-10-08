@@ -4,8 +4,8 @@ import { configureStore } from '@reduxjs/toolkit';
 import balloonSliceReducer from './slices/balloonSlice';
 import blindfoldSliceReducer from './slices/blindfoldSlice';
 import loadingScreenSliceReducer from './slices/loadingScreenSlice';
-import cartSliceReducer from './slices/cartSlice';
-import setupCoursesSliceReducer from './slices/setupCoursesSlice';
+import sectionSliceReducer from './slices/sectionsSlice';
+import classCoursesSliceReducer from './slices/classCoursesSlice';
 import configurationSliceReducer from './slices/configurationSlice';
 
 const store = configureStore({
@@ -13,9 +13,9 @@ const store = configureStore({
         balloon: balloonSliceReducer,
         blindfold_showing: blindfoldSliceReducer,
         loadingScreen_showing: loadingScreenSliceReducer,
-        setupCourses: setupCoursesSliceReducer,
         config: configurationSliceReducer,
-        cart: cartSliceReducer,
+        classCourses: classCoursesSliceReducer,
+        sections: sectionSliceReducer,
     }
 });
 

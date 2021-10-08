@@ -1,7 +1,7 @@
 @use '../utils';
 
 // Nested component Styles
-@use './courseItem';
+@use './classItem';
 
 // Variables
 $-primary: #3497da;
@@ -12,44 +12,42 @@ $-danger: #e74c3c;
 //===================================
 // Buttons - Save, Load, Add courses
 //===================================
-.setup__savingbtn-grp {
+.class__savingbtn-grp {
     @include utils.flex();
     position: absolute;
     bottom: 20px; left: 20px;
     column-gap: 1em;
 }
 
-.setup__addbtn-grp {
+.class__addbtn-grp {
     @include utils.flex();
     position: absolute;
     bottom: 20px; right: 20px;
     column-gap: 1em;
 }
 
-.setup__btn {
+.class__btn {
     @include utils.eliminate_button_style();
     font-size: 3rem;
     color: #fff;
-    outline: solid 2px rgb(0 0 0 / .2);
-    outline-offset: -2px;
 }
 
-.setup_save-course {
+.class_save-course {
     background-color: $-primary;
     @include utils.button_3d( $-primary, 5px, .35em, .15em);
 }
 
-.setup__load-course {
+.class__load-course {
     background-color: $-success;
     @include utils.button_3d( $-success, 5px, .35em, .15em);
 }
 
-.setup__add-blank-course {
+.class__add-blank-course {
     background-color: $-success;
     @include utils.button_3d( $-success, 5px, .35em, .15em);
 }
 
-.setup__cart {
+.class__cart {
     background-color: $-danger;
     @include utils.button_3d( $-danger, 5px, .25em, .15em);
 }

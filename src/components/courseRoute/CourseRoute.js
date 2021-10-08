@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import { showBlindfold, hideBlindfold } from '../../redux/slices/blindfoldSlice';
 import { showLoadingScreen, hideLoadingScreen } from '../../redux/slices/loadingScreenSlice';
 import { setTypeAndMessage, showBalloon } from '../../redux/slices/balloonSlice';
-import { cartActions } from '../../redux/slices/cartSlice';
 
 
 import Catalog from './Catalog';
@@ -35,7 +34,7 @@ function CourseRoute() {
                 console.error("JSON parsing failed. Most likely the resource is not found and responded with 404 not found page. See Network tab in devtools for verification");
             console.error(err);
 
-            dispatch(setTypeAndMessage({ type:'danger', message: "Error occurred while fetching school list. See console for more info"} ));
+            dispatch(setTypeAndMessage({ type:'danger', message: "Error occurred while fetching list of schools. See console for more info"} ));
         })
         .finally(()=> {
             dispatch(showBalloon());
@@ -48,8 +47,8 @@ function CourseRoute() {
     return (
     <main>
     <div className='main--scrollable-wrapper courses'>
-        <h2 className='main__title'>UTM Courses 📖</h2>
-        <p className='main__desc'>Add readily available UTM courses into your cart, which you can use later in <strong><Link to='/setup'>Setup</Link></strong> page</p>
+        <h2 className='main__title'>UTM Courses 📚</h2>
+        <p className='main__desc'>Select from readily available UTM courses, which you can choose your section later in <strong><Link to='/sections'>Sections 2️⃣</Link></strong> page</p>
     
         {/* Step 1 - Select school */}
         <h4 className='courses--title'>
@@ -69,12 +68,6 @@ function CourseRoute() {
         { selectedSchool !== ''? <Catalog url={selectedSchool} />: null }
     
     </div>
-
-    {/* Open cart button. It should not scroll with main container */}
-    <button type='button' aria-label='Open shopping cart' title='Open shopping cart' className='course__btn course__cart'
-        onClick={()=> dispatch(cartActions.openCart())}>
-            <i className="fas fa-shopping-cart"></i>
-    </button>
     </main>    
     );
 }

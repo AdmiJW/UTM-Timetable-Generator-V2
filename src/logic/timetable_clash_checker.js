@@ -1,9 +1,9 @@
 // ?? Logic used to check whether a clash occurred or not.
-// ?? Pass in the timetable in the form same as in the state of setupCoursesSlice.js
+// ?? Pass in the timetable in the form same as in the state of classCoursesSlice.js
 
 
 /**
- * @typedef {import('../redux/slices/setupCoursesSlice').SetupCoursesSliceState} SetupCoursesSliceState
+ * @typedef {import('../redux/slices/classCoursesSlice').ClassCoursesSliceState} ClassCoursesSliceState
  */
 
 
@@ -29,11 +29,11 @@
 
 /**
  * Checks whether the timetable has clashing courses
- * @param {SetupCoursesSliceState} setupCourses Redux state as defined in `src/components/redux/slices/setupCoursesSlice.js`. See {@link SetupCoursesSliceState}
+ * @param {ClassCoursesSliceState} classCourses Redux state as defined in `src/components/redux/slices/classCoursesSlice.js`. See {@link ClassCoursesSliceState}
  * @return {ClashReport} An object containing a boolean `isClashing`. If `true`, also contains `clashedCourses` which is an array
  *                  containing details of first clashing course detected.
  */
-function checkClash(setupCourses) {
+function checkClash(classCourses) {
     // Step 1 - Initialize an 2D array of size 7 x 23. Rows represent dayOfWeek, Cols represent 1 hour timeframe.
     // First row is Sunday, Second is Monday...
     // First column is 00:00 to 01:00, second column is 01:00 to 02:00...
@@ -42,9 +42,9 @@ function checkClash(setupCourses) {
 
     // Step 2 - Iterate through the courses and fill in timetable.
     // If clash occurs, already can return the result
-    for (let coursekey in setupCourses) {
+    for (let coursekey in classCourses) {
         if (coursekey === 'nextID') continue;
-        const course = setupCourses[coursekey];
+        const course = classCourses[coursekey];
         
         for (let timekey in course.timeslots) {
             if (timekey === 'nextID') continue;

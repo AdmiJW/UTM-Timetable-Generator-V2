@@ -33,7 +33,7 @@ function handleDownloadPng(containerRef) {
 
 function CreationState() {
     const config = useSelector((state)=> state.config);
-    const courses = useSelector((state)=> state.setupCourses);
+    const courses = useSelector((state)=> state.classCourses);
     const [ isTimetableDrawn, setIsTimetableDrawn ] = useState(false);
     const timetableImgRef = useRef(null);
 

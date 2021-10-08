@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import TimeSlot from "./TimeSlot";
 
 // Actions
-import { setupActions } from '../../redux/slices/setupCoursesSlice';
+import { classActions } from '../../redux/slices/classCoursesSlice';
 
 function CourseItem(props) {
 
@@ -44,36 +44,36 @@ function CourseItem(props) {
 
     // JSX
     return (
-    <li className={`setup__courseitem ${isAnimatingDelete? 'deleting': ''}`} data-nth={ id % 10 }>
+    <li className={`class__courseitem ${isAnimatingDelete? 'deleting': ''}`} data-nth={ id % 10 }>
 
         {/* Left side: Contains meta information and control on the course */}
-        <div className='setup__courseitem--meta'>
+        <div className='class__courseitem--meta'>
             {/* Course Name */}
-            <div role='textbox' contentEditable className='setup__courseitem--input setup__courseitem--coursename'
-                onInput={ ()=> dispatch(setupActions.changeCourseName({ id, newCourseName: courseNameRef.current.innerText})) } 
+            <div role='textbox' contentEditable className='class__courseitem--input class__courseitem--coursename'
+                onInput={ ()=> dispatch(classActions.changeCourseName({ id, newCourseName: courseNameRef.current.innerText})) } 
                 ref={courseNameRef} suppressContentEditableWarning>
             </div>
             {/* Lecturer Name */}
-            <div role='textbox' contentEditable className='setup__courseitem--input setup__courseitem--lecturername'
-                onInput={ ()=> dispatch(setupActions.changeLecturerName({ id, newLecturerName: lecturerNameRef.current.innerText})) } 
+            <div role='textbox' contentEditable className='class__courseitem--input class__courseitem--lecturername'
+                onInput={ ()=> dispatch(classActions.changeLecturerName({ id, newLecturerName: lecturerNameRef.current.innerText})) } 
                 ref={lecturerNameRef} suppressContentEditableWarning >
             </div>
             {/* Course Code */}
-            <div role='textbox' contentEditable className='setup__courseitem--input setup__courseitem--coursecode'
-                onInput={ ()=> dispatch(setupActions.changeCourseCode({ id, newCourseCode: courseCodeRef.current.innerText })) } 
+            <div role='textbox' contentEditable className='class__courseitem--input class__courseitem--coursecode'
+                onInput={ ()=> dispatch(classActions.changeCourseCode({ id, newCourseCode: courseCodeRef.current.innerText })) } 
                 ref={courseCodeRef} suppressContentEditableWarning >
             </div>
 
-            <div className='setup__courseitem--btn-grp'>
+            <div className='class__courseitem--btn-grp'>
                 <button type='button' aria-label='Add new time slot' title='Add new time slot' 
-                    className='setup__courseitem--btn setup__courseitem--addtime'
-                    onClick={ ()=> dispatch(setupActions.addTimeslot( id )) } >
+                    className='class__courseitem--btn class__courseitem--addtime'
+                    onClick={ ()=> dispatch(classActions.addTimeslot( id )) } >
                         <i className="far fa-clock"></i>
                 </button>
 
                 <button type='button' aria-label='Discard course' title='Discard course' 
-                    className='setup__courseitem--btn setup__courseitem--delcourse'
-                    onClick={ ()=> dispatch(setupActions.deleteCourse( id )) } >
+                    className='class__courseitem--btn class__courseitem--delcourse'
+                    onClick={ ()=> dispatch(classActions.deleteCourse( id )) } >
                         <i className="fas fa-trash-alt"></i>
                 </button>
             </div>
@@ -81,7 +81,7 @@ function CourseItem(props) {
 
 
         {/* Right side: Contains time slots for the course */}
-        <ul className='setup__timeslots'>
+        <ul className='class__timeslots'>
             { timeslotJSXList }
         </ul>
     </li>
