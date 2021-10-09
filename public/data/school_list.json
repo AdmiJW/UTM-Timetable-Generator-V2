@@ -6,5 +6,9 @@
     {
         "name": "School of Chemical & Energy Engineering",
         "url": "./data/serve/school-of-chemical-and-energy-engineering.json"
+    },
+    {
+        "name": "Foreign Languages",
+        "url": "/data/serve/foreign-languages.json"
     }
 ]

@@ -960,6 +960,327 @@
     },
     "34": {
         "id": 34,
+        "name": "Fluid Mechanics",
+        "code": "SETK 2233",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            }
+        }
+    },
+    "35": {
+        "id": 35,
+        "name": "Energy Balance",
+        "code": "SETK 2133",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "36": {
+        "id": 36,
+        "name": "Makmal Termodinamik & Kejuruteraan Bahan",
+        "code": "SETK 2711",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "05",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "37": {
+        "id": 37,
+        "name": "Material Engineering",
+        "code": "SETK 2243",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 16,
+                        "endTime": 17
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 16,
+                        "endTime": 17
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 11
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 11
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            }
+        }
+    },
+    "38": {
+        "id": 38,
         "name": "Introduction to Programming",
         "code": "SETB 2113",
         "sections": {
@@ -991,8 +1312,8 @@
             }
         }
     },
-    "35": {
-        "id": 35,
+    "39": {
+        "id": 39,
         "name": "Energy Balance",
         "code": "SETB 2123",
         "sections": {
@@ -1036,8 +1357,8 @@
             }
         }
     },
-    "36": {
-        "id": 36,
+    "40": {
+        "id": 40,
         "name": "Fluid Mechanics",
         "code": "SETB 2043",
         "sections": {
@@ -1081,8 +1402,8 @@
             }
         }
     },
-    "37": {
-        "id": 37,
+    "41": {
+        "id": 41,
         "name": "Imbangan Tenaga",
         "code": "SETG 2423",
         "sections": {
@@ -1107,8 +1428,8 @@
             }
         }
     },
-    "38": {
-        "id": 38,
+    "42": {
+        "id": 42,
         "name": "Imbangan Tenaga",
         "code": "SKTG 2423",
         "sections": {
@@ -1133,8 +1454,8 @@
             }
         }
     },
-    "39": {
-        "id": 39,
+    "43": {
+        "id": 43,
         "name": "Energy Balance",
         "code": "SETG 2423",
         "sections": {
@@ -1159,8 +1480,8 @@
             }
         }
     },
-    "40": {
-        "id": 40,
+    "44": {
+        "id": 44,
         "name": "Introduction to Organic & Analytical Chemistry for Engineers",
         "code": "SETG 2353",
         "sections": {
@@ -1204,8 +1525,8 @@
             }
         }
     },
-    "41": {
-        "id": 41,
+    "45": {
+        "id": 45,
         "name": "Introduction to Organic & Analytical Chemistry for Engineers",
         "code": "SKTG 2353",
         "sections": {
@@ -1230,8 +1551,8 @@
             }
         }
     },
-    "42": {
-        "id": 42,
+    "46": {
+        "id": 46,
         "name": "Fluid Mechanics Lab",
         "code": "SETG 2741(A)",
         "sections": {
@@ -1263,8 +1584,8 @@
             }
         }
     },
-    "43": {
-        "id": 43,
+    "47": {
+        "id": 47,
         "name": "Fluid Mechanics Laboratory",
         "code": "SETN 1711",
         "sections": {
@@ -1283,8 +1604,8 @@
             }
         }
     },
-    "44": {
-        "id": 44,
+    "48": {
+        "id": 48,
         "name": "Nuclear Eng. Fundamentals",
         "code": "SETN 2243",
         "sections": {
@@ -1309,8 +1630,8 @@
             }
         }
     },
-    "45": {
-        "id": 45,
+    "49": {
+        "id": 49,
         "name": "Strength of Materials",
         "code": "SETN 2123",
         "sections": {
@@ -1335,8 +1656,8 @@
             }
         }
     },
-    "46": {
-        "id": 46,
+    "50": {
+        "id": 50,
         "name": "Thermodynamics",
         "code": "SETN 2113",
         "sections": {
@@ -1361,8 +1682,54 @@
             }
         }
     },
-    "47": {
-        "id": 47,
+    "51": {
+        "id": 51,
+        "name": "Fluid Mechanics Laboratory",
+        "code": "SETP 1711",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "52": {
+        "id": 52,
         "name": "Basics Geosciences",
         "code": "SETP 2213",
         "sections": {
@@ -1406,8 +1773,8 @@
             }
         }
     },
-    "48": {
-        "id": 48,
+    "53": {
+        "id": 53,
         "name": "Geosciences Lab",
         "code": "SETP 2721",
         "sections": {
@@ -1432,8 +1799,8 @@
             }
         }
     },
-    "64": {
-        "id": 64,
+    "74": {
+        "id": 74,
         "name": "Separation Processes",
         "code": "SETK 3323",
         "sections": {
@@ -1515,8 +1882,8 @@
             }
         }
     },
-    "65": {
-        "id": 65,
+    "75": {
+        "id": 75,
         "name": "Chemical Reaction Engineering",
         "code": "SETK 3263",
         "sections": {
@@ -1598,8 +1965,8 @@
             }
         }
     },
-    "66": {
-        "id": 66,
+    "76": {
+        "id": 76,
         "name": "Pollution Control Engineering",
         "code": "SETK 3413",
         "sections": {
@@ -1681,8 +2048,8 @@
             }
         }
     },
-    "67": {
-        "id": 67,
+    "77": {
+        "id": 77,
         "name": "Pollution Control & Reaction Laboratory",
         "code": "SETK 3731",
         "sections": {
@@ -1753,8 +2120,8 @@
             }
         }
     },
-    "68": {
-        "id": 68,
+    "78": {
+        "id": 78,
         "name": "Occupational Safety & Health Industry",
         "code": "SETK 3552",
         "sections": {
@@ -1812,8 +2179,8 @@
             }
         }
     },
-    "69": {
-        "id": 69,
+    "79": {
+        "id": 79,
         "name": "Biochemistry",
         "code": "SETB 3213",
         "sections": {
@@ -1857,8 +2224,8 @@
             }
         }
     },
-    "70": {
-        "id": 70,
+    "80": {
+        "id": 80,
         "name": "Separation Processes",
         "code": "SETB 3323",
         "sections": {
@@ -1902,8 +2269,8 @@
             }
         }
     },
-    "71": {
-        "id": 71,
+    "81": {
+        "id": 81,
         "name": "Chemical Reaction Eng.",
         "code": "SETB 3223",
         "sections": {
@@ -1947,8 +2314,8 @@
             }
         }
     },
-    "72": {
-        "id": 72,
+    "82": {
+        "id": 82,
         "name": "Environmental Eng. & Sustinability",
         "code": "SETB 3413",
         "sections": {
@@ -1992,8 +2359,8 @@
             }
         }
     },
-    "73": {
-        "id": 73,
+    "83": {
+        "id": 83,
         "name": "Separation Processes",
         "code": "SETG 3473",
         "sections": {
@@ -2037,8 +2404,8 @@
             }
         }
     },
-    "74": {
-        "id": 74,
+    "84": {
+        "id": 84,
         "name": "Chemical Reaction Eng.",
         "code": "SETG 3463",
         "sections": {
@@ -2082,8 +2449,8 @@
             }
         }
     },
-    "75": {
-        "id": 75,
+    "85": {
+        "id": 85,
         "name": "Environmental Eng. & Sustainability",
         "code": "SETG 3373",
         "sections": {
@@ -2127,8 +2494,8 @@
             }
         }
     },
-    "76": {
-        "id": 76,
+    "86": {
+        "id": 86,
         "name": "Chemical Eng. Computation",
         "code": "SETG 3453",
         "sections": {
@@ -2172,8 +2539,8 @@
             }
         }
     },
-    "77": {
-        "id": 77,
+    "87": {
+        "id": 87,
         "name": "Gas Transmission & Distribution",
         "code": "SETG 3213",
         "sections": {
@@ -2217,8 +2584,8 @@
             }
         }
     },
-    "78": {
-        "id": 78,
+    "88": {
+        "id": 88,
         "name": "Combustion Engineering & Gas Utilisation Lab",
         "code": "SETG 3721",
         "sections": {
@@ -2250,8 +2617,8 @@
             }
         }
     },
-    "79": {
-        "id": 79,
+    "89": {
+        "id": 89,
         "name": "Thermodynamics Lab",
         "code": "SETG 3751",
         "sections": {
@@ -2283,8 +2650,8 @@
             }
         }
     },
-    "80": {
-        "id": 80,
+    "90": {
+        "id": 90,
         "name": "Dynamics",
         "code": "SETN 2133",
         "sections": {
@@ -2309,8 +2676,8 @@
             }
         }
     },
-    "81": {
-        "id": 81,
+    "91": {
+        "id": 91,
         "name": "Nuclear Reactor Theory",
         "code": "SETN 3213",
         "sections": {
@@ -2335,8 +2702,8 @@
             }
         }
     },
-    "82": {
-        "id": 82,
+    "92": {
+        "id": 92,
         "name": "Nuclear Physics Laboratory",
         "code": "SETN 3711",
         "sections": {
@@ -2355,8 +2722,8 @@
             }
         }
     },
-    "83": {
-        "id": 83,
+    "93": {
+        "id": 93,
         "name": "Radiation Detection & Measurement",
         "code": "SETN 3233",
         "sections": {
@@ -2381,8 +2748,8 @@
             }
         }
     },
-    "84": {
-        "id": 84,
+    "94": {
+        "id": 94,
         "name": "Nuclear Power Plant System",
         "code": "SETN 4453",
         "sections": {
@@ -2407,8 +2774,8 @@
             }
         }
     },
-    "85": {
-        "id": 85,
+    "95": {
+        "id": 95,
         "name": "Drilling Engineering",
         "code": "SETP 3413",
         "sections": {
@@ -2452,8 +2819,8 @@
             }
         }
     },
-    "86": {
-        "id": 86,
+    "96": {
+        "id": 96,
         "name": "Drilling Fluid Lab",
         "code": "SETP 3741",
         "sections": {
@@ -2485,8 +2852,8 @@
             }
         }
     },
-    "87": {
-        "id": 87,
+    "97": {
+        "id": 97,
         "name": "Formation Evaluation",
         "code": "SETP 3213",
         "sections": {
@@ -2530,8 +2897,8 @@
             }
         }
     },
-    "88": {
-        "id": 88,
+    "98": {
+        "id": 98,
         "name": "Reservoir Engineering",
         "code": "SETP 3313",
         "sections": {
@@ -2575,8 +2942,8 @@
             }
         }
     },
-    "89": {
-        "id": 89,
+    "99": {
+        "id": 99,
         "name": "Geology Field Work",
         "code": "SETP 3921",
         "sections": {
@@ -2594,8 +2961,8 @@
             }
         }
     },
-    "90": {
-        "id": 90,
+    "100": {
+        "id": 100,
         "name": "Reservior Engineering Lab",
         "code": "SETP 3731",
         "sections": {
@@ -2620,8 +2987,592 @@
             }
         }
     },
-    "118": {
-        "id": 118,
+    "128": {
+        "id": 128,
+        "name": "Plant Design",
+        "code": "SKTK 4153",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "129": {
+        "id": 129,
+        "name": "Chemical Product Design",
+        "code": "SKTK 4143",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 12
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 12
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 12
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 12
+                    }
+                }
+            }
+        }
+    },
+    "130": {
+        "id": 130,
+        "name": "Separation Process Lab II",
+        "code": "SKTK 4761",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "05",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "131": {
+        "id": 131,
+        "name": "Process Control Laboratory",
+        "code": "SKTK 4751",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "05",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            }
+        }
+    },
+    "132": {
+        "id": 132,
+        "name": "Undergraduate Project II",
+        "code": "SKTK 4824",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "133": {
+        "id": 133,
+        "name": "Undergraduate Project II",
+        "code": "SKTB 4814",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "134": {
+        "id": 134,
+        "name": "Safety and Health in Chemical Industry",
+        "code": "SKTB 4163",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "135": {
+        "id": 135,
+        "name": "Plant Design",
+        "code": "SKTB 4153",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 11
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 11
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 10,
+                        "endTime": 12
+                    }
+                }
+            }
+        }
+    },
+    "136": {
+        "id": 136,
+        "name": "Separation Process Lab",
+        "code": "SKTG 4761",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "137": {
+        "id": 137,
+        "name": "Process Control Laboratory",
+        "code": "SKTG 4761",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            }
+        }
+    },
+    "138": {
+        "id": 138,
+        "name": "Plant Design",
+        "code": "SKTG 4493",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "139": {
+        "id": 139,
+        "name": "Separation Process Lab",
+        "code": "SKTG 3731",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            }
+        }
+    },
+    "140": {
+        "id": 140,
         "name": "Engineering Economics and Project Management",
         "code": "SKTG 4393",
         "sections": {
@@ -2665,8 +3616,8 @@
             }
         }
     },
-    "119": {
-        "id": 119,
+    "141": {
+        "id": 141,
         "name": "Undergraduate Project II",
         "code": "SKTG 4824",
         "sections": {
@@ -2678,8 +3629,8 @@
             }
         }
     },
-    "120": {
-        "id": 120,
+    "142": {
+        "id": 142,
         "name": "Gas Storage & Reticulation System",
         "code": "SKTG 4223",
         "sections": {
@@ -2723,8 +3674,8 @@
             }
         }
     },
-    "121": {
-        "id": 121,
+    "143": {
+        "id": 143,
         "name": "Engineering Economics & Project Management",
         "code": "SKTN 3173",
         "sections": {
@@ -2749,8 +3700,8 @@
             }
         }
     },
-    "122": {
-        "id": 122,
+    "144": {
+        "id": 144,
         "name": "Nuclear Fuel Cycle & Waste Management",
         "code": "SKTN 4113",
         "sections": {
@@ -2775,8 +3726,8 @@
             }
         }
     },
-    "123": {
-        "id": 123,
+    "145": {
+        "id": 145,
         "name": "Radiation, Detection & Measurement Laboratory",
         "code": "SKTN 4711",
         "sections": {
@@ -2795,8 +3746,8 @@
             }
         }
     },
-    "124": {
-        "id": 124,
+    "146": {
+        "id": 146,
         "name": "Undergraduate Project II",
         "code": "SKTN 4824",
         "sections": {
@@ -2808,8 +3759,8 @@
             }
         }
     },
-    "125": {
-        "id": 125,
+    "147": {
+        "id": 147,
         "name": "Nuclear Engineering System Design I",
         "code": "SKTN 4833",
         "sections": {
@@ -2834,8 +3785,8 @@
             }
         }
     },
-    "126": {
-        "id": 126,
+    "148": {
+        "id": 148,
         "name": "Undergraduate Project II",
         "code": "SKTP 4814",
         "sections": {
@@ -2847,8 +3798,8 @@
             }
         }
     },
-    "127": {
-        "id": 127,
+    "149": {
+        "id": 149,
         "name": "Petroleum Geology",
         "code": "SKTP 4213",
         "sections": {
@@ -2892,8 +3843,8 @@
             }
         }
     },
-    "128": {
-        "id": 128,
+    "150": {
+        "id": 150,
         "name": "Petroleum Management & Entrepreneurship",
         "code": "SKTP 4113",
         "sections": {
@@ -2937,8 +3888,8 @@
             }
         }
     },
-    "129": {
-        "id": 129,
+    "151": {
+        "id": 151,
         "name": "Field Development Project",
         "code": "SKTP 4822",
         "sections": {
@@ -2970,8 +3921,8 @@
             }
         }
     },
-    "130": {
-        "id": 130,
+    "152": {
+        "id": 152,
         "name": "Well Testing",
         "code": "SKTP 4313",
         "sections": {
@@ -3015,8 +3966,8 @@
             }
         }
     },
-    "144": {
-        "id": 144,
+    "178": {
+        "id": 178,
         "name": "Sustainable Energy Management",
         "code": "SKTK 4113",
         "sections": {
@@ -3041,8 +3992,8 @@
             }
         }
     },
-    "145": {
-        "id": 145,
+    "179": {
+        "id": 179,
         "name": "Waste Management",
         "code": "SKTK 4413",
         "sections": {
@@ -3067,8 +4018,8 @@
             }
         }
     },
-    "146": {
-        "id": 146,
+    "180": {
+        "id": 180,
         "name": "OSH Legislations & Management",
         "code": "STKT 4513",
         "sections": {
@@ -3093,8 +4044,8 @@
             }
         }
     },
-    "147": {
-        "id": 147,
+    "181": {
+        "id": 181,
         "name": "Fundamentals of Polymer",
         "code": "SKTK 4613",
         "sections": {
@@ -3119,8 +4070,8 @@
             }
         }
     },
-    "148": {
-        "id": 148,
+    "182": {
+        "id": 182,
         "name": "Downstream Processing",
         "code": "SKTK 4643",
         "sections": {
@@ -3145,8 +4096,8 @@
             }
         }
     },
-    "149": {
-        "id": 149,
+    "183": {
+        "id": 183,
         "name": "Food Process Engineering",
         "code": "SKTB 4813",
         "sections": {
@@ -3158,8 +4109,8 @@
             }
         }
     },
-    "150": {
-        "id": 150,
+    "184": {
+        "id": 184,
         "name": "Food Process Engineering",
         "code": "SKTB 4213",
         "sections": {
@@ -3171,8 +4122,8 @@
             }
         }
     },
-    "151": {
-        "id": 151,
+    "185": {
+        "id": 185,
         "name": "Corrosion Engineering",
         "code": "SKTG 4283",
         "sections": {
@@ -3197,8 +4148,8 @@
             }
         }
     },
-    "152": {
-        "id": 152,
+    "186": {
+        "id": 186,
         "name": "Fire & Explosion Safety",
         "code": "SKTG 4263",
         "sections": {
@@ -3223,8 +4174,8 @@
             }
         }
     },
-    "153": {
-        "id": 153,
+    "187": {
+        "id": 187,
         "name": "Nuclear Radiation Physics",
         "code": "SKPN 4423",
         "sections": {
@@ -3236,8 +4187,8 @@
             }
         }
     },
-    "154": {
-        "id": 154,
+    "188": {
+        "id": 188,
         "name": "Ultrasonic Testing",
         "code": "SKTN 4423",
         "sections": {
@@ -3262,8 +4213,8 @@
             }
         }
     },
-    "155": {
-        "id": 155,
+    "189": {
+        "id": 189,
         "name": "Chemistry in Nuclear",
         "code": "SKTN 4433",
         "sections": {
@@ -3288,8 +4239,8 @@
             }
         }
     },
-    "168": {
-        "id": 168,
+    "202": {
+        "id": 202,
         "name": "Analytical Chemistry For Eng.",
         "code": "SSCK 1203",
         "sections": {
@@ -3371,8 +4322,8 @@
             }
         }
     },
-    "169": {
-        "id": 169,
+    "203": {
+        "id": 203,
         "name": "Organic Chemistry Functional Group",
         "code": "SSCK 1603",
         "sections": {
@@ -3397,8 +4348,8 @@
             }
         }
     },
-    "170": {
-        "id": 170,
+    "204": {
+        "id": 204,
         "name": "Organic Chemistry Practical",
         "code": "SSCK 1831",
         "sections": {
@@ -3456,8 +4407,8 @@
             }
         }
     },
-    "171": {
-        "id": 171,
+    "205": {
+        "id": 205,
         "name": "Analytical Chemistry Practical",
         "code": "SSCK 1891",
         "sections": {
@@ -3567,8 +4518,8 @@
             }
         }
     },
-    "172": {
-        "id": 172,
+    "206": {
+        "id": 206,
         "name": "Engineering Mathematics I",
         "code": "SSCE 1693",
         "sections": {
@@ -3707,8 +4658,8 @@
             }
         }
     },
-    "173": {
-        "id": 173,
+    "207": {
+        "id": 207,
         "name": "Differential Equations",
         "code": "SSCE 1793",
         "sections": {
@@ -3809,8 +4760,8 @@
             }
         }
     },
-    "174": {
-        "id": 174,
+    "208": {
+        "id": 208,
         "name": "Numerical Methods",
         "code": "SSCE 2393",
         "sections": {
@@ -3854,8 +4805,8 @@
             }
         }
     },
-    "175": {
-        "id": 175,
+    "209": {
+        "id": 209,
         "name": "Engineering Mathematics II",
         "code": "SSCE 1993",
         "sections": {
@@ -3899,8 +4850,8 @@
             }
         }
     },
-    "176": {
-        "id": 176,
+    "210": {
+        "id": 210,
         "name": "Electrical Technology",
         "code": "SEEU 2003",
         "sections": {
@@ -3982,8 +4933,8 @@
             }
         }
     },
-    "177": {
-        "id": 177,
+    "211": {
+        "id": 211,
         "name": "English Communication Skills",
         "code": "UHLB 1112",
         "sections": {
@@ -4067,8 +5018,8 @@
             }
         }
     },
-    "178": {
-        "id": 178,
+    "212": {
+        "id": 212,
         "name": "Academic Communication Skills",
         "code": "UHLB 2122",
         "sections": {
@@ -4230,8 +5181,8 @@
             }
         }
     },
-    "179": {
-        "id": 179,
+    "213": {
+        "id": 213,
         "name": "Professional Communication Skills",
         "code": "UHLB 3132",
         "sections": {
@@ -4289,8 +5240,8 @@
             }
         }
     },
-    "180": {
-        "id": 180,
+    "214": {
+        "id": 214,
         "name": "Malay Language Communication 2",
         "code": "UHLM 1012",
         "sections": {
@@ -4322,8 +5273,8 @@
             }
         }
     },
-    "181": {
-        "id": 181,
+    "215": {
+        "id": 215,
         "name": "Thought of Science & Technology",
         "code": "UICL 2302",
         "sections": {
@@ -4355,8 +5306,8 @@
             }
         }
     },
-    "182": {
-        "id": 182,
+    "216": {
+        "id": 216,
         "name": "Thought of Science & Technology",
         "code": "UHIT 2302",
         "sections": {
@@ -4427,8 +5378,8 @@
             }
         }
     },
-    "183": {
-        "id": 183,
+    "217": {
+        "id": 217,
         "name": "Appriciation of Ethics & Civilisation",
         "code": "UHMS 1182",
         "sections": {
@@ -4499,8 +5450,8 @@
             }
         }
     },
-    "184": {
-        "id": 184,
+    "218": {
+        "id": 218,
         "name": "Introduction to Entrepreneurship",
         "code": "UBSS 1032",
         "sections": {
@@ -4584,8 +5535,8 @@
             }
         }
     },
-    "185": {
-        "id": 185,
+    "219": {
+        "id": 219,
         "name": "Extracurricular Experimental Learning (EXCEL)",
         "code": "UKQE 3001",
         "sections": {
@@ -4851,8 +5802,8 @@
             }
         }
     },
-    "186": {
-        "id": 186,
+    "220": {
+        "id": 220,
         "name": "Extracurricular Experimental Learning (EXCEL)",
         "code": "UKQT 3001",
         "sections": {
@@ -5040,8 +5991,8 @@
             }
         }
     },
-    "187": {
-        "id": 187,
+    "221": {
+        "id": 221,
         "name": "Professional Ethics",
         "code": "UHMT 2132",
         "sections": {
@@ -5066,8 +6017,8 @@
             }
         }
     },
-    "188": {
-        "id": 188,
+    "222": {
+        "id": 222,
         "name": "C Programming Technique",
         "code": "SECP 1103",
         "sections": {
@@ -5111,8 +6062,8 @@
             }
         }
     },
-    "189": {
-        "id": 189,
+    "223": {
+        "id": 223,
         "name": "Programming For Engineers",
         "code": "SECP 2273",
         "sections": {

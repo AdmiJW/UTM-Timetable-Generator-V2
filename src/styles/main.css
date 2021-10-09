@@ -530,7 +530,6 @@
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 0.75rem;
   padding: 0.75em;
-  max-width: 175px;
   -webkit-animation: slide 1s ease forwards;
           animation: slide 1s ease forwards;
 }
@@ -585,13 +584,11 @@
 }
 
 .catalog--list {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 150px));
   justify-content: center;
-  align-items: stretch;
   list-style-type: none;
-  flex-wrap: wrap;
-  gap: 15px;
+  gap: 10px;
 }
 
 .courses--title {

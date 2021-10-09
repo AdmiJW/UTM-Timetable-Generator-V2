@@ -1156,6 +1156,390 @@
     "34": {
         "id": 34,
         "meta": {
+            "nextSectionID": 4
+        },
+        "name": "Fluid Mechanics",
+        "code": "SETK 2233",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            }
+        }
+    },
+    "35": {
+        "id": 35,
+        "meta": {
+            "nextSectionID": 4
+        },
+        "name": "Energy Balance",
+        "code": "SETK 2133",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "36": {
+        "id": 36,
+        "meta": {
+            "nextSectionID": 5
+        },
+        "name": "Makmal Termodinamik & Kejuruteraan Bahan",
+        "code": "SETK 2711",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "05",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "37": {
+        "id": 37,
+        "meta": {
+            "nextSectionID": 4
+        },
+        "name": "Material Engineering",
+        "code": "SETK 2243",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 16,
+                        "endTime": 17
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 16,
+                        "endTime": 17
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 11
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 11
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            }
+        }
+    },
+    "38": {
+        "id": 38,
+        "meta": {
             "nextSectionID": 2
         },
         "name": "Introduction to Programming",
@@ -1195,8 +1579,8 @@
             }
         }
     },
-    "35": {
-        "id": 35,
+    "39": {
+        "id": 39,
         "meta": {
             "nextSectionID": 2
         },
@@ -1249,8 +1633,8 @@
             }
         }
     },
-    "36": {
-        "id": 36,
+    "40": {
+        "id": 40,
         "meta": {
             "nextSectionID": 2
         },
@@ -1303,8 +1687,8 @@
             }
         }
     },
-    "37": {
-        "id": 37,
+    "41": {
+        "id": 41,
         "meta": {
             "nextSectionID": 1
         },
@@ -1335,8 +1719,8 @@
             }
         }
     },
-    "38": {
-        "id": 38,
+    "42": {
+        "id": 42,
         "meta": {
             "nextSectionID": 1
         },
@@ -1367,8 +1751,8 @@
             }
         }
     },
-    "39": {
-        "id": 39,
+    "43": {
+        "id": 43,
         "meta": {
             "nextSectionID": 1
         },
@@ -1399,8 +1783,8 @@
             }
         }
     },
-    "40": {
-        "id": 40,
+    "44": {
+        "id": 44,
         "meta": {
             "nextSectionID": 2
         },
@@ -1453,8 +1837,8 @@
             }
         }
     },
-    "41": {
-        "id": 41,
+    "45": {
+        "id": 45,
         "meta": {
             "nextSectionID": 1
         },
@@ -1485,8 +1869,8 @@
             }
         }
     },
-    "42": {
-        "id": 42,
+    "46": {
+        "id": 46,
         "meta": {
             "nextSectionID": 2
         },
@@ -1527,8 +1911,8 @@
             }
         }
     },
-    "43": {
-        "id": 43,
+    "47": {
+        "id": 47,
         "meta": {
             "nextSectionID": 1
         },
@@ -1553,8 +1937,8 @@
             }
         }
     },
-    "44": {
-        "id": 44,
+    "48": {
+        "id": 48,
         "meta": {
             "nextSectionID": 1
         },
@@ -1585,8 +1969,8 @@
             }
         }
     },
-    "45": {
-        "id": 45,
+    "49": {
+        "id": 49,
         "meta": {
             "nextSectionID": 1
         },
@@ -1617,8 +2001,8 @@
             }
         }
     },
-    "46": {
-        "id": 46,
+    "50": {
+        "id": 50,
         "meta": {
             "nextSectionID": 1
         },
@@ -1649,8 +2033,66 @@
             }
         }
     },
-    "47": {
-        "id": 47,
+    "51": {
+        "id": 51,
+        "meta": {
+            "nextSectionID": 3
+        },
+        "name": "Fluid Mechanics Laboratory",
+        "code": "SETP 1711",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "52": {
+        "id": 52,
         "meta": {
             "nextSectionID": 2
         },
@@ -1703,8 +2145,8 @@
             }
         }
     },
-    "48": {
-        "id": 48,
+    "53": {
+        "id": 53,
         "meta": {
             "nextSectionID": 1
         },
@@ -1735,8 +2177,8 @@
             }
         }
     },
-    "64": {
-        "id": 64,
+    "74": {
+        "id": 74,
         "meta": {
             "nextSectionID": 4
         },
@@ -1833,8 +2275,8 @@
             }
         }
     },
-    "65": {
-        "id": 65,
+    "75": {
+        "id": 75,
         "meta": {
             "nextSectionID": 4
         },
@@ -1931,8 +2373,8 @@
             }
         }
     },
-    "66": {
-        "id": 66,
+    "76": {
+        "id": 76,
         "meta": {
             "nextSectionID": 4
         },
@@ -2029,8 +2471,8 @@
             }
         }
     },
-    "67": {
-        "id": 67,
+    "77": {
+        "id": 77,
         "meta": {
             "nextSectionID": 5
         },
@@ -2119,8 +2561,8 @@
             }
         }
     },
-    "68": {
-        "id": 68,
+    "78": {
+        "id": 78,
         "meta": {
             "nextSectionID": 4
         },
@@ -2193,8 +2635,8 @@
             }
         }
     },
-    "69": {
-        "id": 69,
+    "79": {
+        "id": 79,
         "meta": {
             "nextSectionID": 2
         },
@@ -2247,8 +2689,8 @@
             }
         }
     },
-    "70": {
-        "id": 70,
+    "80": {
+        "id": 80,
         "meta": {
             "nextSectionID": 2
         },
@@ -2301,8 +2743,8 @@
             }
         }
     },
-    "71": {
-        "id": 71,
+    "81": {
+        "id": 81,
         "meta": {
             "nextSectionID": 2
         },
@@ -2355,8 +2797,8 @@
             }
         }
     },
-    "72": {
-        "id": 72,
+    "82": {
+        "id": 82,
         "meta": {
             "nextSectionID": 2
         },
@@ -2409,8 +2851,8 @@
             }
         }
     },
-    "73": {
-        "id": 73,
+    "83": {
+        "id": 83,
         "meta": {
             "nextSectionID": 2
         },
@@ -2463,8 +2905,8 @@
             }
         }
     },
-    "74": {
-        "id": 74,
+    "84": {
+        "id": 84,
         "meta": {
             "nextSectionID": 2
         },
@@ -2517,8 +2959,8 @@
             }
         }
     },
-    "75": {
-        "id": 75,
+    "85": {
+        "id": 85,
         "meta": {
             "nextSectionID": 2
         },
@@ -2571,8 +3013,8 @@
             }
         }
     },
-    "76": {
-        "id": 76,
+    "86": {
+        "id": 86,
         "meta": {
             "nextSectionID": 2
         },
@@ -2625,8 +3067,8 @@
             }
         }
     },
-    "77": {
-        "id": 77,
+    "87": {
+        "id": 87,
         "meta": {
             "nextSectionID": 2
         },
@@ -2679,8 +3121,8 @@
             }
         }
     },
-    "78": {
-        "id": 78,
+    "88": {
+        "id": 88,
         "meta": {
             "nextSectionID": 2
         },
@@ -2721,8 +3163,8 @@
             }
         }
     },
-    "79": {
-        "id": 79,
+    "89": {
+        "id": 89,
         "meta": {
             "nextSectionID": 2
         },
@@ -2763,8 +3205,8 @@
             }
         }
     },
-    "80": {
-        "id": 80,
+    "90": {
+        "id": 90,
         "meta": {
             "nextSectionID": 1
         },
@@ -2795,8 +3237,8 @@
             }
         }
     },
-    "81": {
-        "id": 81,
+    "91": {
+        "id": 91,
         "meta": {
             "nextSectionID": 1
         },
@@ -2827,8 +3269,8 @@
             }
         }
     },
-    "82": {
-        "id": 82,
+    "92": {
+        "id": 92,
         "meta": {
             "nextSectionID": 1
         },
@@ -2853,8 +3295,8 @@
             }
         }
     },
-    "83": {
-        "id": 83,
+    "93": {
+        "id": 93,
         "meta": {
             "nextSectionID": 1
         },
@@ -2885,8 +3327,8 @@
             }
         }
     },
-    "84": {
-        "id": 84,
+    "94": {
+        "id": 94,
         "meta": {
             "nextSectionID": 1
         },
@@ -2917,8 +3359,8 @@
             }
         }
     },
-    "85": {
-        "id": 85,
+    "95": {
+        "id": 95,
         "meta": {
             "nextSectionID": 2
         },
@@ -2971,8 +3413,8 @@
             }
         }
     },
-    "86": {
-        "id": 86,
+    "96": {
+        "id": 96,
         "meta": {
             "nextSectionID": 2
         },
@@ -3013,8 +3455,8 @@
             }
         }
     },
-    "87": {
-        "id": 87,
+    "97": {
+        "id": 97,
         "meta": {
             "nextSectionID": 2
         },
@@ -3067,8 +3509,8 @@
             }
         }
     },
-    "88": {
-        "id": 88,
+    "98": {
+        "id": 98,
         "meta": {
             "nextSectionID": 2
         },
@@ -3121,8 +3563,8 @@
             }
         }
     },
-    "89": {
-        "id": 89,
+    "99": {
+        "id": 99,
         "meta": {
             "nextSectionID": 2
         },
@@ -3149,8 +3591,8 @@
             }
         }
     },
-    "90": {
-        "id": 90,
+    "100": {
+        "id": 100,
         "meta": {
             "nextSectionID": 1
         },
@@ -3181,8 +3623,724 @@
             }
         }
     },
-    "118": {
-        "id": 118,
+    "128": {
+        "id": 128,
+        "meta": {
+            "nextSectionID": 4
+        },
+        "name": "Plant Design",
+        "code": "SKTK 4153",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "129": {
+        "id": 129,
+        "meta": {
+            "nextSectionID": 4
+        },
+        "name": "Chemical Product Design",
+        "code": "SKTK 4143",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 12
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 12
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 12
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 12
+                    }
+                }
+            }
+        }
+    },
+    "130": {
+        "id": 130,
+        "meta": {
+            "nextSectionID": 5
+        },
+        "name": "Separation Process Lab II",
+        "code": "SKTK 4761",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "05",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "131": {
+        "id": 131,
+        "meta": {
+            "nextSectionID": 5
+        },
+        "name": "Process Control Laboratory",
+        "code": "SKTK 4751",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "05",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            }
+        }
+    },
+    "132": {
+        "id": 132,
+        "meta": {
+            "nextSectionID": 1
+        },
+        "name": "Undergraduate Project II",
+        "code": "SKTK 4824",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "133": {
+        "id": 133,
+        "meta": {
+            "nextSectionID": 1
+        },
+        "name": "Undergraduate Project II",
+        "code": "SKTB 4814",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "134": {
+        "id": 134,
+        "meta": {
+            "nextSectionID": 2
+        },
+        "name": "Safety and Health in Chemical Industry",
+        "code": "SKTB 4163",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "135": {
+        "id": 135,
+        "meta": {
+            "nextSectionID": 2
+        },
+        "name": "Plant Design",
+        "code": "SKTB 4153",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 11
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 11
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 10,
+                        "endTime": 12
+                    }
+                }
+            }
+        }
+    },
+    "136": {
+        "id": 136,
+        "meta": {
+            "nextSectionID": 2
+        },
+        "name": "Separation Process Lab",
+        "code": "SKTG 4761",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "137": {
+        "id": 137,
+        "meta": {
+            "nextSectionID": 2
+        },
+        "name": "Process Control Laboratory",
+        "code": "SKTG 4761",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            }
+        }
+    },
+    "138": {
+        "id": 138,
+        "meta": {
+            "nextSectionID": 2
+        },
+        "name": "Plant Design",
+        "code": "SKTG 4493",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "meta": {
+                    "nextTimeID": 2
+                },
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "139": {
+        "id": 139,
+        "meta": {
+            "nextSectionID": 2
+        },
+        "name": "Separation Process Lab",
+        "code": "SKTG 3731",
+        "sections": {
+            "0": {
+                "id": 0,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "meta": {
+                    "nextTimeID": 1
+                },
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            }
+        }
+    },
+    "140": {
+        "id": 140,
         "meta": {
             "nextSectionID": 2
         },
@@ -3235,8 +4393,8 @@
             }
         }
     },
-    "119": {
-        "id": 119,
+    "141": {
+        "id": 141,
         "meta": {
             "nextSectionID": 1
         },
@@ -3254,8 +4412,8 @@
             }
         }
     },
-    "120": {
-        "id": 120,
+    "142": {
+        "id": 142,
         "meta": {
             "nextSectionID": 2
         },
@@ -3308,8 +4466,8 @@
             }
         }
     },
-    "121": {
-        "id": 121,
+    "143": {
+        "id": 143,
         "meta": {
             "nextSectionID": 1
         },
@@ -3340,8 +4498,8 @@
             }
         }
     },
-    "122": {
-        "id": 122,
+    "144": {
+        "id": 144,
         "meta": {
             "nextSectionID": 1
         },
@@ -3372,8 +4530,8 @@
             }
         }
     },
-    "123": {
-        "id": 123,
+    "145": {
+        "id": 145,
         "meta": {
             "nextSectionID": 1
         },
@@ -3398,8 +4556,8 @@
             }
         }
     },
-    "124": {
-        "id": 124,
+    "146": {
+        "id": 146,
         "meta": {
             "nextSectionID": 1
         },
@@ -3417,8 +4575,8 @@
             }
         }
     },
-    "125": {
-        "id": 125,
+    "147": {
+        "id": 147,
         "meta": {
             "nextSectionID": 1
         },
@@ -3449,8 +4607,8 @@
             }
         }
     },
-    "126": {
-        "id": 126,
+    "148": {
+        "id": 148,
         "meta": {
             "nextSectionID": 1
         },
@@ -3468,8 +4626,8 @@
             }
         }
     },
-    "127": {
-        "id": 127,
+    "149": {
+        "id": 149,
         "meta": {
             "nextSectionID": 2
         },
@@ -3522,8 +4680,8 @@
             }
         }
     },
-    "128": {
-        "id": 128,
+    "150": {
+        "id": 150,
         "meta": {
             "nextSectionID": 2
         },
@@ -3576,8 +4734,8 @@
             }
         }
     },
-    "129": {
-        "id": 129,
+    "151": {
+        "id": 151,
         "meta": {
             "nextSectionID": 2
         },
@@ -3618,8 +4776,8 @@
             }
         }
     },
-    "130": {
-        "id": 130,
+    "152": {
+        "id": 152,
         "meta": {
             "nextSectionID": 2
         },
@@ -3672,8 +4830,8 @@
             }
         }
     },
-    "144": {
-        "id": 144,
+    "178": {
+        "id": 178,
         "meta": {
             "nextSectionID": 1
         },
@@ -3704,8 +4862,8 @@
             }
         }
     },
-    "145": {
-        "id": 145,
+    "179": {
+        "id": 179,
         "meta": {
             "nextSectionID": 1
         },
@@ -3736,8 +4894,8 @@
             }
         }
     },
-    "146": {
-        "id": 146,
+    "180": {
+        "id": 180,
         "meta": {
             "nextSectionID": 1
         },
@@ -3768,8 +4926,8 @@
             }
         }
     },
-    "147": {
-        "id": 147,
+    "181": {
+        "id": 181,
         "meta": {
             "nextSectionID": 1
         },
@@ -3800,8 +4958,8 @@
             }
         }
     },
-    "148": {
-        "id": 148,
+    "182": {
+        "id": 182,
         "meta": {
             "nextSectionID": 1
         },
@@ -3832,8 +4990,8 @@
             }
         }
     },
-    "149": {
-        "id": 149,
+    "183": {
+        "id": 183,
         "meta": {
             "nextSectionID": 1
         },
@@ -3851,8 +5009,8 @@
             }
         }
     },
-    "150": {
-        "id": 150,
+    "184": {
+        "id": 184,
         "meta": {
             "nextSectionID": 1
         },
@@ -3870,8 +5028,8 @@
             }
         }
     },
-    "151": {
-        "id": 151,
+    "185": {
+        "id": 185,
         "meta": {
             "nextSectionID": 1
         },
@@ -3902,8 +5060,8 @@
             }
         }
     },
-    "152": {
-        "id": 152,
+    "186": {
+        "id": 186,
         "meta": {
             "nextSectionID": 1
         },
@@ -3934,8 +5092,8 @@
             }
         }
     },
-    "153": {
-        "id": 153,
+    "187": {
+        "id": 187,
         "meta": {
             "nextSectionID": 1
         },
@@ -3953,8 +5111,8 @@
             }
         }
     },
-    "154": {
-        "id": 154,
+    "188": {
+        "id": 188,
         "meta": {
             "nextSectionID": 1
         },
@@ -3985,8 +5143,8 @@
             }
         }
     },
-    "155": {
-        "id": 155,
+    "189": {
+        "id": 189,
         "meta": {
             "nextSectionID": 1
         },
@@ -4017,8 +5175,8 @@
             }
         }
     },
-    "168": {
-        "id": 168,
+    "202": {
+        "id": 202,
         "meta": {
             "nextSectionID": 4
         },
@@ -4115,8 +5273,8 @@
             }
         }
     },
-    "169": {
-        "id": 169,
+    "203": {
+        "id": 203,
         "meta": {
             "nextSectionID": 1
         },
@@ -4147,8 +5305,8 @@
             }
         }
     },
-    "170": {
-        "id": 170,
+    "204": {
+        "id": 204,
         "meta": {
             "nextSectionID": 4
         },
@@ -4221,8 +5379,8 @@
             }
         }
     },
-    "171": {
-        "id": 171,
+    "205": {
+        "id": 205,
         "meta": {
             "nextSectionID": 8
         },
@@ -4359,8 +5517,8 @@
             }
         }
     },
-    "172": {
-        "id": 172,
+    "206": {
+        "id": 206,
         "meta": {
             "nextSectionID": 7
         },
@@ -4523,8 +5681,8 @@
             }
         }
     },
-    "173": {
-        "id": 173,
+    "207": {
+        "id": 207,
         "meta": {
             "nextSectionID": 5
         },
@@ -4643,8 +5801,8 @@
             }
         }
     },
-    "174": {
-        "id": 174,
+    "208": {
+        "id": 208,
         "meta": {
             "nextSectionID": 2
         },
@@ -4697,8 +5855,8 @@
             }
         }
     },
-    "175": {
-        "id": 175,
+    "209": {
+        "id": 209,
         "meta": {
             "nextSectionID": 2
         },
@@ -4751,8 +5909,8 @@
             }
         }
     },
-    "176": {
-        "id": 176,
+    "210": {
+        "id": 210,
         "meta": {
             "nextSectionID": 4
         },
@@ -4849,8 +6007,8 @@
             }
         }
     },
-    "177": {
-        "id": 177,
+    "211": {
+        "id": 211,
         "meta": {
             "nextSectionID": 6
         },
@@ -4955,8 +6113,8 @@
             }
         }
     },
-    "178": {
-        "id": 178,
+    "212": {
+        "id": 212,
         "meta": {
             "nextSectionID": 12
         },
@@ -5157,8 +6315,8 @@
             }
         }
     },
-    "179": {
-        "id": 179,
+    "213": {
+        "id": 213,
         "meta": {
             "nextSectionID": 4
         },
@@ -5231,8 +6389,8 @@
             }
         }
     },
-    "180": {
-        "id": 180,
+    "214": {
+        "id": 214,
         "meta": {
             "nextSectionID": 2
         },
@@ -5273,8 +6431,8 @@
             }
         }
     },
-    "181": {
-        "id": 181,
+    "215": {
+        "id": 215,
         "meta": {
             "nextSectionID": 2
         },
@@ -5315,8 +6473,8 @@
             }
         }
     },
-    "182": {
-        "id": 182,
+    "216": {
+        "id": 216,
         "meta": {
             "nextSectionID": 5
         },
@@ -5405,8 +6563,8 @@
             }
         }
     },
-    "183": {
-        "id": 183,
+    "217": {
+        "id": 217,
         "meta": {
             "nextSectionID": 5
         },
@@ -5495,8 +6653,8 @@
             }
         }
     },
-    "184": {
-        "id": 184,
+    "218": {
+        "id": 218,
         "meta": {
             "nextSectionID": 6
         },
@@ -5601,8 +6759,8 @@
             }
         }
     },
-    "185": {
-        "id": 185,
+    "219": {
+        "id": 219,
         "meta": {
             "nextSectionID": 20
         },
@@ -5931,8 +7089,8 @@
             }
         }
     },
-    "186": {
-        "id": 186,
+    "220": {
+        "id": 220,
         "meta": {
             "nextSectionID": 14
         },
@@ -6165,8 +7323,8 @@
             }
         }
     },
-    "187": {
-        "id": 187,
+    "221": {
+        "id": 221,
         "meta": {
             "nextSectionID": 2
         },
@@ -6200,8 +7358,8 @@
             }
         }
     },
-    "188": {
-        "id": 188,
+    "222": {
+        "id": 222,
         "meta": {
             "nextSectionID": 2
         },
@@ -6254,8 +7412,8 @@
             }
         }
     },
-    "189": {
-        "id": 189,
+    "223": {
+        "id": 223,
         "meta": {
             "nextSectionID": 1
         },
@@ -6287,8 +7445,8 @@
         }
     },
     "meta": {
-        "nextCourseID": 106,
+        "nextCourseID": 123,
         "app_version": "1.0.0",
-        "currentSelectedCourse": 186
+        "currentSelectedCourse": 223
     }
 }

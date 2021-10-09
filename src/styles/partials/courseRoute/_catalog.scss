@@ -19,8 +19,9 @@
 }
 
 .catalog--list {
-    @include utils.flex(row, center);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 150px) );
+    justify-content: center;
     list-style-type: none;
-    flex-wrap: wrap;
-    gap: 15px;
+    gap: 10px;
 }
