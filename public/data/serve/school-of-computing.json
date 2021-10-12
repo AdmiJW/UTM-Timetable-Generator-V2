@@ -87,39 +87,20 @@
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 3,
+                        "dayOfWeek": 2,
                         "beginTime": 8,
-                        "endTime": 10
+                        "endTime": 9
                     },
                     "1": {
                         "id": 1,
-                        "dayOfWeek": 4,
-                        "beginTime": 9,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
                         "endTime": 10
                     }
                 }
             },
             "5": {
                 "id": 5,
-                "section": "06",
-                "lecturer": "Dr Muhammad Aliif bin Ahmad",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 3,
-                        "beginTime": 8,
-                        "endTime": 10
-                    },
-                    "1": {
-                        "id": 1,
-                        "dayOfWeek": 4,
-                        "beginTime": 9,
-                        "endTime": 10
-                    }
-                }
-            },
-            "6": {
-                "id": 6,
                 "section": "07",
                 "lecturer": "Dr Muhammad Aliif bin Ahmad",
                 "times": {
@@ -137,8 +118,8 @@
                     }
                 }
             },
-            "7": {
-                "id": 7,
+            "6": {
+                "id": 6,
                 "section": "08",
                 "lecturer": "Dr Razana binti Alwee",
                 "times": {
@@ -156,8 +137,8 @@
                     }
                 }
             },
-            "8": {
-                "id": 8,
+            "7": {
+                "id": 7,
                 "section": "09",
                 "lecturer": "Dr Nies Hui Wen",
                 "times": {
@@ -175,10 +156,10 @@
                     }
                 }
             },
-            "9": {
-                "id": 9,
+            "8": {
+                "id": 8,
                 "section": "10",
-                "lecturer": "Assoc Prof Dr Roselina binti Sallehuddin",
+                "lecturer": "Dr Muhammad Aliif bin Ahmad",
                 "times": {
                     "0": {
                         "id": 0,
@@ -189,13 +170,13 @@
                     "1": {
                         "id": 1,
                         "dayOfWeek": 4,
-                        "beginTime": 15,
-                        "endTime": 16
+                        "beginTime": 12,
+                        "endTime": 13
                     }
                 }
             },
-            "10": {
-                "id": 10,
+            "9": {
+                "id": 9,
                 "section": "11",
                 "lecturer": "Dr Nies Hui Wen",
                 "times": {
@@ -208,8 +189,8 @@
                     "1": {
                         "id": 1,
                         "dayOfWeek": 4,
-                        "beginTime": 15,
-                        "endTime": 16
+                        "beginTime": 12,
+                        "endTime": 13
                     }
                 }
             }
@@ -459,7 +440,7 @@
             "3": {
                 "id": 3,
                 "section": "04",
-                "lecturer": "Mr hairudin bin Abdul Majid",
+                "lecturer": "Mr Hairudin bin Abdul Majid",
                 "times": {
                     "0": {
                         "id": 0,
@@ -550,7 +531,7 @@
             "10": {
                 "id": 10,
                 "section": "11",
-                "lecturer": "r Muhammad Iqbal Tariq bin Idris",
+                "lecturer": "Dr Muhammad Iqbal Tariq bin Idris",
                 "times": {
                     "0": {
                         "id": 0,
@@ -570,7 +551,7 @@
             "0": {
                 "id": 0,
                 "section": "01",
-                "lecturer": "Dr Nur Haliza binti Abdul Wahab",
+                "lecturer": "Dr Mohd Fo'ad bin Rohani",
                 "times": {
                     "0": {
                         "id": 0,
@@ -589,7 +570,7 @@
             "1": {
                 "id": 1,
                 "section": "02",
-                "lecturer": "Dr Mohd Fo'ad bin Rohani",
+                "lecturer": "Dr Haswadi bin Hasan",
                 "times": {
                     "0": {
                         "id": 0,
@@ -608,7 +589,7 @@
             "2": {
                 "id": 2,
                 "section": "03",
-                "lecturer": "Dr Haswadi bin Hasan",
+                "lecturer": "Dr Nur Haliza binti Abdul Wahab",
                 "times": {
                     "0": {
                         "id": 0,
@@ -747,8 +728,8 @@
         "sections": {
             "0": {
                 "id": 0,
-                "section": "55",
-                "lecturer": "",
+                "section": "34",
+                "lecturer": "Dr Norehan binti Mohd Nor",
                 "times": {
                     "0": {
                         "id": 0,
@@ -760,8 +741,8 @@
             },
             "1": {
                 "id": 1,
-                "section": "56",
-                "lecturer": "",
+                "section": "35",
+                "lecturer": "Dr Mohd Farizal bin Ahmad Kamaroddin",
                 "times": {
                     "0": {
                         "id": 0,
@@ -773,8 +754,8 @@
             },
             "2": {
                 "id": 2,
-                "section": "57",
-                "lecturer": "",
+                "section": "36",
+                "lecturer": "Dr Noorzana binti Khamis",
                 "times": {
                     "0": {
                         "id": 0,
@@ -786,8 +767,8 @@
             },
             "3": {
                 "id": 3,
-                "section": "58",
-                "lecturer": "",
+                "section": "37",
+                "lecturer": "Dr Siti Nisrin binti Mohd Anis",
                 "times": {
                     "0": {
                         "id": 0,
@@ -799,8 +780,8 @@
             },
             "4": {
                 "id": 4,
-                "section": "59",
-                "lecturer": "",
+                "section": "38",
+                "lecturer": "Assoc Prof Dr Mastura binti Mahfar",
                 "times": {
                     "0": {
                         "id": 0,
@@ -812,8 +793,8 @@
             },
             "5": {
                 "id": 5,
-                "section": "60",
-                "lecturer": "",
+                "section": "39",
+                "lecturer": "Ms Marlina binti Ali",
                 "times": {
                     "0": {
                         "id": 0,
@@ -825,8 +806,8 @@
             },
             "6": {
                 "id": 6,
-                "section": "61",
-                "lecturer": "",
+                "section": "40",
+                "lecturer": "Dr Muhammad Helmi bin Nadri",
                 "times": {
                     "0": {
                         "id": 0,
@@ -838,8 +819,177 @@
             },
             "7": {
                 "id": 7,
-                "section": "62",
-                "lecturer": "",
+                "section": "41",
+                "lecturer": "Dr Muhammad Helmi bin Nadri",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "8": {
+                "id": 8,
+                "section": "42",
+                "lecturer": "Dr Nicole Leong Hong Yeng",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "9": {
+                "id": 9,
+                "section": "43",
+                "lecturer": "Dr Nicole Leong Hong Yeng",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "10": {
+                "id": 10,
+                "section": "44",
+                "lecturer": "Dr Nor Zalina binti Othman",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "11": {
+                "id": 11,
+                "section": "45",
+                "lecturer": "Dr Lokman bin Ali",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "12": {
+                "id": 12,
+                "section": "46",
+                "lecturer": "Dr Lokman bin Ali",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "13": {
+                "id": 13,
+                "section": "47",
+                "lecturer": "Dr Umi Aisah binti Asli",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "14": {
+                "id": 14,
+                "section": "48",
+                "lecturer": "Dr Nina Diana binti Nawi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "15": {
+                "id": 15,
+                "section": "49",
+                "lecturer": "Dr Nor Farahwahidah binti Abdul Rahman",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "16": {
+                "id": 16,
+                "section": "50",
+                "lecturer": "Dr Usman Ullah Sheikh bin Izzat Ullah Sheikh",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "17": {
+                "id": 17,
+                "section": "51",
+                "lecturer": "Ir Dr Shafishuhaza binti Sahlan",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "18": {
+                "id": 18,
+                "section": "52",
+                "lecturer": "Dr Rashidah @ Siti Saedah binti Arsat",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "19": {
+                "id": 19,
+                "section": "53",
+                "lecturer": "Dr Nurzal Effiyana binti Ghazali",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "20": {
+                "id": 20,
+                "section": "54",
+                "lecturer": "Dr Teh Zaharah binti Yaacob",
                 "times": {
                     "0": {
                         "id": 0,
@@ -859,7 +1009,7 @@
             "0": {
                 "id": 0,
                 "section": "36",
-                "lecturer": "Dr Azhar",
+                "lecturer": "Prof Dr Kassim",
                 "times": {
                     "0": {
                         "id": 0,
@@ -872,7 +1022,7 @@
             "1": {
                 "id": 1,
                 "section": "37",
-                "lecturer": "Dr Junaidah",
+                "lecturer": "Dr Junaidah binti Yusof",
                 "times": {
                     "0": {
                         "id": 0,
@@ -885,7 +1035,7 @@
             "2": {
                 "id": 2,
                 "section": "38",
-                "lecturer": "Ms Farah Adibah",
+                "lecturer": "Ms Farah Adibah binti Ibrahim",
                 "times": {
                     "0": {
                         "id": 0,
@@ -898,7 +1048,7 @@
             "3": {
                 "id": 3,
                 "section": "39",
-                "lecturer": "Dr Ana Haziqah",
+                "lecturer": "Dr Ana Haziqah binti A Rashid",
                 "times": {
                     "0": {
                         "id": 0,
@@ -911,7 +1061,7 @@
             "4": {
                 "id": 4,
                 "section": "40",
-                "lecturer": "Dr Zulkifli Khir",
+                "lecturer": "Dr Zulkifli bin Hamisan @ Khair",
                 "times": {
                     "0": {
                         "id": 0,
@@ -924,7 +1074,7 @@
             "5": {
                 "id": 5,
                 "section": "41",
-                "lecturer": "Dr Junaidah",
+                "lecturer": "Dr Junaidah binti Yusof",
                 "times": {
                     "0": {
                         "id": 0,
@@ -937,7 +1087,7 @@
             "6": {
                 "id": 6,
                 "section": "42",
-                "lecturer": "Dr Rozeyta",
+                "lecturer": "Dr Rozeyta binti Omar",
                 "times": {
                     "0": {
                         "id": 0,
@@ -950,7 +1100,7 @@
             "7": {
                 "id": 7,
                 "section": "43",
-                "lecturer": "Dr Hasyim Fauzy",
+                "lecturer": "Dr Hasyim Fauzy bin Yaacob",
                 "times": {
                     "0": {
                         "id": 0,
@@ -963,7 +1113,7 @@
             "8": {
                 "id": 8,
                 "section": "44",
-                "lecturer": "Dr Sharial Bungsu",
+                "lecturer": "Dr Mohd Sharial Bungsu",
                 "times": {
                     "0": {
                         "id": 0,
@@ -976,7 +1126,7 @@
             "9": {
                 "id": 9,
                 "section": "45",
-                "lecturer": "Dr Rozeyta",
+                "lecturer": "Dr Rozeyta binti Omar",
                 "times": {
                     "0": {
                         "id": 0,
@@ -989,7 +1139,7 @@
             "10": {
                 "id": 10,
                 "section": "46",
-                "lecturer": "Dr Hasyim Fauzy",
+                "lecturer": "Dr Hasyim Fauzy bin Yaacob",
                 "times": {
                     "0": {
                         "id": 0,
@@ -1002,7 +1152,7 @@
             "11": {
                 "id": 11,
                 "section": "47",
-                "lecturer": "Dr Sharial Bungsu",
+                "lecturer": "Dr Mohd Sharial Bungsu",
                 "times": {
                     "0": {
                         "id": 0,
@@ -1022,7 +1172,7 @@
             "0": {
                 "id": 0,
                 "section": "34",
-                "lecturer": "Dr Ahmad Marzuki bin Mohamad",
+                "lecturer": "Dr Abdul Basit bin Samat @ Darawi",
                 "times": {
                     "0": {
                         "id": 0,
@@ -1048,7 +1198,7 @@
             "2": {
                 "id": 2,
                 "section": "36",
-                "lecturer": "Dr Norhidayu binti Mumamad Zain",
+                "lecturer": "Dr Nur Izzati binti Mohamad Norzilan",
                 "times": {
                     "0": {
                         "id": 0,
@@ -1061,7 +1211,7 @@
             "3": {
                 "id": 3,
                 "section": "37",
-                "lecturer": "Dr Nur Najwa Hanani binti Abd Rahman",
+                "lecturer": "Dr Ahmad Muhyuddin bin Hassan",
                 "times": {
                     "0": {
                         "id": 0,
@@ -1074,7 +1224,7 @@
             "4": {
                 "id": 4,
                 "section": "38",
-                "lecturer": "Dr Abdul Halim bin Zulkifli",
+                "lecturer": "Dr Ahmad Muhyuddin bin Hassan",
                 "times": {
                     "0": {
                         "id": 0,
@@ -1087,7 +1237,7 @@
             "5": {
                 "id": 5,
                 "section": "39",
-                "lecturer": "Dr Abdul Hafiz bin Abdullah",
+                "lecturer": "Dr Norhidayu binti Muhamad Zain",
                 "times": {
                     "0": {
                         "id": 0,
@@ -1100,7 +1250,7 @@
             "6": {
                 "id": 6,
                 "section": "40",
-                "lecturer": "Dr Sarah Athirah binti Saruchi",
+                "lecturer": "Dr Badlihisham bin Mohd Nasir",
                 "times": {
                     "0": {
                         "id": 0,
@@ -1113,7 +1263,7 @@
             "7": {
                 "id": 7,
                 "section": "41",
-                "lecturer": "Dr Nasilbah binti Ramli",
+                "lecturer": "Dr Nur Izzati binti Mohamad Norzilan",
                 "times": {
                     "0": {
                         "id": 0,
@@ -1133,7 +1283,7 @@
             "0": {
                 "id": 0,
                 "section": "09",
-                "lecturer": "Dr Zaliza",
+                "lecturer": "Dr Zaliza binti Mohamad Nasir",
                 "times": {
                     "0": {
                         "id": 0,
@@ -1146,7 +1296,7 @@
             "1": {
                 "id": 1,
                 "section": "10",
-                "lecturer": "Ms Halimah",
+                "lecturer": "Ms Halimah binti Ma'alip",
                 "times": {
                     "0": {
                         "id": 0,
@@ -1159,7 +1309,7 @@
             "2": {
                 "id": 2,
                 "section": "11",
-                "lecturer": "Dr Zaliza",
+                "lecturer": "Dr Zaliza binti Mohamad Nasir",
                 "times": {
                     "0": {
                         "id": 0,
@@ -1319,17 +1469,17 @@
             "5": {
                 "id": 5,
                 "section": "06",
-                "lecturer": "Dr Syed Hamid Hussain Madni",
+                "lecturer": "Assoc Prof Dr Mohd Murtadha bin Mohamad",
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 1,
+                        "dayOfWeek": 0,
                         "beginTime": 11,
                         "endTime": 13
                     },
                     "1": {
                         "id": 1,
-                        "dayOfWeek": 2,
+                        "dayOfWeek": 1,
                         "beginTime": 11,
                         "endTime": 13
                     }
@@ -1414,7 +1564,7 @@
             "10": {
                 "id": 10,
                 "section": "11",
-                "lecturer": "Dr Arafat Mohammed Rashad",
+                "lecturer": "Dr Syed Hamid Hussain Madni",
                 "times": {
                     "0": {
                         "id": 0,
@@ -2105,20 +2255,20 @@
             },
             "1": {
                 "id": 1,
-                "section": "02",
-                "lecturer": "Dr Aida binti Ali",
+                "section": "03",
+                "lecturer": "Assoc Prof Dr Masitah binti Ghazali",
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 4,
-                        "beginTime": 8,
-                        "endTime": 11
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
                     }
                 }
             },
             "2": {
                 "id": 2,
-                "section": "03",
+                "section": "04",
                 "lecturer": "Assoc Prof Dr Masitah binti Ghazali",
                 "times": {
                     "0": {
@@ -2131,8 +2281,8 @@
             },
             "3": {
                 "id": 3,
-                "section": "04",
-                "lecturer": "Dr Nur Zuraifah Syazrah binti Othman",
+                "section": "05",
+                "lecturer": "Ms Nor Anita Fairos binti Ismail",
                 "times": {
                     "0": {
                         "id": 0,
@@ -2144,19 +2294,6 @@
             },
             "4": {
                 "id": 4,
-                "section": "05",
-                "lecturer": "Dr Farhan bin Mohamed",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 3,
-                        "beginTime": 14,
-                        "endTime": 17
-                    }
-                }
-            },
-            "5": {
-                "id": 5,
                 "section": "06",
                 "lecturer": "Ms Nor Anita Fairos binti Ismail",
                 "times": {
@@ -2168,8 +2305,8 @@
                     }
                 }
             },
-            "6": {
-                "id": 6,
+            "5": {
+                "id": 5,
                 "section": "07",
                 "lecturer": "Assoc Prof Dr Nor Azman bin Ismail",
                 "times": {
@@ -2181,10 +2318,10 @@
                     }
                 }
             },
-            "7": {
-                "id": 7,
+            "6": {
+                "id": 6,
                 "section": "08",
-                "lecturer": "Assoc Prof Dr Masitah binti Ghazali",
+                "lecturer": "Dr nur Zuraifah Syazrah binti Othman",
                 "times": {
                     "0": {
                         "id": 0,
@@ -2194,10 +2331,10 @@
                     }
                 }
             },
-            "8": {
-                "id": 8,
+            "7": {
+                "id": 7,
                 "section": "09",
-                "lecturer": "Ms Nor Anita Fairos binti Ismail",
+                "lecturer": "Dr Farhan bin Mohamed",
                 "times": {
                     "0": {
                         "id": 0,
@@ -2321,7 +2458,7 @@
             "0": {
                 "id": 0,
                 "section": "01",
-                "lecturer": "Assoc Prof Dr Moh Murtadha bin Mohamad",
+                "lecturer": "Dr Aida binti Ali",
                 "times": {
                     "0": {
                         "id": 0,
@@ -2331,7 +2468,7 @@
                     },
                     "1": {
                         "id": 1,
-                        "dayOfWeek": 3,
+                        "dayOfWeek": 4,
                         "beginTime": 14,
                         "endTime": 16
                     }
@@ -2446,11 +2583,11 @@
             "0": {
                 "id": 0,
                 "section": "01",
-                "lecturer": "Dr Afnicanfaizal bin Abdullah",
+                "lecturer": "Dr Shafaatunnur binti Hasan",
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 1,
+                        "dayOfWeek": 3,
                         "beginTime": 14,
                         "endTime": 17
                     }
@@ -2523,19 +2660,6 @@
             },
             "6": {
                 "id": 6,
-                "section": "07",
-                "lecturer": "Dr Shafaatunnur binti Hasan",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 3,
-                        "beginTime": 14,
-                        "endTime": 17
-                    }
-                }
-            },
-            "7": {
-                "id": 7,
                 "section": "08",
                 "lecturer": "Dr Ruhaidah binti Samsudin",
                 "times": {
@@ -2547,8 +2671,8 @@
                     }
                 }
             },
-            "8": {
-                "id": 8,
+            "7": {
+                "id": 7,
                 "section": "09",
                 "lecturer": "Dr Hussein Salem Ali Samma",
                 "times": {
@@ -2560,8 +2684,8 @@
                     }
                 }
             },
-            "9": {
-                "id": 9,
+            "8": {
+                "id": 8,
                 "section": "10",
                 "lecturer": "Dr Noor Hidayah binti Zakaria",
                 "times": {
@@ -2573,8 +2697,8 @@
                     }
                 }
             },
-            "10": {
-                "id": 10,
+            "9": {
+                "id": 9,
                 "section": "11",
                 "lecturer": "Dr Aida binti Ali",
                 "times": {
@@ -3220,6 +3344,97 @@
                         "endTime": 16
                     }
                 }
+            },
+            "20": {
+                "id": 20,
+                "section": "21",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "21": {
+                "id": 21,
+                "section": "22",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "22": {
+                "id": 22,
+                "section": "23",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "23": {
+                "id": 23,
+                "section": "24",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "24": {
+                "id": 24,
+                "section": "25",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "25": {
+                "id": 25,
+                "section": "26",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "26": {
+                "id": 26,
+                "section": "27",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
             }
         }
     },
@@ -3395,7 +3610,7 @@
             "2": {
                 "id": 2,
                 "section": "03",
-                "lecturer": "Dr Johan bin Mohamad Sharif",
+                "lecturer": "Dr Bander Ali Saleh Al-Rimy",
                 "times": {
                     "0": {
                         "id": 0,
@@ -3989,7 +4204,14 @@
                 "id": 0,
                 "section": "",
                 "lecturer": "Mr Syed Othmawi bin Syed Othman",
-                "times": {}
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
             }
         }
     },
@@ -4000,19 +4222,6 @@
         "sections": {
             "0": {
                 "id": 0,
-                "section": "01",
-                "lecturer": "Assoc Prof Dr Fauzi bin Aby @ Hussin",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 0,
-                        "beginTime": 8,
-                        "endTime": 10
-                    }
-                }
-            },
-            "1": {
-                "id": 1,
                 "section": "02",
                 "lecturer": "Dr Sarah Athirah binti Saruchi",
                 "times": {
@@ -4024,8 +4233,8 @@
                     }
                 }
             },
-            "2": {
-                "id": 2,
+            "1": {
+                "id": 1,
                 "section": "03",
                 "lecturer": "Assoc Prof Dr Fauzi bin Abu @ Hussin",
                 "times": {

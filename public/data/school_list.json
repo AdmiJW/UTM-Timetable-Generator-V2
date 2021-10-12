@@ -9,6 +9,6 @@
     },
     {
         "name": "Foreign Languages",
-        "url": "/data/serve/foreign-languages.json"
+        "url": "./data/serve/foreign-languages.json"
     }
 ]
