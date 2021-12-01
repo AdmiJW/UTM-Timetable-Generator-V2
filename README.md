@@ -4,7 +4,8 @@
 
 Timetable Generator specifically for UTM students. The sequel of the previous [Timetable Generator](https://github.com/AdmiJW/UTM_Timetable_Generator) but now back stronger. Students from other universities are able to use this timetable generator if they don't mind filling in their courses manually.
 
-![Screenshot of the application](/public/img/tutorial4_guide.png)
+![Screenshot of the application](/public/img/tutorial4_guide.jpg)
+![Screenshot of the application 2](/public/img/tutorial5_guide3.jpg)
 
 ## Features:
 
@@ -16,6 +17,7 @@ Timetable Generator specifically for UTM students. The sequel of the previous [T
 * Downloadable timetable in png format
 
 <br>
+
 ---
 <br>
 
@@ -29,6 +31,12 @@ Other dependencies:
 
 * [KonvaJS](https://konvajs.org/) - Main library used to draw the timetable. Great for drawing on HTML Canvas
 * [react-markdown](https://github.com/remarkjs/react-markdown) - React and markdown.
+
+
+<br>
+
+---
+<br>
 
 ## Project Structure
 
