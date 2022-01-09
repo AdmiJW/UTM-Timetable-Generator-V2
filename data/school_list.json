@@ -1,14 +1,10 @@
 [
     {
-        "name": "School of Computing",
+        "name": "School of Computing (Sem 2 2021/2022)",
         "url": "./data/serve/school-of-computing.json"
     },
     {
-        "name": "School of Chemical & Energy Engineering",
-        "url": "./data/serve/school-of-chemical-and-energy-engineering.json"
-    },
-    {
-        "name": "Foreign Languages",
+        "name": "Foreign Languages (Sem 2 2021/2022)",
         "url": "./data/serve/foreign-languages.json"
     }
 ]

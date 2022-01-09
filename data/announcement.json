@@ -1,8 +1,14 @@
 [
     {
+        "id": 1,
+        "title": "Update: 2021/2022 Semester 2 2️⃣",
+        "date": "9th January 2022",
+        "content": "The timetable has been updated to 2021/2022 Semester 2.\n\n<br>\n\n__Semester 2, 2021/2022__:\n\n<br>1. __School of Computing__\n\n2. __Foreign Languages__"
+    },
+    {
         "id": 0,
-        "title": "Welcome!",
-        "date": "10/7/2021",
-        "content": "\n## Thank you for using __UTM Timetable Generator V2__! 👋\n\n<br/>\n\nIf you are new here, you may view the tutorial/guide by clicking the '?' button on the top right corner.\n\n<br/>\n\nI personally don't know any way to obtain the timetable for every school in UTM from any online sources. If you do, please provide your suggestion to [Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfXOIkb-wu3sXxMd662vuNdGp-Gs4w08suZPKgw7BeIChrmUQ/viewform?usp=sf_link).\nYour help is greatly appreciated!\n\n<br/><br/>\n\n__Semester 1, 2021/2022__:\n\nCovered schools:\n\n1. __School of Chemical and Energy Engineering__\n2. __School of Computing__\n3. __Foreign Languages__"
+        "title": "Welcome! 👋",
+        "date": "10th July 2021",
+        "content": "\n## Thank you for using __UTM Timetable Generator V2__!\n\n<br/>\n\nIf you are new here, you may view the tutorial/guide by clicking the '?' button on the top right corner.\n\n<br/>\n\nI personally don't know any way to obtain the timetable for every school in UTM from any online sources. If you do, please provide your suggestion to [Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfXOIkb-wu3sXxMd662vuNdGp-Gs4w08suZPKgw7BeIChrmUQ/viewform?usp=sf_link).\nYour help is greatly appreciated!\n\n<br/><br/>\n\n__Semester 1, 2021/2022__:\n\nCovered schools:\n\n<br>1. __School of Chemical and Energy Engineering__\n\n2. __School of Computing__\n\n3. __Foreign Languages__"
     }
 ]
