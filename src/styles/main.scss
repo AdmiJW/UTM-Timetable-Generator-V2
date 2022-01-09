@@ -88,6 +88,7 @@ main {
     font-weight: 900;
     text-align: center;
     color: #d63031;
+    margin-bottom: 0.3em;
     @include utils.text_shadow(1px, 0);
 }
 

@@ -40,8 +40,8 @@ function CreationState() {
 
     return (
     <section className='generate__section creation'>
-        <h4 className='generate__title'>Step 3: Creation 🎇</h4>
-        <p className='generate__desc'>Minor lag spike incoming (Don't worry it's normal)</p>
+        <h4 className='generate__title'>Step 3: Rendering 🎇</h4>
+        <p className='generate__desc'>You will experience a minor lag (It's normal)</p>
 
         <div className='creation__btngrp'>
             <button className='creation__btn creation__create' type='button' aria-label='Create timetable' title='Create timetable' 
