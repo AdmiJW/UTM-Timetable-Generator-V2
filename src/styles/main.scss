@@ -17,6 +17,9 @@
 @use './partials/generateRoute/generateRoute';
 
 
+// To watch for scss, run 
+//          sass --watch src/styles:src/styles
+// (src/styles is the input as well as output directory)
 
 // ! If you added a new font, make sure to include as available choice in custom configuration in `configurationSlice.js`
 // Fonts - Used by both the application and rendering of timetable

@@ -15,7 +15,7 @@ function ClassRoute() {
     return (
     <main>
     <div className='main--scrollable-wrapper'>
-        <h2 className='main__title'>Classes 🧾</h2>
+        <h2 className='main__title'>Classes 📖</h2>
         <p className='main__desc'>
             Add classes here from <Link to='/sections'>Sections 2️⃣</Link> page, or <strong>manually add classes yourself using ➕ button.</strong><br />
             These classes will appear in your timetable. Go to <strong><Link to='/generate'>Generate 4️⃣</Link></strong> page to generate your timetable

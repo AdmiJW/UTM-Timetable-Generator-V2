@@ -17,6 +17,11 @@ Timetable Generator specifically for UTM students. The sequel of the previous [T
 * Downloadable timetable in png format
 
 <br>
+<br>
+
+![Themes available](/public/img/themes.jpg)
+
+<br>
 
 ---
 <br>

@@ -14,8 +14,8 @@ $-min-container-margin: 10px;
 }
 
 .container {
-    margin-left: max( var(--min-container-margin), calc( (100vw - var(--container-size) ) / 2 ) ) !important;
-    margin-right: max( var(--min-container-margin), calc( (100vw - var(--container-size) ) / 2 ) ) !important;
+    margin-left: max( var(--min-container-margin), unquote("calc( (100vw - var(--container-size) ) / 2 )") ) !important;
+    margin-right: max( var(--min-container-margin), unquote("calc( (100vw - var(--container-size) ) / 2 )") ) !important;
 }
 
 

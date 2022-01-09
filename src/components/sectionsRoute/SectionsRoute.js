@@ -26,7 +26,7 @@ function SectionsRoute() {
     return (
     <main>
     <div className='main--scrollable-wrapper'>
-        <h4 className='main__title'>Sections 🗄️</h4>
+        <h4 className='main__title'>Sections 📮</h4>
         <p className='main__desc'>
             From the courses you've added from <Link to='/courses'>Courses 1️⃣</Link>, select your section.<br/>
             The section will be added to <Link to='/classes'>Classes 3️⃣</Link> page.

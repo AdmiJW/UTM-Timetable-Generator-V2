@@ -17,7 +17,12 @@ function GeneralConfiguration() {
         <h4 className='configure__grptitle'>General Configurations</h4>
         <ul className='configure__grp'>
             <li className='configure__item'>
-                <span className='configure__itemtitle'>Theme 🎨</span> 
+                <span className='configure__itemtitle'>
+                    Theme 🎨
+                    <br/><br/>
+                    <a href='/public/img/themes.jpg' target='_blank' style={{ fontSize: "0.75em", color: "#fff" }}>View Differences</a>
+                
+                </span>
                 <select className='configure__iteminput' aria-label='Select the theme for the timetable generated'
                     value={theme} onChange={(e)=> dispatch(configurationActions.setTheme(e.target.value)) }>
                         <option value='default'>Default</option>

@@ -48,8 +48,14 @@ function CourseRoute() {
     <main>
     <div className='main--scrollable-wrapper courses'>
         <h2 className='main__title'>UTM Courses 📚</h2>
-        <p className='main__desc'>Select from readily available UTM courses, which you can choose your section later in <strong><Link to='/sections'>Sections 2️⃣</Link></strong> page</p>
-    
+        <p className='main__desc'>
+            Select from readily available UTM courses, which you can choose your section later in <strong><Link to='/sections'>Sections 2️⃣</Link></strong> page
+            <br/><br/>
+            <span style={{color: "Red"}}>You are advised to check with the actual timetable, in case of any mistakes in the course information.</span>
+            <br/>
+            <small style={{color: "#ccc", fontSize: "0.75em"}}>Please don't sue me if you missed your class due to this</small>
+        </p>
+
         {/* Step 1 - Select school */}
         <h4 className='courses--title'>
             Step 1: Select School/Faculty
@@ -61,7 +67,7 @@ function CourseRoute() {
 
         <select aria-label='Select school/faculty' value={selectedSchool} className='courses--select'
             onChange={(e)=> setSelectedSchool(e.target.value)} >
-                <option disabled={true} value=''> -- select an option -- </option>
+                <option disabled={true} value=''> -- Select an option -- </option>
                 { schools.map((e)=> <option value={e.url} key={e.name}>{e.name}</option> ) }
         </select>
 
