@@ -20,8 +20,7 @@ function GeneralConfiguration() {
                 <span className='configure__itemtitle'>
                     Theme 🎨
                     <br/><br/>
-                    <a href='/public/img/themes.jpg' target='_blank' style={{ fontSize: "0.75em", color: "#fff" }}>View Differences</a>
-                
+                    <a href='https://raw.githubusercontent.com/AdmiJW/UTM-Timetable-Generator-V2/master/public/img/themes.jpg' target='_blank' style={{ fontSize: "0.75em", color: "#fff" }}>View Differences</a>
                 </span>
                 <select className='configure__iteminput' aria-label='Select the theme for the timetable generated'
                     value={theme} onChange={(e)=> dispatch(configurationActions.setTheme(e.target.value)) }>
