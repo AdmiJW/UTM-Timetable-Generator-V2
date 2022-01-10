@@ -51,3 +51,7 @@ Other dependencies:
 * `styles` - SASS stylesheets. The `main.css` generated is used in the application.
 
 <br>
+
+The courses still has to be added manually, but I've created a tool to make the process faster: [__Course JSON Generator__](https://github.com/AdmiJW/Course-JSON-Generator)
+
+<br>

@@ -1,0 +1,793 @@
+addcourse_n;1000;
+
+Academic Communication Skills;UHLB122;7;
+    S;38;;1;
+        T;MON;05;06;
+    S;39;;1;
+        T;MON;05;06;
+    S;40;;1;
+        T;MON;05;06;
+    S;41;;1;
+        T;MON;05;06;
+    S;42;;1;
+        T;MON;05;06;
+    S;43;;1;
+        T;MON;05;06;
+    S;44;;1;
+        T;MON;05;06;
+
+
+
+Advanced Analytics for Data Science;SCSP5013;1;
+    S;01;;0;
+
+
+Advanced Artificial Intelligence;SCSJ5043;1;
+    S;01;;0;
+
+Advanced Computer Graphics;SCSV4543;2;
+    S;01;Dr Norhaida binti Mohd Suaib;1;
+        T;THU;04;07;
+    S;02;Dr Norhaida binti Mohd Suaib;1;
+        T;TUE;04;07;
+
+Advanced Data Structure and Algorithms;SCSJ5033;1;
+    S;01;;0;
+
+Advanced Theory of Computer Science;SCSJ5023;1;
+    S;01;Dr Yusliza binti Yusoff;0;
+
+Application Development (WBL);SECP3106;1;
+    S;01;Dr Haza Nuzly bin Abdull Hamed;1;
+        T;WED;03;07;
+
+Application Development;SECJ3104;1;
+    S;01;Assoc Prof Dr Hishamuddin bin;2;
+        T;SUN;02;04;
+        T;TUE;05;07;
+
+Application Development;SECV3104;1;
+    S;01;Assoc Prof Dr Hishamuddin bin;2;
+        T;SUN;04;06;
+        T;TUE;02;04;
+
+Big Data Management;SCSP5023;1;
+    S;01;;0;
+
+Bioinformatics 1;SECB2103;1;
+    S;01;Dr Haslina binti Hashim;1;
+        T;SUN;08;011;
+    
+Bioinformatics Database;SECB3213;1;
+    S;01;Dr Noor Hidayah binti Zakaria;1;
+        T;MON;04;07;
+
+Bioinformatics Modelling & Simulation;SCSB4313;1;
+    S;01;Dr Azurah binti Abu Samah;1;
+        T;WED;04;07;
+
+Bioinformatics Project I (PSM1);SECB3032;1;
+    S;01;;1;
+        T;THU;08;010;
+
+Bioinformatics Project II;SCSB4134;1;
+    S;01;;0;
+
+Business Intelligence and Analytics;SCSP5033;1;
+    S;01;;0;
+
+Cellular and Molecular Biology for Bioinformatics;SEBB4173;1;
+    S;01;Dr Noor Hidayah binti Zakaria;1;
+        T;WED;08;011;
+
+Cloud Computing Security;SCSR5043;1;
+    S;01;Assoc Prof Dr Shukor bin Abd Razak;0;
+
+Comp Network & Security Project II;SCSR4134;1;
+    S;01;;0;
+
+Computational Intelligence;SECJ3563;4;
+    S;01;Dr Haza Nuzly bin Abdull Hamed;1;
+        T;WED;08;011;
+    S;02;Dr Ruhaidah binti Samsudin;1;
+        T;WED;08;011;
+    S;03;Dr Ruhaidah binti Samsudin;1;
+        T;WED;02;05;
+    S;04;Dr Sim Hiew Moi;1;
+        T;WED;02;05;
+
+Computational Mathematics;SECI1113;13;
+    S;02;Dr Muhammad Aliif bin Ahmad;2;
+        T;SUN;05;07;
+        T;THU;04;05;
+    S;03;Assoc Prof Dr Roselina binti Salehudin;2;
+        T;SUN;05;07;
+        T;THU;04;05;
+    S;04;Dr Razana binti Alwee;2;
+        T;WED;02;04;
+        T;THU;08;09;
+    S;05;Assoc Prof Dr Roselina binti Salehudin;2;
+        T;WED;02;04;
+        T;THU;08;09;
+    S;06;Dr Muhammad Aliif bin Ahmad;2;
+        T;WED;02;04;
+        T;THU;08;09;
+    S;07;Dr Nies Hui Wen;2;
+        T;WED;02;04;
+        T;THU;08;09;
+    S;01;Dr Razana binti Alwee;2;
+        T;SUN;08;010;
+        T;TUE;04;05;
+    S;02;Dr Muhammad Aliif bin Ahmad;2;
+        T;SUN;05;07;
+        T;THU;04;05;
+    S;03;Assoc Prof Dr Roselina binti Salehudin;2;
+        T;SUN;05;07;
+        T;THU;04;05;
+    S;04;Dr Razana binti Alwee;2;
+        T;WED;02;04;
+        T;THU;08;09;
+    S;05;Assoc Prof Dr Roselina binti Salehudin;2;
+        T;WED;02;04;
+        T;THU;08;09;
+    S;06;Dr Muhammad Aliif bin Ahmad;2;
+        T;WED;02;04;
+        T;THU;08;09;
+    S;07;Dr Nies Hui Wen;2;
+        T;WED;02;04;
+        T;THU;08;09;
+
+
+
+Computer Games Development;SCSV4213;1;
+    S;01;Prof Dr Mohd Shahrizal bin Sunar;1;
+        T;SUN;04;07;
+
+Computer Networks;SECR2242;5;
+    S;01;Ms Hazinah Kutty Mammi;1;
+        T;TUE;05;07;
+    S;02;Ms Hazinah Kutty Mammi;1;
+        T;WED;05;07;
+    S;03;Mr Firoz bin Yusuf Patel Dawoodi;1;
+        T;TUE;05;07;
+    S;04;Mr Firoz bin Yusuf Patel Dawoodi;1;
+        T;WED;05;07;
+    S;05;Mr Firoz bin Yusuf Patel Dawoodi;1;
+        T;SUN;05;07;
+
+Computer Networks and Security Project I (PSM1);SECR3032;1;
+    S;01;;1;
+        T;THU;08;010;
+
+Computer Networks Lab;SECR2941;5;
+    S;01;Ms Hazinah Kutty Mammi;1;
+        T;THU;02;04;
+    S;02;Ms Hazinah Kutty Mammi;1;
+        T;THU;08;010;
+    S;03;Mr Firoz bin Yusuf Patel Dawoodi;1;
+        T;THU;02;04;
+    S;04;Mr Firoz bin Yusuf Patel Dawoodi;1;
+        T;THU;08;010;
+    S;05;Mr Firoz bin Yusuf Patel Dawoodi;1;
+        T;WED;08;010;
+
+Computer Organisation and Architecture;SECR2033;9;
+    S;01;Dr Nur Haliza binti Abdul Wahab;2;
+        T;WED;05;07;
+        T;THU;02;04;
+    S;02;Mr Ahmad Fariz bin Ali;2;
+        T;WED;05;07;
+        T;THU;02;04;
+    S;03;Dr Muhalimbin Mohamad Amin;2;
+        T;WED;02;04;
+        T;THU;05;07;
+    S;04;Mr Ahmad Fariz bin Ali;2;
+        T;WED;02;04;
+        T;THU;05;07;
+    S;05;Dr Aida binti Ali;2;
+        T;SUN;02;04;
+        T;THU;05;07;
+    S;06;Dr Aida binti Ali;2;
+        T;THU;09;011;
+        T;TUE;05;07;
+    S;07;Dr Aida binti Ali;2;
+        T;WED;05;07;
+        T;THU;02;04;
+    S;08;Mr Ahmad Fariz bin Ali;2;
+        T;TUE;02;04;
+        T;WED;08;010;
+    S;09;Dr Nur Haliza binti Abdul Wahab;2;
+        T;TUE;02;04;
+        T;WED;08;010;
+
+Computer Security;SECR3413;2;
+    S;01;Assoc Prof Dr Anazida binti Zainal;1;
+        T;THU;08;011;
+    S;02;Dr Syed Hamid Hussain Madni;1;
+        T;THU;08;011;
+
+Cryptographic Engineering;SCSR5013;1;
+    S;01;Dr Fuad Abdulgaleel Abdoh Galeb;0;
+
+Data Mining;SECP2753;1;
+    S;01;Ms Rozilawati binti Dollah @ Md Zain;1;
+        T;TUE;04;07;
+
+Data Science Governance;SCSP5043;1;
+    S;01;;0;
+
+Data Visualization;SECV4233;2;
+    S;01;Dr Farhan bin Mohamed;1;
+        T;THU;02;05;
+    S;02;Prof Dr Mohd Shafry bin Mohd Rahim;1;
+        T;THU;02;05;
+
+Digital Forensics;SCSR5023;1;
+    S;01;Dr Syed Hamid Hussain Madni;0;
+
+Digital Logic;SECR1013;3;
+    S;01;Dr Mohd Fo'ad bin Rohani;2;
+        T;TUE;02;04;
+        T;THU;05;07;
+    S;02;Dr Haswadi bin Hasan;2;
+        T;TUE;02;04;
+        T;THU;05;07;
+    S;03;Dr Haswadi bin Hasan;2;
+        T;MON;05;07;
+        T;THU;02;04;
+
+Discrete Structure;SECI1013;3;
+    S;01;Dr Muhammad Aliif bin Ahmad;2; 
+        T;WED;08;010;
+        T;TUE;04;05;
+    S;02;Dr Izyan Izzati binti Kamsani;2;
+        T;WED;08;010;
+        T;TUE;04;05;
+    S;03;Dr Naghmeh Niknejad;2;
+        T;WED;08;010;
+        T;THU;06;07;
+
+English Communication Skills;UHLB1112;5;
+    S;16;;1;
+        T;MON;02;04;
+    S;17;;1;
+        T;MON;02;04;
+    S;18;;1;
+        T;MON;02;04;
+    S;19;;1;
+        T;MON;02;04;
+    S;20;;1;
+        T;MON;02;04;
+
+Enterprise System Design and Modelling;SECP3744;1;
+    S;01;Pn Nor Hawaniah Zakaria;1;
+        T;TUE;04;07;
+
+Extra-Curricular Experiential Learning (ExCel);UKQT3001;3;
+    S;28;;1;
+        T;TUE;08;09;
+    S;29;;1;
+        T;TUE;08;09;
+    S;08;;1;
+        T;TUE;08;09;
+
+Falsafah dan Isu Semasa;UHIS1022;1;
+    S;25;Dr Abdul Basit Derawi;1;
+        T;SUN;08;010;
+
+Fundamental of Computer Graphics;SECV2213;2;
+    S;01;Dr Goh Eng Su;1;
+        T;MON;08;011;
+    S;02;Dr Goh Eng Su;1;
+        T;WED;08;011;
+    
+Gene and Protein Technology;SMBE4193;1;
+    S;01;Dr Nies Hui Wen;1;
+        T;WED;08;011;
+
+Graduate Success Attributes;UHMT1012;2;
+    S;29;Dr Siti Salwa binti Alias;1;
+        T;TUE;05;07;
+    S;30;Dr Foo Jin Hoe;1;
+        T;TUE;05;07;
+
+Graphic and Multimedia Software Project I (PSM1);SECV3032;1;
+    S;01;;1;
+        T;THU;08;010;
+
+Graphics & Multimedia Software Project II;SCSV4134;1;
+    S;01;;0;
+
+High Performance and Parallel Computing;SECR3223;1;
+    S;01;Dr Ismail Fauzi bin Isnin;1;
+        T;WED;04;07;
+
+Human Computer Interaction;SECV2113;3;
+    S;01;Dr Layla Rasheed Abdallah Hasan;1;
+        T;WED;08;011;
+    S;02;Assoc Prof Dr Shahida binti Sulaiman;1;
+        T;MON;08;011;
+    S;03;Assoc Prof Dr Shahida binti Sulaiman;1;
+        T;WED;08;011;
+
+Industrial Integrated Project Development;SECP4235;1;
+    S;01;;0;
+
+Industrial Integrated Project Proposal;SECP4223;1;
+    S;01;;0;
+
+Industrial Integrated Project Report;SECP4234;1;
+    S;01;;0;
+
+Information Security Governance and Risk;SCSR5033;1;
+    S;01;Dr Arafat Mohammed Rashad;0;
+
+Malaysian Language for Communication 2;UHLM1012;1;
+    S;10;Dr Zaliza;1;
+        T;THU;010;012;
+    
+Introduction to Entrepreneurship;UBSS1032;9;
+    S;40;Assoc Prof Dr Zaidi Rozan;1;
+        T;MON;08;010;
+    S;41;Assoc Prof Dr Zaidi Rozan;1;
+        T;MON;08;010;
+    S;42;Hj Ahamad Zaidi;1;
+        T;MON;08;010;
+    S;43;Hj Ahamad Zaidi;1;
+        T;MON;08;010;
+    S;05;Mr Hairudin bin Abdul Majid;1;
+        T;THU;08;010;
+    S;06;Mr Hairudin bin Abdul Majid;1;
+        T;THU;08;010;
+    S;07;Dr Farrah Merlinda;1;
+        T;THU;08;010;
+    S;08;Dr Umar Haiyat;1;
+        T;THU;08;010;
+    S;09;Dr Umar Haiyat;1;
+        T;THU;08;010;
+
+Massive Data Mining and Streaming;SCSP5053;1;
+    S;01;;0;
+
+Mathematics for Computer Graphics;SECV1113;2;
+    S;01;Dr Suriati binti Sadimon;2;
+        T;WED;02;04;
+        T;THU;08;09;
+    S;02;Dr Tarmizi Adam;2;
+        T;WED;02;04;
+        T;THU;08;09;
+
+Mobile Application Programming;SECJ3623;4;
+    S;01;Dr Jumail bin Taliba;1;
+        T;THU;04;07;
+    S;02;Dr Mohamad Razib bin Othman;1;
+        T;THU;04;07;
+    S;03;Dr Jumail bin Taliba;1;
+        T;MON;04;07;
+    S;04;Dr Mohamad Razib bin Othman;1;
+        T;MON;04;07;
+
+Multimedia Data Processing;SECV3223;2;
+    S;01;Dr Md Sah bin Hj Salam;1;
+        T;WED;04;07;
+    S;02;Dr Md Sah bin Hj Salam;1;
+        T;SUN;08;011;
+
+Multimedia Web Programming;SECV3263;2;
+    S;01;Dr Mohd Razak bin Samingan;1;
+        T;MON;04;07;
+    S;02;Dr Pang Yee Yong;1;
+        T;MON;04;07;
+
+Network Programming;SECR3253;2;
+    S;01;Dr Johan bin Mohamad Sharif;1;
+        T;MON;04;07;
+    S;02;Prof Ts Dr Kamalrulnizam bin Abu Bakar;1;
+        T;MON;04;07;
+
+Network Security (Cisco Netacad CyberOps Associate Certification);SECR4453;4;
+    S;01;Ts Marina binti Md Arshad;1;
+        T;MON;04;07;
+    S;02;Ts Marina binti Md Arshad;1;
+        T;MON;08;011;
+    S;03;Dr Siti Hajar binti Othman;1;
+        T;TUE;02;05;
+    S;04;Dr Siti Hajar binti Othman;1;
+        T;WED;08;011;
+
+Object-Oriented Programming;SECJ2154;11;
+    S;03;Ms Lizawati binti Mi Yusuf;2;
+        T;SUN;04;06;
+        T;WED;08;010;
+    S;04;;2;
+        T;SUN;04;06;
+        T;WED;08;010;
+    S;05;;2;
+        T;SUN;04;06;
+        T;TUE;02;04;
+    S;06;Dr Ruhaidah binti Samsudin;2;
+        T;SUN;04;06;
+        T;TUE;02;04;
+    S;07;Dr Norsham binti Idris;2;
+        T;SUN;04;06;
+        T;TUE;02;04;
+    S;08;Dr Nur Eiliyah @ Wong Yee Leng;2;
+        T;SUN;04;06;
+        T;TUE;02;04;
+    S;09;Dr Goh Eng Su;2;
+        T;SUN;04;06;
+        T;TUE;02;04;
+    S;10;;2;
+        T;SUN;04;06;
+        T;THU;08;010;
+    S;11;;2;
+        T;SUN;04;06;
+        T;THU;08;010;
+    S;01;Dr Adila Firdaus binti Arbain;2;
+        T;TUE;04;06;
+        T;THU;08;010;
+    S;02;Dr Nur Eiliyah @ Wong Yee Leng;2;
+        T;MON;08;010;
+        T;WED;08;010;
+
+Operating Systems;SECR2043;7;
+    S;01;Dr Zuriahati binti Mohd Yunos;2;
+        T;WED;02;04;
+        T;THU;05;07;
+    S;02;Dr Zuriahati binti Mohd Yunos;2;
+        T;WED;05;07;
+        T;THU;02;04;
+    S;03;Dr Nur Haliza binti Abdul Wahab;2;
+        T;MON;08;010;
+        T;WED;02;04;
+    S;04;Dr Nur Haliza binti Abdul Wahab;2;
+        T;SUN;02;04;
+        T;TUE;05;07;
+    S;05;Ms Rashidah binti Kadir;2;
+        T;SUN;02;04;
+        T;TUE;05;07;
+    S;06;Ms Rashidah binti Kadir;2;
+        T;TUE;02;04;
+        T;THU;05;07;
+    S;07;Ms Rashidah binti Kadir;2;
+        T;SUN;08;010;
+        T;WED;02;04;
+
+Penetration Testing;SCSR5053;1;
+    S;01;Dr Bander Ali Saleh Al-Rimy;0;
+
+Penghayatan Etika dan Peradaban;UHMS1182;2;
+    S;31;Dr Fadilah;1;
+        T;TUE;05;07;
+    S;32;Dr Shahrollah;1;
+        T;TUE;05;07;
+
+Philosophy and General Issues;UHIS1022;1;
+    S;26;Dr Norizzati Norzilan;1;
+        T;SUN;08;010;
+
+Probability & Statistical Data Analysis;SECI2143;9;
+    S;01;Dr Sharin Hazlin binti Huspi;2;
+        T;SUN;05;07;
+        T;THU;08;09;
+    S;02;Dr Nor Azizah binti Ali;2;
+        T;SUN;05;07;
+        T;THU;08;09;
+    S;03;Dr Izyan Izzati binti Kamsani;2;
+        T;SUN;02;04;
+        T;TUE;04;05;
+    S;04;Dr Nies Hui Wen;2;
+        T;SUN;02;04;
+        T;TUE;04;05;
+    S;05;Dr Sharin Hazlin binti Huspi;2;
+        T;SUN;08;010;
+        T;TUE;04;05;
+    S;06;Dr Izyan Izzati binti Kamsani;2;
+        T;SUN;08;010;
+        T;MON;08;09;
+    S;07;Dr Nor Azizah binti Ali;2;
+        T;SUN;08;010;
+        T;TUE;04;05;
+    S;08;Dr Nies Hui Wen;2;
+        T;SUN;05;07;
+        T;MON;08;09;
+    S;09;Dr Naghmeh Niknejad;2;
+        T;SUN;05;07;
+        T;MON;08;09;
+
+Professional Communication SKills;UHLB3132;2;
+    S;51;;1;
+        T;SUN;05;07;
+    S;52;;1;
+        T;SUN;05;07;
+    
+Programming for Engineers;SECP2273;1;
+    S;01;;0;
+
+Programming Technique C;SECP1103;2;
+    S;01;Dr Jamilah binti Mahmood;2;
+        T;SUN;02;04;
+        T;WED;05;07;
+    S;02;;2;
+        T;SUN;02;04;
+        T;WED;05;07;
+
+Programming Technique C;SECP1103;4;
+    S;01;Cik Suhaimi;0;
+    S;02;Cik Suhaimi;0;
+    S;03;Cik Suhaimi;0;
+    S;04;;0;
+
+Programming Technique II;SECJ1023;9;
+    S;01;Dr Jumail bin Taliba;2;
+        T;TUE;05;07;
+        T;WED;02;04;
+    S;02;Dr Nur Eiliyah @ Wong Yee Leng;2;
+        T;TUE;05;07;
+        T;WED;02;04;
+    S;03;Ms Lizawati binti Mi Yusuf;2;
+        T;TUE;02;04;
+        T;WED;05;07;
+    S;04;Ms Lizawati binti Mi Yusuf;2;
+        T;TUE;05;07;
+        T;THU;08;010;
+    S;05;Dr Sim Hiew Moi;2;
+        T;TUE;02;04;
+        T;WED;08;010;
+    S;06;Dr Jamilah binti Mahmood;2;
+        T;TUE;02;04;
+        T;WED;08;010;
+    S;07;Dr Jamilah binti Mahmood;2;
+        T;SUN;05;07;
+        T;THU;02;04;
+    S;08;Dr Sim Hiew Moi;2;
+        T;TUE;05;07;
+        T;THU;02;04;
+    S;09;Dr Hussein Salem Ali Samma;2;
+        T;TUE;05;07;
+        T;THU;02;04;
+    
+Protein Biomolecules;SEBB4203;1;
+    S;01;Dr Haslina binti Hashim;1;
+        T;SUN;04;07;
+    
+Psychology of Adjustment;UHMT2062;1;
+    S;01;Dr Nasir Masroom;1;
+        T;TUE;02;04;
+
+Psychology of Adjustment;UHAK2062;4;
+    S;01;Dr Junaidah Yusof;1;
+        T;WED;010;012;
+    S;02;Dr Ferdaus;1;
+        T;WED;02;04;
+    S;03;Dr Farah Adibah;1;
+        T;WED;02;04;
+    S;04;Dr Junaidah Yusof;1;
+        T;WED;010;012;
+
+Real-Time Computer Graphics;SECV3123;2;
+    S;01;Dr Ajune Wanis binti Ismail;1;
+        T;MON;08;011;
+    S;02;Dr Ajune Wanis binti Ismail;1;
+        T;MON;04;07;
+
+Real-Time Software Engineering;SCSJ4423;4;
+    S;01;Prof Ts Dr Dayang Norhayati binti Abang Jawawi;1;
+        T;THU;04;07;
+    S;02;Dr Nor Azizah binti Sa'adon;1;
+        T;THU;04;07;
+    S;03;Dr Nor Azizah binti Sa'adon;1;
+        T;SUN;08;011;
+    S;04;Dr Nor Azizah binti Sa'adon;1;
+        T;WED;04;07;
+    
+Requirements Engineering & Software Modelling;SECJ2253;4;
+    S;01;Dr Noraini binti Ibrahim;1;
+        T;WED;08;011;
+    S;02;Dr Noraini binti Ibrahim;1;
+        T;SUN;08;011;
+    S;03;Dr Shahliza binti Abd Halim;1;
+        T;WED;08;011;
+    S;04;Dr Johanna binti Ahmad;1;
+        T;WED;08;011;
+
+Secure Programming;SECR4483;2;
+    S;01;Dr Arafat Mohammed Rashad;1;
+        T;SUN;04;07;
+    S;02;Dr Fuad Abdulgaleel Abdoh Ghaleb;1;
+        T;SUN;04;07;
+    
+Secure Software Engineering;SCSJ5013;1;
+    S;01;Dr Bander Ali Saleh Al-Rimy;0;
+
+Software Construction;SCSJ4383;4;
+    S;01;Dr Adila Firdaus binti Arbain;1;
+        T;WED;04;07;
+    S;02;Dr Adila Firdaus binti Arbain;1;
+        T;SUN;04;07;
+    S;03;Assoc Prof Dr Hishamuddin bin Asmuni @ Hasmuni;1;
+        T;MON;08;011;
+    S;04;Dr Mohd Adham bin Isa;1;
+        T;MON;08;011;
+
+Software Engineering;SECJ2203;10;
+    S;02;Dr Layla Rasheed Abdallah Hasan;1;
+        T;MON;02;05;
+    S;03;;1;
+        T;MON;02;05;
+    S;04;Dr Layla Rasheed Abdallah Hasan;1;
+        T;MON;08;011;
+    S;05;Dr Noraini binti Ibrahim;1;
+        T;MON;08;011;
+    S;06;Dr Johanna binti Ahmad;1;
+        T;MON;08;011;
+    S;07;Dr Norsham binti Idris;1;
+        T;MON;08;011;
+    S;08;Dr Norsham binti Idris;1;
+        T;THU;02;05;
+    S;09;Dr Johanna binti Ahmad;1;
+        T;THU;02;05;
+    S;10;Dr Rohayanti binti Hassan;1;
+        T;THU;02;05;
+    S;01;Ms Nor Hawaniah Zakaria;1;
+        T;SUN;04;07;
+    
+Software Enginnering (WBL);SECP3204;1;
+    S;01;Dr Muhammad Iqbal Tariq bin Idris;2;
+        T;MON;08;010;
+        T;THU;05;07;
+
+Software Engineering Project I (PSM1);SECJ3032;1;
+    S;01;;1;
+        T;THU;08;010;
+
+Software Engineering Project II;SCSJ4134;1;
+    S;01;;0;
+
+Software Quality Assurance;SECJ3343;4;
+    S;01;Assoc Prof Dr Masitah binti Ghazali;1;
+        T;MON;02;05;
+    S;02;Assoc Prof Dr Radziah binti Mohamad;1;
+        T;MON;02;05;
+    S;03;Assoc Prof Dr Masitah binti Ghazali;1;
+        T;THU;02;05;
+    S;04;Prof Ts Dr Wan Mohd Nasir bin Wan Kadir;1;
+        T;THU;02;05;
+    
+Special Topic in Data Engineering;SECP3843;1;
+    S;01;Dr. Muhammad Iqbal Tariq bin Idris/Ms. Nor Hawaniah Zakaria;1;
+        T;MON;04;07;
+
+Special Topics in Bioinformatics;SCSB4243;1;
+    S;01;Dr Noor Hidayah binti Zakaria;1;
+        T;TUE;04;07;
+
+Special Topic in Computer Networks & Security (Cisco Netacad IoT Certification);SECR4973;2;
+    S;01;Prof Dr Md Asri bin Nqadi;1;
+        T;THU;04;07;
+    S;02;Dr Johan bin Mohamad Sharif;1;
+        T;THU;04;07;
+
+Statistics for Data Science;SCSP5063;1;
+    S;01;;0;
+
+Technopreneurship Seminar;SECD3761;8;
+    S;01;;0;
+    S;05;;1;
+        T;THU;010;011;
+    S;06;;1;
+        T;THU;010;011;
+    S;07;;1;
+        T;THU;010;011;
+    S;01;Mr Hairudin bin Abdul Majid;1;
+        T;THU;010;011;
+    S;02;Mr Hairudin bin Abdul Majid;1;
+        T;THU;010;011;
+    S;03;Mr Hairudin bin Abdul Majid;1;
+        T;THU;010;011;
+    S;04;Mr Hairudin bin Abdul Majid;1;
+        T;THU;010;011;
+
+The Thought of Sciences and Technology;UHIT2302;7;
+    S;26;Dr Idris Ismail;1;
+        T;MON;05;07;
+    S;27;Dr Norizzati Norzilan;1;
+        T;MON;05;07;
+    S;28;Dr Talhah Jimaain;1;
+        T;MON;05;07;
+    S;29;Dr Talhah Jimaain;1;
+        T;MON;05;07;
+    S;30;Prof Badlihisham bin Mohd Nasir;1;
+        T;MON;05;07;
+    S;31;Prof Badlihisham bin Mohd Nasir;1;
+        T;MON;05;07;
+    S;32;Assoc Prof Ahmad bin Che Yaakob;1;
+        T;MON;05;07;
+
+The Thoughts of Science and Technology;UICL2302;9;
+    S;03;;1;
+        T;MON;05;07;
+    S;04;;1;
+        T;MON;05;07;
+    S;05;;1;
+        T;MON;05;07;
+    S;06;;1;
+        T;MON;05;07;
+    S;07;;1;
+        T;MON;05;07;
+    S;08;;1;
+        T;MON;05;07;
+    S;09;;1;
+        T;MON;05;07;
+    S;10;;1;
+        T;MON;05;07;
+    S;14;;1;
+        T;MON;05;07;
+
+Theory of Computer Science;SECJ3203;9;
+    S;01;Dr Sarina binti Sulaiman;1;
+        T;THU;02;05;
+    S;02;Dr Zalmiyah binti Zakaria;1;
+        T;SUN;04;07;
+    S;03;Dr Tarmizi bin Adam;1;
+        T;SUN;04;07;
+    S;04;Dr Shafaatunnur binti Hassan;1;
+        T;SUN;04;07;
+    S;05;Dr Tarmizi bin Adam;1;
+        T;TUE;04;07;
+    S;06;Dr Shafaatunnur binti Hassan;1;
+        T;TUE;04;07;
+    S;07;Dr Suriati binti Sadimon;1;
+        T;THU;02;05;
+    S;08;Dr Suriati binti Sadimon;1;
+        T;WED;08;011;
+    S;09;Dr Haswadi bin Hasan;1;
+        T;WED;08;011;
+
+Undang-undang Keluarga Malaysia;UICL2052;2;
+    S;01;Dr Abdul Halim bin Zulkifli;1;
+        T;SUN;02;04;
+    S;02;Dr Nasiibah Ramli;1;
+        T;MON;02;04;
+
+Web Programming;SECV2223;10;
+    S;02;Dr Muhammad Iqbal Tariq bin Idris;2;
+        T;SUN;08;010;
+        T;TUE;02;04;
+    S;03;;2;
+        T;SUN;08;010;
+        T;TUE;02;04;
+    S;04;Assoc Prof Dr Nor Azman bin Ismail;2;
+        T;SUN;08;010;
+        T;TUE;02;04;
+    S;05;Dr Hussein Salem Ali bin Samma;2;
+        T;SUN;08;010;
+        T;THU;05;07;
+    S;06;Dr Hussein Salem Ali bin Samma;2;
+        T;MON;02;04;
+        T;WED;05;07;
+    S;07;Dr Nur Zuraifah Syazrah binti Othman;2;
+        T;SUN;08;010;
+        T;THU;05;07;
+    S;08;Dr Pang Yee Yong;2;
+        T;SUN;08;010;
+        T;THU;05;07;
+    S;09;Dr Nur Zuraifah Syazrah binti Othman;2;
+        T;MON;02;04;
+        T;WED;05;07;
+    S;10;Dr Pang Yee Yong;2;
+        T;MON;02;04;
+        T;WED;05;07;
+    S;01;Assoc Prof Dr Mohd Shahizan bin Othman;2;
+        T;MON;02;04;
+        T;WED;05;07;
+    
+Web Technology;SECJ3483;4;
+    S;01;Assoc Prof Dr Mohd Yazid bin Idris;1;
+        T;TUE;04;07;
+    S;02;Mr Norizam bin Katmon;1;
+        T;TUE;04;07;
+    S;03;Mr Morizm bin Katmon;1;
+        T;WED;04;07;
+    S;04;Mr Norizam bin Katmon;1;
+        T;MON;08;011;
