@@ -2175,13 +2175,13 @@
                         "id": 0,
                         "dayOfWeek": 0,
                         "beginTime": 10,
-                        "endTime": 12
+                        "endTime": 13
                     },
                     "1": {
                         "id": 1,
                         "dayOfWeek": 3,
                         "beginTime": 14,
-                        "endTime": 16
+                        "endTime": 17
                     }
                 }
             },
@@ -2194,13 +2194,13 @@
                         "id": 0,
                         "dayOfWeek": 0,
                         "beginTime": 10,
-                        "endTime": 12
+                        "endTime": 13
                     },
                     "1": {
                         "id": 1,
                         "dayOfWeek": 3,
                         "beginTime": 14,
-                        "endTime": 16
+                        "endTime": 17
                     }
                 }
             },
@@ -2213,13 +2213,13 @@
                         "id": 0,
                         "dayOfWeek": 0,
                         "beginTime": 10,
-                        "endTime": 12
+                        "endTime": 13
                     },
                     "1": {
                         "id": 1,
                         "dayOfWeek": 2,
-                        "beginTime": 8,
-                        "endTime": 10
+                        "beginTime": 14,
+                        "endTime": 17
                     }
                 }
             },
@@ -2232,13 +2232,13 @@
                         "id": 0,
                         "dayOfWeek": 0,
                         "beginTime": 10,
-                        "endTime": 12
+                        "endTime": 13
                     },
                     "1": {
                         "id": 1,
                         "dayOfWeek": 2,
                         "beginTime": 8,
-                        "endTime": 10
+                        "endTime": 11
                     }
                 }
             },
@@ -2251,13 +2251,13 @@
                         "id": 0,
                         "dayOfWeek": 0,
                         "beginTime": 10,
-                        "endTime": 12
+                        "endTime": 13
                     },
                     "1": {
                         "id": 1,
                         "dayOfWeek": 2,
                         "beginTime": 8,
-                        "endTime": 10
+                        "endTime": 11
                     }
                 }
             },
@@ -2270,13 +2270,13 @@
                         "id": 0,
                         "dayOfWeek": 0,
                         "beginTime": 10,
-                        "endTime": 12
+                        "endTime": 13
                     },
                     "1": {
                         "id": 1,
                         "dayOfWeek": 2,
                         "beginTime": 8,
-                        "endTime": 10
+                        "endTime": 11
                     }
                 }
             },
@@ -2308,13 +2308,13 @@
                         "id": 0,
                         "dayOfWeek": 0,
                         "beginTime": 10,
-                        "endTime": 12
+                        "endTime": 13
                     },
                     "1": {
                         "id": 1,
                         "dayOfWeek": 4,
                         "beginTime": 14,
-                        "endTime": 16
+                        "endTime": 17
                     }
                 }
             },
@@ -2327,13 +2327,13 @@
                         "id": 0,
                         "dayOfWeek": 0,
                         "beginTime": 10,
-                        "endTime": 12
+                        "endTime": 13
                     },
                     "1": {
                         "id": 1,
                         "dayOfWeek": 4,
                         "beginTime": 14,
-                        "endTime": 16
+                        "endTime": 17
                     }
                 }
             },
@@ -2346,13 +2346,13 @@
                         "id": 0,
                         "dayOfWeek": 2,
                         "beginTime": 10,
-                        "endTime": 12
+                        "endTime": 13
                     },
                     "1": {
                         "id": 1,
                         "dayOfWeek": 4,
                         "beginTime": 14,
-                        "endTime": 16
+                        "endTime": 17
                     }
                 }
             },
@@ -2365,13 +2365,13 @@
                         "id": 0,
                         "dayOfWeek": 1,
                         "beginTime": 14,
-                        "endTime": 16
+                        "endTime": 17
                     },
                     "1": {
                         "id": 1,
                         "dayOfWeek": 3,
                         "beginTime": 14,
-                        "endTime": 16
+                        "endTime": 17
                     }
                 }
             }
