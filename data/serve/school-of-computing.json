@@ -1,3 +1,4499 @@
 {
-    
+    "0": {
+        "id": 0,
+        "name": "Academic Communication Skills",
+        "code": "UHLB122",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "38",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 12
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "39",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 12
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "40",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 12
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "41",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 12
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "42",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 12
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "43",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 12
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "44",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 12
+                    }
+                }
+            }
+        }
+    },
+    "1": {
+        "id": 1,
+        "name": "Advanced Analytics for Data Science",
+        "code": "SCSP5013",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "2": {
+        "id": 2,
+        "name": "Advanced Artificial Intelligence",
+        "code": "SCSJ5043",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "3": {
+        "id": 3,
+        "name": "Advanced Computer Graphics",
+        "code": "SCSV4543",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Norhaida binti Mohd Suaib",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Norhaida binti Mohd Suaib",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "4": {
+        "id": 4,
+        "name": "Advanced Data Structure and Algorithms",
+        "code": "SCSJ5033",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "5": {
+        "id": 5,
+        "name": "Advanced Theory of Computer Science",
+        "code": "SCSJ5023",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Yusliza binti Yusoff",
+                "times": {}
+            }
+        }
+    },
+    "6": {
+        "id": 6,
+        "name": "Application Development (WBL)",
+        "code": "SECP3106",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Haza Nuzly bin Abdull Hamed",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 9,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "7": {
+        "id": 7,
+        "name": "Application Development",
+        "code": "SECJ3104",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Assoc Prof Dr Hishamuddin bin",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "8": {
+        "id": 8,
+        "name": "Application Development",
+        "code": "SECV3104",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Assoc Prof Dr Hishamuddin bin",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 12
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            }
+        }
+    },
+    "9": {
+        "id": 9,
+        "name": "Big Data Management",
+        "code": "SCSP5023",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "10": {
+        "id": 10,
+        "name": "Bioinformatics 1",
+        "code": "SECB2103",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Haslina binti Hashim",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "11": {
+        "id": 11,
+        "name": "Bioinformatics Database",
+        "code": "SECB3213",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Noor Hidayah binti Zakaria",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "12": {
+        "id": 12,
+        "name": "Bioinformatics Modelling & Simulation",
+        "code": "SCSB4313",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Azurah binti Abu Samah",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "13": {
+        "id": 13,
+        "name": "Bioinformatics Project I (PSM1)",
+        "code": "SECB3032",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            }
+        }
+    },
+    "14": {
+        "id": 14,
+        "name": "Bioinformatics Project II",
+        "code": "SCSB4134",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "15": {
+        "id": 15,
+        "name": "Business Intelligence and Analytics",
+        "code": "SCSP5033",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "16": {
+        "id": 16,
+        "name": "Cellular and Molecular Biology for Bioinformatics",
+        "code": "SEBB4173",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Noor Hidayah binti Zakaria",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "17": {
+        "id": 17,
+        "name": "Cloud Computing Security",
+        "code": "SCSR5043",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Assoc Prof Dr Shukor bin Abd Razak",
+                "times": {}
+            }
+        }
+    },
+    "18": {
+        "id": 18,
+        "name": "Comp Network & Security Project II",
+        "code": "SCSR4134",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "19": {
+        "id": 19,
+        "name": "Computational Intelligence",
+        "code": "SECJ3563",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Haza Nuzly bin Abdull Hamed",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Ruhaidah binti Samsudin",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Dr Ruhaidah binti Samsudin",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Dr Sim Hiew Moi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            }
+        }
+    },
+    "20": {
+        "id": 20,
+        "name": "Computational Mathematics",
+        "code": "SECI1113",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "02",
+                "lecturer": "Dr Muhammad Aliif bin Ahmad",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 10,
+                        "endTime": 11
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "03",
+                "lecturer": "Assoc Prof Dr Roselina binti Salehudin",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 10,
+                        "endTime": 11
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "04",
+                "lecturer": "Dr Razana binti Alwee",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "05",
+                "lecturer": "Assoc Prof Dr Roselina binti Salehudin",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "06",
+                "lecturer": "Dr Muhammad Aliif bin Ahmad",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "07",
+                "lecturer": "Dr Nies Hui Wen",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "01",
+                "lecturer": "Dr Razana binti Alwee",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 11
+                    }
+                }
+            },
+            "7": {
+                "id": 7,
+                "section": "02",
+                "lecturer": "Dr Muhammad Aliif bin Ahmad",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 10,
+                        "endTime": 11
+                    }
+                }
+            },
+            "8": {
+                "id": 8,
+                "section": "03",
+                "lecturer": "Assoc Prof Dr Roselina binti Salehudin",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 10,
+                        "endTime": 11
+                    }
+                }
+            },
+            "9": {
+                "id": 9,
+                "section": "04",
+                "lecturer": "Dr Razana binti Alwee",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            },
+            "10": {
+                "id": 10,
+                "section": "05",
+                "lecturer": "Assoc Prof Dr Roselina binti Salehudin",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            },
+            "11": {
+                "id": 11,
+                "section": "06",
+                "lecturer": "Dr Muhammad Aliif bin Ahmad",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            },
+            "12": {
+                "id": 12,
+                "section": "07",
+                "lecturer": "Dr Nies Hui Wen",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            }
+        }
+    },
+    "21": {
+        "id": 21,
+        "name": "Computer Games Development",
+        "code": "SCSV4213",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Prof Dr Mohd Shahrizal bin Sunar",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "22": {
+        "id": 22,
+        "name": "Computer Networks",
+        "code": "SECR2242",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Ms Hazinah Kutty Mammi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Ms Hazinah Kutty Mammi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Mr Firoz bin Yusuf Patel Dawoodi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Mr Firoz bin Yusuf Patel Dawoodi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "05",
+                "lecturer": "Mr Firoz bin Yusuf Patel Dawoodi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "23": {
+        "id": 23,
+        "name": "Computer Networks and Security Project I (PSM1)",
+        "code": "SECR3032",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            }
+        }
+    },
+    "24": {
+        "id": 24,
+        "name": "Computer Networks Lab",
+        "code": "SECR2941",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Ms Hazinah Kutty Mammi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Ms Hazinah Kutty Mammi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Mr Firoz bin Yusuf Patel Dawoodi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Mr Firoz bin Yusuf Patel Dawoodi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "05",
+                "lecturer": "Mr Firoz bin Yusuf Patel Dawoodi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            }
+        }
+    },
+    "25": {
+        "id": 25,
+        "name": "Computer Organisation and Architecture",
+        "code": "SECR2033",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Nur Haliza binti Abdul Wahab",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Mr Ahmad Fariz bin Ali",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Dr Muhalimbin Mohamad Amin",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Mr Ahmad Fariz bin Ali",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "05",
+                "lecturer": "Dr Aida binti Ali",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "06",
+                "lecturer": "Dr Aida binti Ali",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 15,
+                        "endTime": 17
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "07",
+                "lecturer": "Dr Aida binti Ali",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "7": {
+                "id": 7,
+                "section": "08",
+                "lecturer": "Mr Ahmad Fariz bin Ali",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "8": {
+                "id": 8,
+                "section": "09",
+                "lecturer": "Dr Nur Haliza binti Abdul Wahab",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            }
+        }
+    },
+    "26": {
+        "id": 26,
+        "name": "Computer Security",
+        "code": "SECR3413",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Assoc Prof Dr Anazida binti Zainal",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Syed Hamid Hussain Madni",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "27": {
+        "id": 27,
+        "name": "Cryptographic Engineering",
+        "code": "SCSR5013",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Fuad Abdulgaleel Abdoh Galeb",
+                "times": {}
+            }
+        }
+    },
+    "28": {
+        "id": 28,
+        "name": "Data Mining",
+        "code": "SECP2753",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Ms Rozilawati binti Dollah @ Md Zain",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "29": {
+        "id": 29,
+        "name": "Data Science Governance",
+        "code": "SCSP5043",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "30": {
+        "id": 30,
+        "name": "Data Visualization",
+        "code": "SECV4233",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Farhan bin Mohamed",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Prof Dr Mohd Shafry bin Mohd Rahim",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            }
+        }
+    },
+    "31": {
+        "id": 31,
+        "name": "Digital Forensics",
+        "code": "SCSR5023",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Syed Hamid Hussain Madni",
+                "times": {}
+            }
+        }
+    },
+    "32": {
+        "id": 32,
+        "name": "Digital Logic",
+        "code": "SECR1013",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Mohd Fo'ad bin Rohani",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Haswadi bin Hasan",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Dr Haswadi bin Hasan",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            }
+        }
+    },
+    "33": {
+        "id": 33,
+        "name": "Discrete Structure",
+        "code": "SECI1013",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Muhammad Aliif bin Ahmad",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 11
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Izyan Izzati binti Kamsani",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 11
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Dr Naghmeh Niknejad",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 12,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "34": {
+        "id": 34,
+        "name": "English Communication Skills",
+        "code": "UHLB1112",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "16",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "17",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "18",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "19",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "20",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            }
+        }
+    },
+    "35": {
+        "id": 35,
+        "name": "Enterprise System Design and Modelling",
+        "code": "SECP3744",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Pn Nor Hawaniah Zakaria",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "36": {
+        "id": 36,
+        "name": "Extra-Curricular Experiential Learning (ExCel)",
+        "code": "UKQT3001",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "28",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "29",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "08",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            }
+        }
+    },
+    "37": {
+        "id": 37,
+        "name": "Falsafah dan Isu Semasa",
+        "code": "UHIS1022",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "25",
+                "lecturer": "Dr Abdul Basit Derawi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            }
+        }
+    },
+    "38": {
+        "id": 38,
+        "name": "Fundamental of Computer Graphics",
+        "code": "SECV2213",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Goh Eng Su",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Goh Eng Su",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "39": {
+        "id": 39,
+        "name": "Gene and Protein Technology",
+        "code": "SMBE4193",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Nies Hui Wen",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "40": {
+        "id": 40,
+        "name": "Graduate Success Attributes",
+        "code": "UHMT1012",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "29",
+                "lecturer": "Dr Siti Salwa binti Alias",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "30",
+                "lecturer": "Dr Foo Jin Hoe",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "41": {
+        "id": 41,
+        "name": "Graphic and Multimedia Software Project I (PSM1)",
+        "code": "SECV3032",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            }
+        }
+    },
+    "42": {
+        "id": 42,
+        "name": "Graphics & Multimedia Software Project II",
+        "code": "SCSV4134",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "43": {
+        "id": 43,
+        "name": "High Performance and Parallel Computing",
+        "code": "SECR3223",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Ismail Fauzi bin Isnin",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "44": {
+        "id": 44,
+        "name": "Human Computer Interaction",
+        "code": "SECV2113",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Layla Rasheed Abdallah Hasan",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Assoc Prof Dr Shahida binti Sulaiman",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Assoc Prof Dr Shahida binti Sulaiman",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "45": {
+        "id": 45,
+        "name": "Industrial Integrated Project Development",
+        "code": "SECP4235",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "46": {
+        "id": 46,
+        "name": "Industrial Integrated Project Proposal",
+        "code": "SECP4223",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "47": {
+        "id": 47,
+        "name": "Industrial Integrated Project Report",
+        "code": "SECP4234",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "48": {
+        "id": 48,
+        "name": "Information Security Governance and Risk",
+        "code": "SCSR5033",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Arafat Mohammed Rashad",
+                "times": {}
+            }
+        }
+    },
+    "49": {
+        "id": 49,
+        "name": "Malaysian Language for Communication 2",
+        "code": "UHLM1012",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "10",
+                "lecturer": "Dr Zaliza",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 16,
+                        "endTime": 18
+                    }
+                }
+            }
+        }
+    },
+    "50": {
+        "id": 50,
+        "name": "Introduction to Entrepreneurship",
+        "code": "UBSS1032",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "40",
+                "lecturer": "Assoc Prof Dr Zaidi Rozan",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "41",
+                "lecturer": "Assoc Prof Dr Zaidi Rozan",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "42",
+                "lecturer": "Hj Ahamad Zaidi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "43",
+                "lecturer": "Hj Ahamad Zaidi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "05",
+                "lecturer": "Mr Hairudin bin Abdul Majid",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "06",
+                "lecturer": "Mr Hairudin bin Abdul Majid",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "07",
+                "lecturer": "Dr Farrah Merlinda",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "7": {
+                "id": 7,
+                "section": "08",
+                "lecturer": "Dr Umar Haiyat",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "8": {
+                "id": 8,
+                "section": "09",
+                "lecturer": "Dr Umar Haiyat",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            }
+        }
+    },
+    "51": {
+        "id": 51,
+        "name": "Massive Data Mining and Streaming",
+        "code": "SCSP5053",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "52": {
+        "id": 52,
+        "name": "Mathematics for Computer Graphics",
+        "code": "SECV1113",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Suriati binti Sadimon",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Tarmizi Adam",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            }
+        }
+    },
+    "53": {
+        "id": 53,
+        "name": "Mobile Application Programming",
+        "code": "SECJ3623",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Jumail bin Taliba",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Mohamad Razib bin Othman",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Dr Jumail bin Taliba",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Dr Mohamad Razib bin Othman",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "54": {
+        "id": 54,
+        "name": "Multimedia Data Processing",
+        "code": "SECV3223",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Md Sah bin Hj Salam",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Md Sah bin Hj Salam",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "55": {
+        "id": 55,
+        "name": "Multimedia Web Programming",
+        "code": "SECV3263",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Mohd Razak bin Samingan",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Pang Yee Yong",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "56": {
+        "id": 56,
+        "name": "Network Programming",
+        "code": "SECR3253",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Johan bin Mohamad Sharif",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Prof Ts Dr Kamalrulnizam bin Abu Bakar",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "57": {
+        "id": 57,
+        "name": "Network Security (Cisco Netacad CyberOps Associate Certification)",
+        "code": "SECR4453",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Ts Marina binti Md Arshad",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Ts Marina binti Md Arshad",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Dr Siti Hajar binti Othman",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Dr Siti Hajar binti Othman",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "58": {
+        "id": 58,
+        "name": "Object-Oriented Programming",
+        "code": "SECJ2154",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "03",
+                "lecturer": "Ms Lizawati binti Mi Yusuf",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 12
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 12
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "05",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 12
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "06",
+                "lecturer": "Dr Ruhaidah binti Samsudin",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 12
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "07",
+                "lecturer": "Dr Norsham binti Idris",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 12
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "08",
+                "lecturer": "Dr Nur Eiliyah @ Wong Yee Leng",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 12
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "09",
+                "lecturer": "Dr Goh Eng Su",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 12
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "7": {
+                "id": 7,
+                "section": "10",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 12
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "8": {
+                "id": 8,
+                "section": "11",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 12
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "9": {
+                "id": 9,
+                "section": "01",
+                "lecturer": "Dr Adila Firdaus binti Arbain",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 12
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "10": {
+                "id": 10,
+                "section": "02",
+                "lecturer": "Dr Nur Eiliyah @ Wong Yee Leng",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            }
+        }
+    },
+    "59": {
+        "id": 59,
+        "name": "Operating Systems",
+        "code": "SECR2043",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Zuriahati binti Mohd Yunos",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Zuriahati binti Mohd Yunos",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Dr Nur Haliza binti Abdul Wahab",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Dr Nur Haliza binti Abdul Wahab",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "05",
+                "lecturer": "Ms Rashidah binti Kadir",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "06",
+                "lecturer": "Ms Rashidah binti Kadir",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "07",
+                "lecturer": "Ms Rashidah binti Kadir",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            }
+        }
+    },
+    "60": {
+        "id": 60,
+        "name": "Penetration Testing",
+        "code": "SCSR5053",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Bander Ali Saleh Al-Rimy",
+                "times": {}
+            }
+        }
+    },
+    "61": {
+        "id": 61,
+        "name": "Penghayatan Etika dan Peradaban",
+        "code": "UHMS1182",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "31",
+                "lecturer": "Dr Fadilah",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "32",
+                "lecturer": "Dr Shahrollah",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "62": {
+        "id": 62,
+        "name": "Philosophy and General Issues",
+        "code": "UHIS1022",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "26",
+                "lecturer": "Dr Norizzati Norzilan",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            }
+        }
+    },
+    "63": {
+        "id": 63,
+        "name": "Probability & Statistical Data Analysis",
+        "code": "SECI2143",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Sharin Hazlin binti Huspi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Nor Azizah binti Ali",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Dr Izyan Izzati binti Kamsani",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 11
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Dr Nies Hui Wen",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 11
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "05",
+                "lecturer": "Dr Sharin Hazlin binti Huspi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 11
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "06",
+                "lecturer": "Dr Izyan Izzati binti Kamsani",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "07",
+                "lecturer": "Dr Nor Azizah binti Ali",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 11
+                    }
+                }
+            },
+            "7": {
+                "id": 7,
+                "section": "08",
+                "lecturer": "Dr Nies Hui Wen",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            },
+            "8": {
+                "id": 8,
+                "section": "09",
+                "lecturer": "Dr Naghmeh Niknejad",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 15
+                    }
+                }
+            }
+        }
+    },
+    "64": {
+        "id": 64,
+        "name": "Professional Communication SKills",
+        "code": "UHLB3132",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "51",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "52",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "65": {
+        "id": 65,
+        "name": "Programming for Engineers",
+        "code": "SECP2273",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "66": {
+        "id": 66,
+        "name": "Programming Technique C",
+        "code": "SECP1103",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Jamilah binti Mahmood",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "67": {
+        "id": 67,
+        "name": "Programming Technique C",
+        "code": "SECP1103",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Cik Suhaimi",
+                "times": {}
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Cik Suhaimi",
+                "times": {}
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Cik Suhaimi",
+                "times": {}
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "68": {
+        "id": 68,
+        "name": "Programming Technique II",
+        "code": "SECJ1023",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Jumail bin Taliba",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Nur Eiliyah @ Wong Yee Leng",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Ms Lizawati binti Mi Yusuf",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Ms Lizawati binti Mi Yusuf",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "05",
+                "lecturer": "Dr Sim Hiew Moi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "06",
+                "lecturer": "Dr Jamilah binti Mahmood",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "07",
+                "lecturer": "Dr Jamilah binti Mahmood",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "7": {
+                "id": 7,
+                "section": "08",
+                "lecturer": "Dr Sim Hiew Moi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "8": {
+                "id": 8,
+                "section": "09",
+                "lecturer": "Dr Hussein Salem Ali Samma",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            }
+        }
+    },
+    "69": {
+        "id": 69,
+        "name": "Protein Biomolecules",
+        "code": "SEBB4203",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Haslina binti Hashim",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "70": {
+        "id": 70,
+        "name": "Psychology of Adjustment",
+        "code": "UHMT2062",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Nasir Masroom",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            }
+        }
+    },
+    "71": {
+        "id": 71,
+        "name": "Psychology of Adjustment",
+        "code": "UHAK2062",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Junaidah Yusof",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 16,
+                        "endTime": 18
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Ferdaus",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Dr Farah Adibah",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Dr Junaidah Yusof",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 16,
+                        "endTime": 18
+                    }
+                }
+            }
+        }
+    },
+    "72": {
+        "id": 72,
+        "name": "Real-Time Computer Graphics",
+        "code": "SECV3123",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Ajune Wanis binti Ismail",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Ajune Wanis binti Ismail",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "73": {
+        "id": 73,
+        "name": "Real-Time Software Engineering",
+        "code": "SCSJ4423",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Prof Ts Dr Dayang Norhayati binti Abang Jawawi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Nor Azizah binti Sa'adon",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Dr Nor Azizah binti Sa'adon",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Dr Nor Azizah binti Sa'adon",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "74": {
+        "id": 74,
+        "name": "Requirements Engineering & Software Modelling",
+        "code": "SECJ2253",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Noraini binti Ibrahim",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Noraini binti Ibrahim",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Dr Shahliza binti Abd Halim",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Dr Johanna binti Ahmad",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "75": {
+        "id": 75,
+        "name": "Secure Programming",
+        "code": "SECR4483",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Arafat Mohammed Rashad",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Fuad Abdulgaleel Abdoh Ghaleb",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "76": {
+        "id": 76,
+        "name": "Secure Software Engineering",
+        "code": "SCSJ5013",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Bander Ali Saleh Al-Rimy",
+                "times": {}
+            }
+        }
+    },
+    "77": {
+        "id": 77,
+        "name": "Software Construction",
+        "code": "SCSJ4383",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Adila Firdaus binti Arbain",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Adila Firdaus binti Arbain",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Assoc Prof Dr Hishamuddin bin Asmuni @ Hasmuni",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Dr Mohd Adham bin Isa",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "78": {
+        "id": 78,
+        "name": "Software Engineering",
+        "code": "SECJ2203",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "02",
+                "lecturer": "Dr Layla Rasheed Abdallah Hasan",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "04",
+                "lecturer": "Dr Layla Rasheed Abdallah Hasan",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "05",
+                "lecturer": "Dr Noraini binti Ibrahim",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "06",
+                "lecturer": "Dr Johanna binti Ahmad",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "07",
+                "lecturer": "Dr Norsham binti Idris",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "08",
+                "lecturer": "Dr Norsham binti Idris",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "7": {
+                "id": 7,
+                "section": "09",
+                "lecturer": "Dr Johanna binti Ahmad",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "8": {
+                "id": 8,
+                "section": "10",
+                "lecturer": "Dr Rohayanti binti Hassan",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "9": {
+                "id": 9,
+                "section": "01",
+                "lecturer": "Ms Nor Hawaniah Zakaria",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "79": {
+        "id": 79,
+        "name": "Software Enginnering (WBL)",
+        "code": "SECP3204",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Muhammad Iqbal Tariq bin Idris",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "80": {
+        "id": 80,
+        "name": "Software Engineering Project I (PSM1)",
+        "code": "SECJ3032",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            }
+        }
+    },
+    "81": {
+        "id": 81,
+        "name": "Software Engineering Project II",
+        "code": "SCSJ4134",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "82": {
+        "id": 82,
+        "name": "Software Quality Assurance",
+        "code": "SECJ3343",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Assoc Prof Dr Masitah binti Ghazali",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Assoc Prof Dr Radziah binti Mohamad",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Assoc Prof Dr Masitah binti Ghazali",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Prof Ts Dr Wan Mohd Nasir bin Wan Kadir",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            }
+        }
+    },
+    "83": {
+        "id": 83,
+        "name": "Special Topic in Data Engineering",
+        "code": "SECP3843",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr. Muhammad Iqbal Tariq bin Idris/Ms. Nor Hawaniah Zakaria",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "84": {
+        "id": 84,
+        "name": "Special Topics in Bioinformatics",
+        "code": "SCSB4243",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Noor Hidayah binti Zakaria",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "85": {
+        "id": 85,
+        "name": "Special Topic in Computer Networks & Security (Cisco Netacad IoT Certification)",
+        "code": "SECR4973",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Prof Dr Md Asri bin Nqadi",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Johan bin Mohamad Sharif",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "86": {
+        "id": 86,
+        "name": "Statistics for Data Science",
+        "code": "SCSP5063",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            }
+        }
+    },
+    "87": {
+        "id": 87,
+        "name": "Technopreneurship Seminar",
+        "code": "SECD3761",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {}
+            },
+            "1": {
+                "id": 1,
+                "section": "05",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 16,
+                        "endTime": 17
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "06",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 16,
+                        "endTime": 17
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "07",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 16,
+                        "endTime": 17
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "01",
+                "lecturer": "Mr Hairudin bin Abdul Majid",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 16,
+                        "endTime": 17
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "02",
+                "lecturer": "Mr Hairudin bin Abdul Majid",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 16,
+                        "endTime": 17
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "03",
+                "lecturer": "Mr Hairudin bin Abdul Majid",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 16,
+                        "endTime": 17
+                    }
+                }
+            },
+            "7": {
+                "id": 7,
+                "section": "04",
+                "lecturer": "Mr Hairudin bin Abdul Majid",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 16,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "88": {
+        "id": 88,
+        "name": "The Thought of Sciences and Technology",
+        "code": "UHIT2302",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "26",
+                "lecturer": "Dr Idris Ismail",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "27",
+                "lecturer": "Dr Norizzati Norzilan",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "28",
+                "lecturer": "Dr Talhah Jimaain",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "29",
+                "lecturer": "Dr Talhah Jimaain",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "30",
+                "lecturer": "Prof Badlihisham bin Mohd Nasir",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "31",
+                "lecturer": "Prof Badlihisham bin Mohd Nasir",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "32",
+                "lecturer": "Assoc Prof Ahmad bin Che Yaakob",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "89": {
+        "id": 89,
+        "name": "The Thoughts of Science and Technology",
+        "code": "UICL2302",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "05",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "06",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "07",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "08",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "09",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "7": {
+                "id": 7,
+                "section": "10",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "8": {
+                "id": 8,
+                "section": "14",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "90": {
+        "id": 90,
+        "name": "Theory of Computer Science",
+        "code": "SECJ3203",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Sarina binti Sulaiman",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Zalmiyah binti Zakaria",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Dr Tarmizi bin Adam",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Dr Shafaatunnur binti Hassan",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "05",
+                "lecturer": "Dr Tarmizi bin Adam",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "06",
+                "lecturer": "Dr Shafaatunnur binti Hassan",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "07",
+                "lecturer": "Dr Suriati binti Sadimon",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 8,
+                        "endTime": 11
+                    }
+                }
+            },
+            "7": {
+                "id": 7,
+                "section": "08",
+                "lecturer": "Dr Suriati binti Sadimon",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            },
+            "8": {
+                "id": 8,
+                "section": "09",
+                "lecturer": "Dr Haswadi bin Hasan",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    },
+    "91": {
+        "id": 91,
+        "name": "Undang-undang Keluarga Malaysia",
+        "code": "UICL2052",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Dr Abdul Halim bin Zulkifli",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Dr Nasiibah Ramli",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            }
+        }
+    },
+    "92": {
+        "id": 92,
+        "name": "Web Programming",
+        "code": "SECV2223",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "02",
+                "lecturer": "Dr Muhammad Iqbal Tariq bin Idris",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "04",
+                "lecturer": "Assoc Prof Dr Nor Azman bin Ismail",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 2,
+                        "beginTime": 8,
+                        "endTime": 10
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "05",
+                "lecturer": "Dr Hussein Salem Ali bin Samma",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "06",
+                "lecturer": "Dr Hussein Salem Ali bin Samma",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "07",
+                "lecturer": "Dr Nur Zuraifah Syazrah binti Othman",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "08",
+                "lecturer": "Dr Pang Yee Yong",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "7": {
+                "id": 7,
+                "section": "09",
+                "lecturer": "Dr Nur Zuraifah Syazrah binti Othman",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "8": {
+                "id": 8,
+                "section": "10",
+                "lecturer": "Dr Pang Yee Yong",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "9": {
+                "id": 9,
+                "section": "01",
+                "lecturer": "Assoc Prof Dr Mohd Shahizan bin Othman",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 8,
+                        "endTime": 10
+                    },
+                    "1": {
+                        "id": 1,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "93": {
+        "id": 93,
+        "name": "Web Technology",
+        "code": "SECJ3483",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "Assoc Prof Dr Mohd Yazid bin Idris",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "Mr Norizam bin Katmon",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "Mr Morizm bin Katmon",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 10,
+                        "endTime": 13
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "Mr Norizam bin Katmon",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 17
+                    }
+                }
+            }
+        }
+    }
 }
