@@ -2363,7 +2363,7 @@
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 1,
+                        "dayOfWeek": 0,
                         "beginTime": 14,
                         "endTime": 17
                     },
@@ -4243,7 +4243,7 @@
     "92": {
         "id": 92,
         "name": "Web Programming",
-        "code": "SECV2223",
+        "code": "SECV1223",
         "sections": {
             "0": {
                 "id": 0,

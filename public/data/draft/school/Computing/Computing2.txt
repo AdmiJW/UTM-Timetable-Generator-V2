@@ -427,7 +427,7 @@ Object-Oriented Programming;SECJ2154;11;
         T;TUE;04;07;
         T;THU;08;011;
     S;02;Dr Nur Eiliyah @ Wong Yee Leng;2;
-        T;MON;08;011;
+        T;SUN;08;011;
         T;WED;08;011;
 
 Operating Systems;SECR2043;7;
@@ -750,7 +750,7 @@ Undang-undang Keluarga Malaysia;UICL2052;2;
     S;02;Dr Nasiibah Ramli;1;
         T;MON;02;04;
 
-Web Programming;SECV2223;10;
+Web Programming;SECV1223;10;
     S;02;Dr Muhammad Iqbal Tariq bin Idris;2;
         T;SUN;08;010;
         T;TUE;02;04;
