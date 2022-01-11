@@ -381,7 +381,7 @@ Multimedia Web Programming;SECV3263;2;
 
 Network Programming;SECR3253;2;
     S;01;Dr Johan bin Mohamad Sharif;1;
-        T;MON;04;07;
+        T;SUN;04;07;
     S;02;Prof Ts Dr Kamalrulnizam bin Abu Bakar;1;
         T;MON;04;07;
 
@@ -391,7 +391,7 @@ Network Security (Cisco Netacad CyberOps Associate Certification);SECR4453;4;
     S;02;Ts Marina binti Md Arshad;1;
         T;MON;08;011;
     S;03;Dr Siti Hajar binti Othman;1;
-        T;TUE;02;05;
+        T;SUN;08;011;
     S;04;Dr Siti Hajar binti Othman;1;
         T;WED;08;011;
 
@@ -594,8 +594,8 @@ Requirements Engineering & Software Modelling;SECJ2253;4;
 Secure Programming;SECR4483;2;
     S;01;Dr Arafat Mohammed Rashad;1;
         T;SUN;04;07;
-    S;02;Dr Fuad Abdulgaleel Abdoh Ghaleb;1;
-        T;SUN;04;07;
+    S;02;Dr. Bander Ali Saleh Al-Rimy;1;
+        T;TUE;04;07;
     
 Secure Software Engineering;SCSJ5013;1;
     S;01;Dr Bander Ali Saleh Al-Rimy;0;
@@ -664,7 +664,7 @@ Special Topics in Bioinformatics;SCSB4243;1;
 
 Special Topic in Computer Networks & Security (Cisco Netacad IoT Certification);SECR4973;2;
     S;01;Prof Dr Md Asri bin Nqadi;1;
-        T;THU;04;07;
+        T;TUE;04;07;
     S;02;Dr Johan bin Mohamad Sharif;1;
         T;THU;04;07;
 
