@@ -2081,7 +2081,7 @@
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 1,
+                        "dayOfWeek": 0,
                         "beginTime": 10,
                         "endTime": 13
                     }
@@ -2140,9 +2140,9 @@
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 2,
-                        "beginTime": 8,
-                        "endTime": 11
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 17
                     }
                 }
             },
@@ -3332,11 +3332,11 @@
             "1": {
                 "id": 1,
                 "section": "02",
-                "lecturer": "Dr Fuad Abdulgaleel Abdoh Ghaleb",
+                "lecturer": "Dr. Bander Ali Saleh Al-Rimy",
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 0,
+                        "dayOfWeek": 2,
                         "beginTime": 10,
                         "endTime": 13
                     }
@@ -3723,7 +3723,7 @@
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 4,
+                        "dayOfWeek": 2,
                         "beginTime": 10,
                         "endTime": 13
                     }
