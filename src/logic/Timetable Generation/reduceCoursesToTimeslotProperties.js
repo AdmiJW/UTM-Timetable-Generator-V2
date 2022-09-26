@@ -14,6 +14,7 @@
  * @property {number} dayOfWeek Day of week - Integer [0-6]
  * @property {number} startTime Starting time - Integer [0-23] 
  * @property {number} endTime Ending time - Integer [0-23]
+ * @property {string} venue Venue for the class
  * @property {string} theme The name of theme applied
  * @property {string} backgroundColor Background color of the grid of said timeslot
  * @property {string} fontColor Font color of the grid of said timeslot
@@ -60,7 +61,7 @@ function customReduceCourseToTimeslotArrayStrategy(courses, customConfig) {
         for (let timeKey in course.timeslots) {
             if (isNaN(timeKey)) continue;
             const time = course.timeslots[timeKey];
-            const { dayOfWeek, startTime, endTime } = time;
+            const { dayOfWeek, startTime, endTime, venue } = time;
 
             res.push({
                 name: courseName,
@@ -69,6 +70,7 @@ function customReduceCourseToTimeslotArrayStrategy(courses, customConfig) {
                 dayOfWeek,
                 startTime,
                 endTime,
+                venue,
                 theme: 'custom',
                 backgroundColor,
                 fontColor,
@@ -105,7 +107,7 @@ function presetReduceCourseToTimeslotArrayStrategy(courses, theme) {
         for (let timeKey in course.timeslots) {
             if (isNaN(timeKey)) continue;
             const time = course.timeslots[timeKey];
-            const { dayOfWeek, startTime, endTime } = time;
+            const { dayOfWeek, startTime, endTime, venue } = time;
 
             res.push({
                 name: courseName,
@@ -114,6 +116,7 @@ function presetReduceCourseToTimeslotArrayStrategy(courses, theme) {
                 dayOfWeek,
                 startTime,
                 endTime,
+                venue,
                 theme: themeName,
                 backgroundColor: courseBackgroundColors[ counter % courseBackgroundColors.length ], 
                 fontColor: courseFontColors[ counter % courseFontColors.length ],

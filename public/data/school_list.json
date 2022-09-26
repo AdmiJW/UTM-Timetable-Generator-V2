@@ -1,10 +1,10 @@
 [
     {
-        "name": "School of Computing (Sem 2 2021/2022)",
+        "name": "School of Computing (Sem 1 2022/2023)",
         "url": "./data/serve/school-of-computing.json"
     },
     {
-        "name": "Foreign Languages (Sem 2 2021/2022)",
-        "url": "./data/serve/foreign-languages.json"
+        "name": "Foreign Languages (Sem 1 2022/2023)",
+        "url": "./data/serve/foreign.json"
     }
 ]

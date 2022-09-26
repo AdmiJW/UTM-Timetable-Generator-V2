@@ -60,10 +60,6 @@ function CourseRoute() {
         <h4 className='courses--title'>
             Step 1: Select School/Faculty
         </h4>
-        <p className='courses--desc'>
-            Doesn't see your school/faculty listed? Incorrect course information?
-            <a href='https://forms.gle/YhgPcBSBCoiDipQk6' target="_blank" rel='noopener noreferrer'> Send Feedback</a>
-        </p>
 
         <select aria-label='Select school/faculty' value={selectedSchool} className='courses--select'
             onChange={(e)=> setSelectedSchool(e.target.value)} >

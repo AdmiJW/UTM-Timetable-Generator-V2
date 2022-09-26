@@ -6,8 +6,15 @@ import { configurationActions } from '../../redux/slices/configurationSlice';
 function GridConfiguration() {
 
     const {
-        gridWidth, gridHeight, courseNameFontSize, lecturerNameFontSize, courseCodeFontSize, gap
+        gridWidth, 
+        gridHeight, 
+        courseNameFontSize, 
+        venueFontSize,
+        lecturerNameFontSize, 
+        courseCodeFontSize, 
+        gap
     } = useSelector((state)=> state.config.grid);
+
     const dispatch = useDispatch();
 
 
@@ -41,6 +48,12 @@ function GridConfiguration() {
                 <input type='number' min='0' step='1' className='configure__iteminput' aria-label='Select the font size for course names in timetable'
                     title='Select the font size for course names in timetable'
                     value={courseNameFontSize} onChange={(e)=> dispatch(configurationActions.setCourseNameFontSize(e.target.value))} />
+            </li>
+            <li className='configure__item'>
+                <span className='configure__itemtitle'>Venue Font Size</span>
+                <input type='number' min='0' step='1' className='configure__iteminput' aria-label='Select the font size for venue in timetable'
+                    title='Select the font size for venue in timetable'
+                    value={venueFontSize} onChange={(e)=> dispatch(configurationActions.setVenueFontSize(e.target.value))} />
             </li>
             <li className='configure__item'>
                 <span className='configure__itemtitle'>Lecturer Name Font Size</span>

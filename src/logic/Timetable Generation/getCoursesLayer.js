@@ -84,16 +84,17 @@ function appendCourse(layer, property, theme, config, x, y, width, height) {
     const ratio = 
         (property.lecturer && property.code)? [0.6, 0.2, 0.2]:
         (property.lecturer)? [0.75, 0.25, 0]:
-        (property.code)? [0.75, 0, 0.25]:
+        (property.code)? [0.8, 0, 0.2]:
         [1, 0, 0];
 
-    const { courseNameFontSize, lecturerNameFontSize, courseCodeFontSize } = config.grid;
+    const { courseNameFontSize, lecturerNameFontSize, courseCodeFontSize, venueFontSize } = config.grid;
 
     
-    const nameHeight = height * ratio[0];
+    // If venue is present, it will take from name's height
+    const nameHeight = height * (ratio[0] - (property.venue? 0.15: 0) );
+    const venueHeight = height * (property.venue? 0.15: 0);
     const lecturerHeight = height * ratio[1];
     const codeHeight = height * ratio[2];
-
 
     // Background
     appendRect(layer, {
@@ -113,21 +114,35 @@ function appendCourse(layer, property, theme, config, x, y, width, height) {
         fontStyle: 'bold',
     });
 
+    // Venue
+    appendText(layer, {
+        x, 
+        y: y + nameHeight,
+        width,
+        height: venueHeight,
+        fill: property.fontColor,
+        fontFamily: theme.fontFamily,
+        fontSize: venueFontSize,
+        text: property.venue,
+        fontStyle: 'bold',
+    });
+
     // Lecturer name
     appendText(layer, {
-        x, y: y + nameHeight,
+        x, 
+        y: y + nameHeight + venueHeight,
         width,
         height: lecturerHeight,
         fill: property.fontColor,
         fontFamily: theme.fontFamily,
         fontSize: lecturerNameFontSize,
-        text: property.lecturer,
-        fontStyle: 'bold'
+        text: property.lecturer
     });
 
     // Course code
     appendText(layer, {
-        x, y: y + nameHeight + lecturerHeight,
+        x, 
+        y: y + nameHeight + venueHeight + lecturerHeight,
         width,
         height: codeHeight,
         fill: property.fontColor,

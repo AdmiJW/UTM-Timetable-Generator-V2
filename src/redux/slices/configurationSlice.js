@@ -73,12 +73,13 @@ export const configurationSlice = createSlice({
             timeframeEnd: 17,
         },
         grid: {
-            gridWidth: 200,
-            gridHeight: 150,
+            gridWidth: 250,
+            gridHeight: 200,
             gap: 5,
             courseNameFontSize: 25,
-            lecturerNameFontSize: 15,
-            courseCodeFontSize: 13,
+            venueFontSize: 20,
+            lecturerNameFontSize: 18,
+            courseCodeFontSize: 16,
         },
         custom: {
             isCustom: false,
@@ -127,6 +128,9 @@ export const configurationSlice = createSlice({
         },
         setCourseNameFontSize: (state, action)=> {
             state.grid.courseNameFontSize = Math.max(0, Number(action.payload) );
+        },
+        setVenueFontSize: (state, action)=> {
+            state.grid.venueFontSize = Math.max(0, Number(action.payload) );
         },
         setLecturerNameFontSize: (state, action)=> {
             state.grid.lecturerNameFontSize = Math.max(0, Number(action.payload) );

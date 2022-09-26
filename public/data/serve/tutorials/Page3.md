@@ -1,8 +1,11 @@
-# 3 - Sections 2️⃣
+> # 3 - Sections 2️⃣
 
 <br/>
 
+
+
 If you had added some courses into the cart from the previous step, you'll see them again in this page, but with section details.
+
 
 <br/>
 

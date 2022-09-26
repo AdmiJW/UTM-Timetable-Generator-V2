@@ -5,7 +5,7 @@ $-slide-duration: 1s;       // !! IF YOU CHANGE THIS, ALSO CHANGE THE SETTIMEOUT
 $-breakpoint: 768px;        // Breakpoint is also set in _courseItem.scss. Change both site if you really need to
 
 //======================================================================
-// Course Timeslots - Day of Week, Time
+// Course Timeslots - Day of Week, Time, Venue
 //======================================================================
 // Container (ul)
 .class__timeslots {
@@ -55,7 +55,7 @@ $-breakpoint: 768px;        // Breakpoint is also set in _courseItem.scss. Chang
 
 // Starttime and Endtime control
 .class__timeslot--timegrp {
-    @include utils.flex(row, flex-start, center);
+    @include utils.flex(row, flex-start, stretch);
     gap: 6px;
 
     @media screen and (max-width: $-breakpoint) {
@@ -71,7 +71,8 @@ $-breakpoint: 768px;        // Breakpoint is also set in _courseItem.scss. Chang
     color: #fff;
 }
 
-.class__timeslot--select {
+
+.class__timeslot--select, .class__timeslot--venue {
     @include utils.input-rounded-style();
     flex-grow: 1;
 }

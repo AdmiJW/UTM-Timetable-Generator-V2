@@ -13,7 +13,7 @@ function TimeSlot(props) {
     const dispatch = useDispatch();
     
     const { courseID } = props;
-    const { id, dayOfWeek, startTime, endTime, isAnimatingDelete } = props.timeslot;
+    const { id, dayOfWeek, startTime, endTime, venue, isAnimatingDelete } = props.timeslot;
 
     return (
     <li className={`class__timeslotitem ${isAnimatingDelete? 'deleting': ''}`} >
@@ -75,6 +75,16 @@ function TimeSlot(props) {
                     <option value='20' disabled={ startTime > 19 } >14 (8:00 PM)</option>
             </select>
         </div>
+
+        <input 
+            type='text' 
+            className='class__timeslot--venue' 
+            placeholder='Enter Venue Here' 
+            value={venue}
+            onChange={ (e)=> dispatch(classActions.changeTimeslotVenue({
+                courseID, timeslotID: id, venue: e.target.value
+            })) }
+        />
     </li>
     );
 }

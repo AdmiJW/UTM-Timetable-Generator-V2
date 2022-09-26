@@ -14,6 +14,7 @@ function Catalog(props) {
 
     const [ search, setSearch ] = useState('');
     const [ courses, setCourses ] = useState({});
+    const [ searchResult, setSearchResult ] = useState([]);
 
 
     // Fetch the list of courses
@@ -42,20 +43,28 @@ function Catalog(props) {
     }, [url, dispatch]);
 
 
-    // Filtered CourseItem using Regular Expressions
-    const catalogItemJSX = [];
-    const regexp = new RegExp( search, 'gi');
-    for (let key in courses) {
-        const course = courses[key];
-        // Push to the list if:
-        // - No search specified.
-        // - Regex matches in course name
-        // - Regex matches in course code
-        if (!search.length || regexp.test( course.name ) || regexp.test( course.code ))
-            catalogItemJSX.push(
-                <CatalogItem key={ course.id } course={ course } />
-            );
-    }
+
+    // Update displayed catalog items based on search input
+    useEffect(()=> {
+        // Filtered CourseItem using Regular Expressions
+        const res = [];
+        const regexp = new RegExp( search, 'gi');
+
+        for (let key in courses) {
+            const course = courses[key];
+
+            if (
+                (search === '') ||
+                (course.name.match(regexp)) ||
+                (course.code.match(regexp))
+            ) 
+                res.push( <CatalogItem key={key} course={course} /> );
+        }
+        setSearchResult(res);
+
+    }, [search, courses]);
+
+
 
 
     return (
@@ -66,11 +75,12 @@ function Catalog(props) {
 
         {/* Search bar */}
         <input type='text' aria-label='search/filter bar' value={search} className='catalog--search' placeholder='Search...'
-            onChange={(e)=> setSearch(e.target.value)} />
+            onChange={(e)=> setSearch(e.target.value)} 
+        />
 
         {/* List of courses */}
         <ul className='catalog--list'>
-            { catalogItemJSX }
+            { searchResult }
         </ul>
     </div>
     );

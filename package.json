@@ -25,7 +25,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "sass-dev": "sass --watch --update --style=expanded src/styles/main.scss:src/styles/main.css",
+    "sass-prod": "sass --no-source-map --style=compressed src/styles/main.scss:src/styles/main.css"
   },
   "eslintConfig": {
     "extends": [

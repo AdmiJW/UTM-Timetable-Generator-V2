@@ -10,10 +10,7 @@ import { showLoadingScreen, hideLoadingScreen } from '../../redux/slices/loading
 
 function TutorialRoute() {
 
-    const [ guides, setGuides ] = useState([{
-        page: 0,
-        content: ''
-    }]);
+    const [ guides, setGuides ] = useState(['']);
     const [ pageNo, setPageNo ] = useState(0);
     const dispatch = useDispatch();
 
@@ -24,9 +21,9 @@ function TutorialRoute() {
 
         fetch( process.env.REACT_APP_TUTORIAL_FETCH_URL )
         .then((res)=> res.json())
-        .then((guides)=> {
-            setGuides(guides);
-        })
+        .then((guideLinks)=> Promise.all( [ ...guideLinks.map((link)=> fetch(link)) ] ))
+        .then((guideResponses)=> Promise.all( [ ...guideResponses.map((res)=> res.text()) ] ))
+        .then((guides)=> setGuides(guides))
         .catch((err)=> {
             if (err.message === 'Unexpected token < in JSON at position 0')
                 console.error("JSON parsing failed. Most likely the resource is not found and responded with 404 not found page. See Network tab in devtools for verification");
@@ -60,7 +57,7 @@ function TutorialRoute() {
         </div>
 
         <ReactMarkdown className='tutorial__markdown'
-            children={ guides[pageNo].content }
+            children={ guides[pageNo] }
             rehypePlugins={[rehypeRaw]}
         />
     </div>

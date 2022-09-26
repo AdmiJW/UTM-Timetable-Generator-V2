@@ -7,6 +7,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
  * @property {number} dayOfWeek Integer [0-6]. 0 represents Sunday, 1 represents Monday etc.
  * @property {number} beginTime Integer [0-23]. 0 represents 12AM, 1 represents 1AM etc.
  * @property {number} endTime Integer [0-23]. 0 represents 12AM, 1 represents 1AM etc.
+ * @property {string} venue String. The venue of the class. Optional
  */
 
 /**
@@ -15,6 +16,8 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
  * @property {number} id ID of the timeslot respective to the Course
  * @property {string} section A string representing the section, usually something like 01, 02...
  * @property {string} lecturer A string representing the lecturer teaching this section
+ * @property {number} capacity The maximum number of students allowed in this section. Optional
+ * @property {string} program The program this section is for. Optional
  * @property {Object.<number, SectionsTimeslot>} times Object mapping id to {@link SectionsTimeslot} objects.
  */
 

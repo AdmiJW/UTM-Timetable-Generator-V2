@@ -20,9 +20,9 @@ function AnnouncementRoute() {
 
         fetch( process.env.REACT_APP_ANNOUCEMENT_FETCH_URL )
         .then((res)=> res.json())
-        .then((annoucements)=> {
-            setAnnouncements(annoucements);
-        })
+        .then((announcementLinks)=> Promise.all( [...announcementLinks.map(link => fetch(link) )] ))
+        .then((annoucementsResponse)=> Promise.all( [...annoucementsResponse.map(a => a.text() ) ] ))
+        .then((annoucements)=> setAnnouncements(annoucements) )
         .catch((err)=> {
             if (err.message === 'Unexpected token < in JSON at position 0')
                 console.error("JSON parsing failed. Most likely the resource is not found and responded with 404 not found page. See Network tab in devtools for verification");
@@ -38,14 +38,16 @@ function AnnouncementRoute() {
     }, [dispatch]);
 
 
-    const annoucementListJSX = annoucements.map((e)=> {
+    const annoucementListJSX = annoucements.map((e, i)=> {
         return (
-        <article className='announcement' key={e.id} >
-            <h4 className='annoucement--title'>{e.title}</h4>
-            <p className='announcement--date'>{e.date}</p>
-            <ReactMarkdown className='announcement--content'
-                children={e.content}
-                rehypePlugins={[rehypeRaw]} />
+        <article className='announcement' key={i} >
+            {/* <h4 className='annoucement--title'>{e.title}</h4>
+            <p className='announcement--date'>{e.date}</p> */}
+            <ReactMarkdown 
+                className='announcement--content'
+                children={e}
+                rehypePlugins={[rehypeRaw]} 
+            />
         </article>
         );
     });

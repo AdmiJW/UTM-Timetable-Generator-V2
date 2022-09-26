@@ -12,6 +12,7 @@
  * @property {number} dayOfWeek Integer in range [0-6]. 0 represents Sunday, 1 represents Monday and so on. Think chinese (1 - 星期一)
  * @property {number} startTime Integer in range [0-23]. 24 hour format. Indicates beginning time for this timeslot
  * @property {number} endTime Integer in range [0-23]. 24 hour format. Indicates ending time for this timeslot. Should always be later than `startTime`
+ * @property {string} venue Where the class is held. Optional
  * @property {boolean} isAnimatingDelete Boolean, used to provide deletion animation
  */
 
@@ -82,6 +83,7 @@ const generateEmptyTimeslot = (id)=> {
         dayOfWeek: 0,
         startTime: 8,
         endTime: 9,
+        venue: '',
         isAnimatingDelete: false
     }
 }
@@ -108,10 +110,11 @@ function adapterFromSectionEnrollingInterfaceToClassCourseObject(sectionEnrollOb
         const sectiontime = sectionEnrollObject.times[key];
         const timeID = course.timeslots.nextID++;
         const time = generateEmptyTimeslot( timeID );
-        
+
         time.dayOfWeek = sectiontime.dayOfWeek;
         time.startTime = sectiontime.beginTime;
         time.endTime = sectiontime.endTime;
+        time.venue = sectiontime.venue || '';
         // Insert into Course.
         course.timeslots[ timeID ] = time;
     }
@@ -235,6 +238,10 @@ const reducers = {
     changeTimeslotEndTime: (state, action)=> {
         const { courseID, timeslotID, endTime } = action.payload;
         state[courseID].timeslots[timeslotID].endTime = Number(endTime);
+    },
+    changeTimeslotVenue: (state, action)=> {
+        const { courseID, timeslotID, venue } = action.payload;
+        state[courseID].timeslots[timeslotID].venue = venue;
     },
 }
 

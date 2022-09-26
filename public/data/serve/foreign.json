@@ -1,8 +1,8 @@
 {
-    "2": {
-        "id": 2,
+    "0": {
+        "id": 0,
         "name": "Arabic 1",
-        "code": "ULAA 1112",
+        "code": "UHLA1112",
         "sections": {
             "0": {
                 "id": 0,
@@ -12,8 +12,8 @@
                     "0": {
                         "id": 0,
                         "dayOfWeek": 0,
-                        "beginTime": 14,
-                        "endTime": 16
+                        "beginTime": 9,
+                        "endTime": 11
                     }
                 }
             },
@@ -24,9 +24,9 @@
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 1,
-                        "beginTime": 14,
-                        "endTime": 16
+                        "dayOfWeek": 0,
+                        "beginTime": 11,
+                        "endTime": 13
                     }
                 }
             },
@@ -37,9 +37,9 @@
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 1,
-                        "beginTime": 16,
-                        "endTime": 18
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
                     }
                 }
             },
@@ -50,61 +50,15 @@
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 3,
-                        "beginTime": 9,
-                        "endTime": 11
+                        "dayOfWeek": 0,
+                        "beginTime": 16,
+                        "endTime": 18
                     }
                 }
             },
             "4": {
                 "id": 4,
                 "section": "05",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 3,
-                        "beginTime": 11,
-                        "endTime": 13
-                    }
-                }
-            },
-            "5": {
-                "id": 5,
-                "section": "06",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 4,
-                        "beginTime": 14,
-                        "endTime": 16
-                    }
-                }
-            }
-        }
-    },
-    "3": {
-        "id": 3,
-        "name": "Arabic 1",
-        "code": "UHLA 1112",
-        "sections": {
-            "0": {
-                "id": 0,
-                "section": "01",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 0,
-                        "beginTime": 11,
-                        "endTime": 13
-                    }
-                }
-            },
-            "1": {
-                "id": 1,
-                "section": "02",
                 "lecturer": "",
                 "times": {
                     "0": {
@@ -115,9 +69,9 @@
                     }
                 }
             },
-            "2": {
-                "id": 2,
-                "section": "03",
+            "5": {
+                "id": 5,
+                "section": "06",
                 "lecturer": "",
                 "times": {
                     "0": {
@@ -128,130 +82,6 @@
                     }
                 }
             },
-            "3": {
-                "id": 3,
-                "section": "04",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 3,
-                        "beginTime": 14,
-                        "endTime": 16
-                    }
-                }
-            },
-            "4": {
-                "id": 4,
-                "section": "05",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 3,
-                        "beginTime": 16,
-                        "endTime": 18
-                    }
-                }
-            },
-            "5": {
-                "id": 5,
-                "section": "06",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 4,
-                        "beginTime": 11,
-                        "endTime": 13
-                    }
-                }
-            }
-        }
-    },
-    "4": {
-        "id": 4,
-        "name": "Mandarin 1",
-        "code": "ULAC 1112",
-        "sections": {
-            "0": {
-                "id": 0,
-                "section": "01",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 0,
-                        "beginTime": 14,
-                        "endTime": 16
-                    }
-                }
-            },
-            "1": {
-                "id": 1,
-                "section": "02",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 0,
-                        "beginTime": 16,
-                        "endTime": 18
-                    }
-                }
-            },
-            "2": {
-                "id": 2,
-                "section": "03",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 1,
-                        "beginTime": 14,
-                        "endTime": 16
-                    }
-                }
-            },
-            "3": {
-                "id": 3,
-                "section": "04",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 1,
-                        "beginTime": 16,
-                        "endTime": 18
-                    }
-                }
-            },
-            "4": {
-                "id": 4,
-                "section": "05",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 3,
-                        "beginTime": 8,
-                        "endTime": 10
-                    }
-                }
-            },
-            "5": {
-                "id": 5,
-                "section": "06",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 3,
-                        "beginTime": 10,
-                        "endTime": 12
-                    }
-                }
-            },
             "6": {
                 "id": 6,
                 "section": "07",
@@ -259,118 +89,7 @@
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 4,
-                        "beginTime": 8,
-                        "endTime": 10
-                    }
-                }
-            },
-            "7": {
-                "id": 7,
-                "section": "08",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 4,
-                        "beginTime": 10,
-                        "endTime": 12
-                    }
-                }
-            }
-        }
-    },
-    "5": {
-        "id": 5,
-        "name": "Mandarin 1",
-        "code": "ULAC 1112",
-        "sections": {
-            "0": {
-                "id": 0,
-                "section": "01",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 0,
-                        "beginTime": 8,
-                        "endTime": 10
-                    }
-                }
-            },
-            "1": {
-                "id": 1,
-                "section": "02",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 0,
-                        "beginTime": 10,
-                        "endTime": 12
-                    }
-                }
-            },
-            "2": {
-                "id": 2,
-                "section": "03",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
                         "dayOfWeek": 1,
-                        "beginTime": 8,
-                        "endTime": 10
-                    }
-                }
-            },
-            "3": {
-                "id": 3,
-                "section": "04",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 1,
-                        "beginTime": 10,
-                        "endTime": 12
-                    }
-                }
-            },
-            "4": {
-                "id": 4,
-                "section": "05",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 2,
-                        "beginTime": 8,
-                        "endTime": 10
-                    }
-                }
-            },
-            "5": {
-                "id": 5,
-                "section": "06",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 2,
-                        "beginTime": 10,
-                        "endTime": 12
-                    }
-                }
-            },
-            "6": {
-                "id": 6,
-                "section": "07",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 3,
                         "beginTime": 14,
                         "endTime": 16
                     }
@@ -383,7 +102,7 @@
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 3,
+                        "dayOfWeek": 1,
                         "beginTime": 16,
                         "endTime": 18
                     }
@@ -396,7 +115,425 @@
                 "times": {
                     "0": {
                         "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 9,
+                        "endTime": 11
+                    }
+                }
+            },
+            "9": {
+                "id": 9,
+                "section": "10",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "10": {
+                "id": 10,
+                "section": "11",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 9,
+                        "endTime": 11
+                    }
+                }
+            }
+        }
+    },
+    "1": {
+        "id": 1,
+        "name": "Arabic 1",
+        "code": "ULAA1112",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            }
+        }
+    },
+    "2": {
+        "id": 2,
+        "name": "Mandarin 1",
+        "code": "UHLC1112",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 9,
+                        "endTime": 11
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 16,
+                        "endTime": 18
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "05",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 9,
+                        "endTime": 11
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "06",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "07",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "7": {
+                "id": 7,
+                "section": "08",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 9,
+                        "endTime": 11
+                    }
+                }
+            },
+            "8": {
+                "id": 8,
+                "section": "09",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "9": {
+                "id": 9,
+                "section": "10",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 9,
+                        "endTime": 11
+                    }
+                }
+            },
+            "10": {
+                "id": 10,
+                "section": "11",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "11": {
+                "id": 11,
+                "section": "12",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "12": {
+                "id": 12,
+                "section": "13",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 16,
+                        "endTime": 18
+                    }
+                }
+            },
+            "13": {
+                "id": 13,
+                "section": "14",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
                         "dayOfWeek": 4,
+                        "beginTime": 9,
+                        "endTime": 11
+                    }
+                }
+            },
+            "14": {
+                "id": 14,
+                "section": "15",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "15": {
+                "id": 15,
+                "section": "16",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "16": {
+                "id": 16,
+                "section": "17",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 16,
+                        "endTime": 18
+                    }
+                }
+            }
+        }
+    },
+    "3": {
+        "id": 3,
+        "name": "Mandarin 1",
+        "code": "ULAC1112",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 16,
+                        "endTime": 18
+                    }
+                }
+            }
+        }
+    },
+    "4": {
+        "id": 4,
+        "name": "French 1",
+        "code": "UHLF1112",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 0,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "2": {
+                "id": 2,
+                "section": "03",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "3": {
+                "id": 3,
+                "section": "04",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "4": {
+                "id": 4,
+                "section": "05",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 1,
+                        "beginTime": 16,
+                        "endTime": 18
+                    }
+                }
+            },
+            "5": {
+                "id": 5,
+                "section": "06",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "6": {
+                "id": 6,
+                "section": "07",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "7": {
+                "id": 7,
+                "section": "08",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            },
+            "8": {
+                "id": 8,
+                "section": "09",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
                         "beginTime": 14,
                         "endTime": 16
                     }
@@ -410,6 +547,39 @@
                     "0": {
                         "id": 0,
                         "dayOfWeek": 4,
+                        "beginTime": 11,
+                        "endTime": 13
+                    }
+                }
+            },
+            "10": {
+                "id": 10,
+                "section": "11",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 4,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            }
+        }
+    },
+    "5": {
+        "id": 5,
+        "name": "French 1",
+        "code": "ULAF1112",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 3,
                         "beginTime": 16,
                         "endTime": 18
                     }
@@ -419,8 +589,8 @@
     },
     "6": {
         "id": 6,
-        "name": "French 1",
-        "code": "ULAF 1112",
+        "name": "Korean 1",
+        "code": "UHLK1112",
         "sections": {
             "0": {
                 "id": 0,
@@ -429,40 +599,7 @@
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 0,
-                        "beginTime": 16,
-                        "endTime": 18
-                    }
-                }
-            },
-            "1": {
-                "id": 1,
-                "section": "02",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 3,
-                        "beginTime": 16,
-                        "endTime": 18
-                    }
-                }
-            }
-        }
-    },
-    "7": {
-        "id": 7,
-        "name": "French 1",
-        "code": "UHLF 1112",
-        "sections": {
-            "0": {
-                "id": 0,
-                "section": "01",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 0,
+                        "dayOfWeek": 1,
                         "beginTime": 14,
                         "endTime": 16
                     }
@@ -475,9 +612,42 @@
                 "times": {
                     "0": {
                         "id": 0,
+                        "dayOfWeek": 3,
+                        "beginTime": 14,
+                        "endTime": 16
+                    }
+                }
+            }
+        }
+    },
+    "7": {
+        "id": 7,
+        "name": "Japanese 1",
+        "code": "UHLJ1112",
+        "sections": {
+            "0": {
+                "id": 0,
+                "section": "01",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
                         "dayOfWeek": 1,
-                        "beginTime": 10,
-                        "endTime": 12
+                        "beginTime": 17,
+                        "endTime": 19
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 17,
+                        "endTime": 19
                     }
                 }
             },
@@ -488,9 +658,9 @@
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 1,
-                        "beginTime": 14,
-                        "endTime": 16
+                        "dayOfWeek": 3,
+                        "beginTime": 17,
+                        "endTime": 19
                     }
                 }
             },
@@ -501,7 +671,7 @@
                 "times": {
                     "0": {
                         "id": 0,
-                        "dayOfWeek": 3,
+                        "dayOfWeek": 4,
                         "beginTime": 14,
                         "endTime": 16
                     }
@@ -511,8 +681,8 @@
     },
     "8": {
         "id": 8,
-        "name": "Korean 1",
-        "code": "ULAK 1112",
+        "name": "Japanese 2",
+        "code": "SHLJ1222",
         "sections": {
             "0": {
                 "id": 0,
@@ -522,8 +692,21 @@
                     "0": {
                         "id": 0,
                         "dayOfWeek": 1,
-                        "beginTime": 14,
-                        "endTime": 16
+                        "beginTime": 17,
+                        "endTime": 19
+                    }
+                }
+            },
+            "1": {
+                "id": 1,
+                "section": "02",
+                "lecturer": "",
+                "times": {
+                    "0": {
+                        "id": 0,
+                        "dayOfWeek": 2,
+                        "beginTime": 17,
+                        "endTime": 19
                     }
                 }
             }
@@ -531,146 +714,8 @@
     },
     "9": {
         "id": 9,
-        "name": "Korean 1",
-        "code": "UHLK 1112",
-        "sections": {
-            "0": {
-                "id": 0,
-                "section": "01",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 1,
-                        "beginTime": 10,
-                        "endTime": 12
-                    }
-                }
-            },
-            "1": {
-                "id": 1,
-                "section": "02",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 3,
-                        "beginTime": 10,
-                        "endTime": 12
-                    }
-                }
-            },
-            "2": {
-                "id": 2,
-                "section": "03",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 3,
-                        "beginTime": 14,
-                        "endTime": 16
-                    }
-                }
-            }
-        }
-    },
-    "10": {
-        "id": 10,
-        "name": "Japanese 1",
-        "code": "UHLJ 1112",
-        "sections": {
-            "0": {
-                "id": 0,
-                "section": "01",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 0,
-                        "beginTime": 14,
-                        "endTime": 16
-                    }
-                }
-            },
-            "1": {
-                "id": 1,
-                "section": "02",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 1,
-                        "beginTime": 14,
-                        "endTime": 16
-                    }
-                }
-            },
-            "2": {
-                "id": 2,
-                "section": "03",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 1,
-                        "beginTime": 17,
-                        "endTime": 19
-                    }
-                }
-            },
-            "3": {
-                "id": 3,
-                "section": "04",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 2,
-                        "beginTime": 17,
-                        "endTime": 19
-                    }
-                }
-            }
-        }
-    },
-    "11": {
-        "id": 11,
-        "name": "Japanese 2",
-        "code": "SLAJ 1222",
-        "sections": {
-            "0": {
-                "id": 0,
-                "section": "01",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 1,
-                        "beginTime": 17,
-                        "endTime": 19
-                    }
-                }
-            },
-            "1": {
-                "id": 1,
-                "section": "02",
-                "lecturer": "",
-                "times": {
-                    "0": {
-                        "id": 0,
-                        "dayOfWeek": 2,
-                        "beginTime": 17,
-                        "endTime": 19
-                    }
-                }
-            }
-        }
-    },
-    "12": {
-        "id": 12,
         "name": "Japanese 3",
-        "code": "SLAJ 1322",
+        "code": "SHLJ1322",
         "sections": {
             "0": {
                 "id": 0,

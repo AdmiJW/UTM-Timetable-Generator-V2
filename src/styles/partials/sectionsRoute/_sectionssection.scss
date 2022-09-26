@@ -14,9 +14,16 @@
     text-align: center;
 }
 
+
+
 .sectionssection--lecturer {
-    font-size: 1.3rem;
+    padding: .75em .15em .25em .15em;
     font-weight: bolder;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.sectionssection--capacity {
     text-align: center;
 }
 
@@ -36,6 +43,7 @@
 }
 
 .sectionstime {
+    margin: .5em 0;
     font-size: 1.5rem;
     font-weight: 300;
     text-align: center;
