@@ -14,6 +14,7 @@ import ClassRoute from './components/classRoute/ClassRoute';
 import GenerateRoute from './components/generateRoute/GenerateRoute';
 import TutorialRoute from './components/tutorialRoute/TutorialRoute';
 import CourseRoute from './components/courseRoute/CourseRoute';
+import VenueRoute from './components/venueRoute/VenueRoute.js';
 
 import { setTypeAndMessage, showBalloon } from './redux/slices/balloonSlice';
 import { useEffect } from 'react';
@@ -55,6 +56,9 @@ function App() {
                 </Route>
                 <Route path='/tutorial'>
                     <TutorialRoute />
+                </Route>
+                <Route path='/venue'>
+                    <VenueRoute />
                 </Route>
                 <Route path='/'>
                     <AnnouncementRoute />

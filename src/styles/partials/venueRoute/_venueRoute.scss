@@ -1,0 +1,37 @@
+@use '../utils';
+
+
+$venue_button_color: #ff5757;
+
+
+.venue__content {
+    text-align: center;
+}
+
+
+.venue__button {
+    @include utils.eliminate_button_style;
+    @include utils.eliminate_link_style;
+    @include utils.button_3d(
+        $button-color: $venue_button_color, 
+        $border-radius: 5px, 
+        $padding-x: 1em, 
+        $padding-y: .5em, 
+        $y-offset: 3px
+    );
+
+    display: inline-block;
+    margin: 2em auto;
+    font-size: 2rem;
+    
+    background-color: $venue_button_color;
+    color: #fff;
+}
+
+
+.venue__main {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 2em 1em;
+}
